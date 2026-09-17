@@ -1,0 +1,88 @@
+{
+  "version": 0,
+  "parametersMapping": {
+    "addressParam": {
+      "name": "addressParam",
+      "type": "search",
+      "source": "RULE",
+      "text": "\"addressType\":\"S\",\"addressLine1\":\"1234 Cooper Hill Rd\",\"city\":\"Windsor\",\"state\":\"NC\",\"zip\":\"27983\",\"addressId\":\"767122007\",\"cassAddressLines\":[\"1234 Cooper Hill Rd\",\"Windsor NC  27983-1625\"],\"countryCode\":\"061\",\"houseNumber\":\"1234\",\"streetDirection\":\"\",\"streetName\":\"Cooper\",\"streetThoroughfare\":\"Cooper\",\"postalCodePlus4\":\"1625\",\"county\":\"Hamilton\",\"unitType\":\"\",\"unitValue\":\"\",\"cityAbbreviatedName\":\"Windsor\",\"addressStatus\":\"postal-match\",\"locationDetail\":{\"addressMatchCode\":\"\",\"addressMatchCodeDescription\":\"A match was found within postal address data.\",\"cassRecordType\":\"S\",\"cassAssignmentType\":\"\",\"deliveryPointValidationCode\":\"Y\",\"lacsCode\":\"\",\"deliveryPointValidationFootnote\":\"AABB\",\"taxationGeocode\":\"\",\"postalSupplementalDetail\":[],\"latitude\":39.14124,\"longitude\":-84.42269},\"countyFipsCode\":\"39061\"",
+      "discard": false,
+      "replaceAt": [
+        {
+          "place": "BODY",
+          "applied": true,
+          "correlated": true,
+          "requestIdx": 15,
+          "token": {
+            "type": "UNKNOWN",
+            "srcType": "BODY",
+            "key": "addressParam",
+            "value": "\"addressType\":\"S\",\"addressLine1\":\"1234 Cooper Hill Rd\",\"city\":\"Windsor\",\"state\":\"NC\",\"zip\":\"27983\",\"addressId\":\"767122007\",\"cassAddressLines\":[\"1234 Cooper Hill Rd\",\"Windsor NC  27983-1625\"],\"countryCode\":\"061\",\"houseNumber\":\"1234\",\"streetDirection\":\"\",\"streetName\":\"Cooper\",\"streetThoroughfare\":\"Cooper\",\"postalCodePlus4\":\"1625\",\"county\":\"Hamilton\",\"unitType\":\"\",\"unitValue\":\"\",\"cityAbbreviatedName\":\"Windsor\",\"addressStatus\":\"postal-match\",\"locationDetail\":{\"addressMatchCode\":\"\",\"addressMatchCodeDescription\":\"A match was found within postal address data.\",\"cassRecordType\":\"S\",\"cassAssignmentType\":\"\",\"deliveryPointValidationCode\":\"Y\",\"lacsCode\":\"\",\"deliveryPointValidationFootnote\":\"AABB\",\"taxationGeocode\":\"\",\"postalSupplementalDetail\":[],\"latitude\":39.14124,\"longitude\":-84.42269},\"countyFipsCode\":\"39061\"",
+            "parameterName": "addressParam",
+            "idx": 15
+          },
+          "flowName": "Flow_1",
+          "pageName": "address",
+          "url": "https://perf1.directv.com/vpmapi/checkout/v1/state/controller/address",
+          "inlineIndex": 0,
+          "row": -1,
+          "col": -1
+        },
+        {
+          "place": "BODY",
+          "applied": true,
+          "correlated": true,
+          "requestIdx": 16,
+          "token": {
+            "type": "UNKNOWN",
+            "srcType": "BODY",
+            "key": "addressParam",
+            "value": "\"addressType\":\"S\",\"addressLine1\":\"1234 Cooper Hill Rd\",\"city\":\"Windsor\",\"state\":\"NC\",\"zip\":\"27983\",\"addressId\":\"767122007\",\"cassAddressLines\":[\"1234 Cooper Hill Rd\",\"Windsor NC  27983-1625\"],\"countryCode\":\"061\",\"houseNumber\":\"1234\",\"streetDirection\":\"\",\"streetName\":\"Cooper\",\"streetThoroughfare\":\"Cooper\",\"postalCodePlus4\":\"1625\",\"county\":\"Hamilton\",\"unitType\":\"\",\"unitValue\":\"\",\"cityAbbreviatedName\":\"Windsor\",\"addressStatus\":\"postal-match\",\"locationDetail\":{\"addressMatchCode\":\"\",\"addressMatchCodeDescription\":\"A match was found within postal address data.\",\"cassRecordType\":\"S\",\"cassAssignmentType\":\"\",\"deliveryPointValidationCode\":\"Y\",\"lacsCode\":\"\",\"deliveryPointValidationFootnote\":\"AABB\",\"taxationGeocode\":\"\",\"postalSupplementalDetail\":[],\"latitude\":39.14124,\"longitude\":-84.42269},\"countyFipsCode\":\"39061\"",
+            "parameterName": "addressParam",
+            "idx": 16
+          },
+          "flowName": "Flow_1",
+          "pageName": "address_2",
+          "url": "https://perf1.directv.com/vpmapi/checkout/v1/state/controller/address",
+          "inlineIndex": 0,
+          "row": -1,
+          "col": -1
+        }
+      ],
+      "foundAt": {
+        "place": "BODY",
+        "responseIdx": 14,
+        "flowName": "Flow_1",
+        "pageName": "validate",
+        "url": "https://perf1.directv.com/vpmapi/checkout/v3/address/validate",
+        "inlineIndex": 0,
+        "row": -1,
+        "col": -1
+      }
+    }
+  },
+  "parameters": {
+    "arrSearchParamtersDataObj": [
+      {
+        "line": 0,
+        "parameter-name": "addressParam",
+        "label": "validate",
+        "lb": "matchedAddresses\":[{",
+        "rb": "}]",
+        "LBMATCH": "FIRST",
+        "ORD": "index",
+        "ActionOnNotFound": "Warning",
+        "search-in": "Body",
+        "regStrLine": "nsl_search_var(addressParam, PAGE\u003dvalidate, LB\u003d\"matchedAddresses\\\":[{\", RB\u003d\"}]\", LBMATCH\u003dFIRST, ORD\u003dindex, RedirectionDepth\u003dAll, Search\u003dBody, ActionOnNotFound\u003dWarning, RETAINPREVALUE\u003d\"NO\");",
+        "redirectionDepth": "All",
+        "variableRetainPreValue": "YES",
+        "isICcheckedLB": false,
+        "isICcheckedRB": false
+      }
+    ],
+    "arrXmlParamtersDataObj": [],
+    "arrDateTimeParamtersDataObj": [],
+    "arrJsonParameterDataObj": [],
+    "arrRandomStringPointsDataObj": []
+  }
+}

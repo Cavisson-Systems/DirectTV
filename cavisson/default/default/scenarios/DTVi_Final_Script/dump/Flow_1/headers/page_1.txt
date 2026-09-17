@@ -1,0 +1,2969 @@
+--Request 
+GET https://perf1.directv.com/shop/dtvi/choice-package
+Host: perf1.directv.com
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: \"Linux\"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: text/html; charset=utf-8
+etag: \"15xrcs1mgf51clyn\"
+traceresponse: 00-9db7f31722bd2c5678b818d6e9ebd678-5d47799f87e586f5-01
+x-dt-tracestate: def0e96d-6a8f088b@dt
+x-dap-debug-uri: /shop/dtvi/choice-package
+x-dap-debug-dapinuri: 0
+x-dap-debug-oempresent: 0
+x-dap-debug-guard: 00
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-dtvi
+x-akamai-transformed: 9 - 0 pmb=mRUM,3
+content-encoding: gzip
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; Domain=.directv.com; Path=/
+set-cookie: flowType=; Domain=.directv.com; Max-Age=0; Path=/; SameSite=Lax
+set-cookie: salesPod=perf1-668bdd6db-thmh8-stable; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: ccsuppress_social=false; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+set-cookie: akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; path=/; Expires=Mon, 14 Sep 2026 07:03:42 GMT; Secure; SameSite=None
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=67
+server-timing: origin; dur=397
+server-timing: ak_p; desc=\"1789365821533_386648401_995001788_46350_5347_1_28_255\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365821.3b4e85bc
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/global/fonts/Roboto-Medium.woff2
+Host: perf1.directv.com
+Origin: https://perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/octet-stream
+access-control-expose-headers: ETag
+last-modified: Fri, 18 Apr 2025 17:28:21 GMT
+etag: \"d909cfea8e0f00de4e0e94756095c248\"
+x-amz-server-side-encryption: AES256
+content-disposition: inline; filename=\"Roboto-Medium.woff2\"
+accept-ranges: bytes
+x-amz-cf-pop: LAX54-P3
+x-amz-cf-id: IfnoVofIX_pZ1gJ1WLpTnxYiJnyCsuhjH2PtzLIafK6wjtXLdazzQA==
+akamai-amd-bc-debug: [a=23.11.201.72,b=1836246119,c=p,d=1783631994,h=200,k=28,l=0,n=US_CA_SANTACLARA,o=20940,r=28,p=26236]
+edge-cache-tag: e2e1.directv.com,e2e1.directv.com-cf-store-directv,e2e1.directv.com-dtvassets-global,perf1.directv.com,perf1.directv.com-dtvassets-global,www.directv.com-acquia-dtvassets,www.directv.com-dtvassets-global
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=1
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+date: Mon, 14 Sep 2026 06:03:42 GMT
+content-length: 26264
+server-timing: cdn-cache; desc=REVALIDATE
+server-timing: edge; dur=88
+server-timing: origin; dur=4
+server-timing: ak_p; desc=\"1789365822399_386648401_995002497_9275_5528_1_0_219\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: Authorization, *
+access-control-allow-methods: GET,POST
+access-control-allow-origin: https://perf1.directv.com
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e8881
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/global/fonts/Roboto-Regular.woff2
+Host: perf1.directv.com
+Origin: https://perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/octet-stream
+access-control-expose-headers: ETag
+last-modified: Fri, 18 Apr 2025 17:28:29 GMT
+etag: \"d46d127edf0d1e87f28bf004420daff2\"
+x-amz-server-side-encryption: AES256
+content-disposition: inline; filename=\"Roboto-Regular.woff2\"
+accept-ranges: bytes
+x-amz-cf-pop: ORD58-P9
+x-amz-cf-id: iSFe7GglfGyIaepiqk10L2gq0R5TvSRwiVSJw52dxQNsfwAsHcN2TA==
+akamai-amd-bc-debug: [a=23.216.148.154,b=1150109013,c=c,d=1783640806,h=200,k=42,l=1,n=US_CA_SANJOSE,o=20940,r=43,p=26240]
+edge-cache-tag: directvdeals.com-aem,directvdeals.com-cf-store,directvdeals.com-cf-store-directv,directvdeals.com-dtvassets,directvdeals.com-dtvassets-global,identity.dev1.directv.com,identity.dev1.directv.com-dtvassets,identity.directv.com,identity.directv.com-aem,identity.directv.com-dtvassets,identity.perf1.directv.com,identity.perf1.directv.com-dtvassets,identity.test1.directv.com,identity.test1.directv.com-dtvassets,identitynonprod-cms,perf1.directv.com,perf1.directv.com-dtvassets-global
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=1
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+date: Mon, 14 Sep 2026 06:03:42 GMT
+content-length: 26268
+server-timing: cdn-cache; desc=REVALIDATE
+server-timing: edge; dur=76
+server-timing: origin; dur=4
+server-timing: ak_p; desc=\"1789365822399_386648401_995002498_8075_5400_2_0_219\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: Authorization, *
+access-control-allow-methods: GET,POST
+access-control-allow-origin: https://perf1.directv.com
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e8882
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/global/fonts/Roboto-Bold.woff2
+Host: perf1.directv.com
+Origin: https://perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/octet-stream
+access-control-expose-headers: ETag
+last-modified: Fri, 18 Apr 2025 17:26:31 GMT
+etag: \"1f8ca9603e328f59492becb0d279a7eb\"
+x-amz-server-side-encryption: AES256
+content-disposition: inline; filename=\"Roboto-Bold.woff2\"
+accept-ranges: bytes
+x-amz-cf-pop: LAX54-P3
+x-amz-cf-id: 4yGw1qd_aaVRfHV_fQXrBncSMeGzF7Npq2L6piRrSIMantdIStlmMA==
+edge-cache-tag: e2e1.directv.com,e2e1.directv.com-cf-store-directv,e2e1.directv.com-dtvassets-global
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=1
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+date: Mon, 14 Sep 2026 06:03:42 GMT
+content-length: 26332
+server-timing: cdn-cache; desc=REVALIDATE
+server-timing: edge; dur=88
+server-timing: origin; dur=4
+server-timing: ak_p; desc=\"1789365822399_386648401_995002499_9293_5362_1_0_219\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: Authorization, *
+access-control-allow-methods: GET,POST
+access-control-allow-origin: https://perf1.directv.com
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e8883
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/sales/uf/dtv-ui/fonts/PFDINTextPro-Regular.woff2
+Host: perf1.directv.com
+Origin: https://perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/octet-stream
+access-control-expose-headers: ETag
+last-modified: Mon, 21 Apr 2025 17:41:58 GMT
+etag: \"f70a2568cfb2bbffb2baacc89bb8a7e8\"
+x-amz-server-side-encryption: AES256
+content-disposition: inline; filename=\"PFDINTextPro-Regular_2.woff2\"
+accept-ranges: bytes
+x-amz-cf-pop: LAX54-P3
+x-amz-cf-id: E2GuzOWkWLCjRu9o1k5fP4-F1FEOZmghfx2XXa6-9UO1gB8GQQKdHA==
+akamai-amd-bc-debug: [a=23.11.201.72,b=1836245957,c=p,d=1783631994,h=200,k=7,l=0,n=US_CA_SANTACLARA,o=20940,r=8,p=18280]
+edge-cache-tag: e2e1.directv.com,e2e1.directv.com-cf-store-directv,e2e1.directv.com-dtvassets-sales,perf1.directv.com,perf1.directv.com-dtvassets-sales,www.directv.com-acquia-dtvassets,www.directv.com-dtvassets-sales,www.directvdeals.com-dtvassets,www.directvdeals.com-dtvassets-sales
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=1
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+date: Mon, 14 Sep 2026 06:03:42 GMT
+content-length: 18308
+server-timing: cdn-cache; desc=REVALIDATE
+server-timing: edge; dur=91
+server-timing: origin; dur=4
+server-timing: ak_p; desc=\"1789365822399_386648401_995002500_9600_5346_1_0_219\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: Authorization, *
+access-control-allow-methods: GET,POST
+access-control-allow-origin: https://perf1.directv.com
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e8884
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/sales/uf/dtv-ui/fonts/PFDINTextPro-Light.woff2
+Host: perf1.directv.com
+Origin: https://perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/octet-stream
+access-control-expose-headers: ETag
+last-modified: Mon, 21 Apr 2025 16:37:53 GMT
+etag: \"a4a155b2facdef76659489a7d4736267\"
+x-amz-server-side-encryption: AES256
+content-disposition: inline; filename=\"PFDINTextPro-Light_2.woff2\"
+accept-ranges: bytes
+x-amz-cf-pop: LAX54-P3
+x-amz-cf-id: IvQ7lTdsInYJLtZSAfSNp647dmmpX7J580gH39sSAl_4_8tjn58m_w==
+edge-cache-tag: e2e1.directv.com,e2e1.directv.com-cf-store-directv,e2e1.directv.com-dtvassets-sales,perf1.directv.com,perf1.directv.com-dtvassets-sales
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=1
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+date: Mon, 14 Sep 2026 06:03:42 GMT
+content-length: 20736
+server-timing: cdn-cache; desc=REVALIDATE
+server-timing: edge; dur=294
+server-timing: origin; dur=4
+server-timing: ak_p; desc=\"1789365822399_386648401_995002501_29877_5329_1_0_219\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: Authorization, *
+access-control-allow-methods: GET,POST
+access-control-allow-origin: https://perf1.directv.com
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e8885
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/sales/uf/dtv-ui/fonts/PFDINTextPro-Bold.woff2
+Host: perf1.directv.com
+Origin: https://perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/octet-stream
+last-modified: Mon, 21 Apr 2025 16:37:00 GMT
+etag: \"2b4605f86c990a9c43fe565318b0e59d\"
+x-amz-server-side-encryption: AES256
+content-disposition: inline; filename=\"PFDINTextPro-Bold_2.woff2\"
+accept-ranges: bytes
+x-amz-cf-pop: LAX54-P3
+x-amz-cf-id: RhTe_oT5-fsGMAOK5Ja8EkgGCxLNX8xNobrExrzeeARCgSzKvLOoUA==
+akamai-amd-bc-debug: [a=23.214.170.101,b=575081824,c=c,d=1787576762,h=200,k=25,l=2,n=US_CA_LOSANGELES,o=20940,r=27,p=18396]
+edge-cache-tag: www.directv.com-acquia-dtvassets,www.directv.com-cf-store-directv,www.directv.com-dtvassets-sales
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=1
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+date: Mon, 14 Sep 2026 06:03:42 GMT
+content-length: 18424
+server-timing: cdn-cache; desc=REVALIDATE
+server-timing: edge; dur=70
+server-timing: origin; dur=4
+server-timing: ak_p; desc=\"1789365822399_386648401_995002502_7482_5324_3_0_219\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: Authorization, *
+access-control-allow-methods: GET,POST
+access-control-allow-origin: https://perf1.directv.com
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e8886
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/sales/uf/dtv-ui/fonts/PFDINTextPro-Medium.woff2
+Host: perf1.directv.com
+Origin: https://perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/octet-stream
+access-control-expose-headers: ETag
+last-modified: Mon, 21 Apr 2025 16:37:53 GMT
+etag: \"061caceaea64550eb498c12d1435dda1\"
+x-amz-server-side-encryption: AES256
+content-disposition: inline; filename=\"PFDINTextPro-Medium_2.woff2\"
+accept-ranges: bytes
+x-amz-cf-pop: LAX54-P3
+x-amz-cf-id: SiIt6dIXQwD7Vf-sKWSd1TIka-OGlWBfRb6nGYJuPAv_fLWV7dK_QA==
+akamai-amd-bc-debug: [a=23.216.148.154,b=2752805135,c=c,d=1786679924,h=200,k=11,l=0,n=US_CA_SANJOSE,o=20940,r=11,p=19176]
+edge-cache-tag: e2e1.directv.com,e2e1.directv.com-cf-store-directv,e2e1.directv.com-dtvassets-sales,identity.directv.com,identity.directv.com-aem,identity.directv.com-dtvassets,perf1.directv.com,perf1.directv.com-dtvassets-sales,www.directvdeals.com-dtvassets,www.directvdeals.com-dtvassets-sales
+vary: Accept-Encoding
+content-encoding: gzip
+cache-control: max-age=1
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+date: Mon, 14 Sep 2026 06:03:42 GMT
+content-length: 19204
+server-timing: cdn-cache; desc=REVALIDATE
+server-timing: edge; dur=63
+server-timing: origin; dur=10
+server-timing: ak_p; desc=\"1789365822399_386648401_995002503_7549_3573_5_0_219\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+access-control-max-age: 86400
+access-control-allow-credentials: false
+access-control-allow-headers: Authorization, *
+access-control-allow-methods: GET,POST
+access-control-allow-origin: https://perf1.directv.com
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e8887
+----
+--Request 
+GET https://perf1.directv.com/uxe/build/app.css
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: text/css; charset=utf-8
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: cross-origin
+origin-agent-cluster: ?1
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+x-api-version: 2025-12-13
+x-api-version-requested: latest
+accept-ranges: bytes
+last-modified: Fri, 11 Sep 2026 23:38:05 GMT
+etag: W/\"2c40a-1a092d5df48\"
+content-encoding: br
+traceresponse: 00-76f4fc3d6a7e491471ce4d667f765e8d-7f5bdfa1477c658f-01
+x-dt-tracestate: def0e96d-6a8f088b@dt
+content-length: 23919
+edge-cache-tag: perf1.directv.com,perf1.directv.com-uxe-build
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+set-cookie: uxePod=perf1-5c6b4dfffd-kfsk9; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=64
+server-timing: origin; dur=84
+server-timing: ak_p; desc=\"1789365822390_386648401_995002491_14793_4750_2_0_255\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e887b
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/426.b90fc700c035751d.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-13628\"
+content-encoding: gzip
+content-length: 11849
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=24
+server-timing: origin; dur=46
+server-timing: ak_p; desc=\"1789365822818_386648401_995002824_7019_4911_7_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89c8
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/webpack-2e65586ee33bc1e0.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-132d\"
+content-encoding: gzip
+content-length: 2565
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=42
+server-timing: origin; dur=128
+server-timing: ak_p; desc=\"1789365822824_386648401_995002827_17036_5147_2_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89cb
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/framework-b6b8c89ff83bbce1.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-2e559\"
+content-encoding: gzip
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=32
+server-timing: origin; dur=154
+server-timing: ak_p; desc=\"1789365822824_386648401_995002828_18565_5125_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89cc
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/main-0a689fded9274d5e.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-2184d\"
+content-encoding: gzip
+content-length: 45198
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=81
+server-timing: origin; dur=111
+server-timing: ak_p; desc=\"1789365822824_386648401_995002829_19141_5259_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89cd
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/pages/_app-e66455e5e388e735.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-21239a\"
+content-encoding: gzip
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=31
+server-timing: origin; dur=140
+server-timing: ak_p; desc=\"1789365822824_386648401_995002830_17019_5437_2_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89ce
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/9012-99143d50cfa82683.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-8f60\"
+content-encoding: gzip
+content-length: 7070
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=23
+server-timing: origin; dur=105
+server-timing: ak_p; desc=\"1789365822824_386648401_995002831_12799_5211_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89cf
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/9123-cdf93905c6fc6c8d.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-1405\"
+content-encoding: gzip
+content-length: 1877
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=34
+server-timing: origin; dur=100
+server-timing: ak_p; desc=\"1789365822824_386648401_995002832_13413_5203_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d0
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/1841-24f8717d985b3e00.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-1b36\"
+content-encoding: gzip
+content-length: 2622
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=30
+server-timing: origin; dur=105
+server-timing: ak_p; desc=\"1789365822824_386648401_995002833_13540_5193_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d1
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/8497-deef6c49a33bec08.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-9e34\"
+content-encoding: gzip
+content-length: 12696
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=24
+server-timing: origin; dur=46
+server-timing: ak_p; desc=\"1789365822824_386648401_995002834_6977_5163_5_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d2
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/8812-8fa0ca200fae4d8e.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-2f67\"
+content-encoding: gzip
+content-length: 3756
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=31
+server-timing: origin; dur=111
+server-timing: ak_p; desc=\"1789365822824_386648401_995002835_14190_3596_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d3
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/8404-7e6d30c78af0ca56.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-3e6a8\"
+content-encoding: gzip
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=63
+server-timing: origin; dur=155
+server-timing: ak_p; desc=\"1789365822828_386648401_995002838_21848_5372_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d6
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/2214-813bbddd16dc920f.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-24da2\"
+content-encoding: gzip
+content-length: 47668
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=109
+server-timing: origin; dur=142
+server-timing: ak_p; desc=\"1789365822828_386648401_995002839_25088_5365_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d7
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/4166-14c7eadf0f52734f.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-555f\"
+content-encoding: gzip
+content-length: 7599
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=49
+server-timing: origin; dur=110
+server-timing: ak_p; desc=\"1789365822828_386648401_995002840_15931_5386_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d8
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/787-4a50b8d52f598572.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-186a9b\"
+content-encoding: gzip
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=94
+server-timing: origin; dur=107
+server-timing: ak_p; desc=\"1789365822828_386648401_995002841_20121_5300_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89d9
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/2409-680f17f80c8976a5.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-4406f\"
+content-encoding: gzip
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=36
+server-timing: origin; dur=141
+server-timing: ak_p; desc=\"1789365822828_386648401_995002842_17693_5291_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89da
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/7002-626b6cf20b587723.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-d829\"
+content-encoding: gzip
+content-length: 16582
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=28
+server-timing: origin; dur=186
+server-timing: ak_p; desc=\"1789365822828_386648401_995002843_21476_5282_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89db
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/9940-f2ed931c1f62176a.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-25b7\"
+content-encoding: gzip
+content-length: 3937
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=25
+server-timing: origin; dur=105
+server-timing: ak_p; desc=\"1789365822828_386648401_995002844_12972_5587_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89dc
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/5348-f76b7d32ec798824.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-e2c4\"
+content-encoding: gzip
+content-length: 18114
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=31
+server-timing: origin; dur=142
+server-timing: ak_p; desc=\"1789365822828_386648401_995002845_17264_5548_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89dd
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/3743-e1f93111ad5273a6.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-7247\"
+content-encoding: gzip
+content-length: 8988
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=25
+server-timing: origin; dur=114
+server-timing: ak_p; desc=\"1789365822828_386648401_995002846_13926_5548_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89de
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/1059-cb31230528d1c20f.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-3a307\"
+content-encoding: gzip
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=77
+server-timing: origin; dur=119
+server-timing: ak_p; desc=\"1789365822828_386648401_995002847_19588_5543_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89df
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/pages/%5Bproduct%5D/%5BpackageName%5D-dec3c3df8c6cb35d.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-1118a\"
+content-encoding: gzip
+content-length: 23754
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:43 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:43 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:43 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=62
+server-timing: origin; dur=112
+server-timing: ak_p; desc=\"1789365822829_386648401_995002848_17414_5505_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89e0
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/ujSmCfAMqkpkijd5SBwT-/_buildManifest.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-1170\"
+content-encoding: gzip
+content-length: 1522
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=25
+server-timing: origin; dur=110
+server-timing: ak_p; desc=\"1789365822829_386648401_995002849_13481_5476_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89e1
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/ujSmCfAMqkpkijd5SBwT-/_ssgManifest.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-edgescape=VA:HERNDON:HERNDON; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+content-length: 77
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: \"6aa2689b-4d\"
+accept-ranges: bytes
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:42 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:42 GMT
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:42 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=33
+server-timing: origin; dur=105
+server-timing: ak_p; desc=\"1789365822829_386648401_995002850_13814_3514_3_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365822.3b4e89e2
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/3332-c5b384381cb71a53.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; x-dtv-edgescape=VA:HERNDON:20170-20172+20192+22095; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-3dcd\"
+content-encoding: gzip
+content-length: 5266
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=50
+server-timing: origin; dur=40
+server-timing: ak_p; desc=\"1789365825145_386648401_995004656_8912_4202_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e90f0
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/3273.abc3fb04dda55b45.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; x-dtv-edgescape=VA:HERNDON:20170-20172+20192+22095; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-2814\"
+content-encoding: gzip
+content-length: 3979
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=42
+server-timing: origin; dur=44
+server-timing: ak_p; desc=\"1789365825150_386648401_995004658_8561_5153_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e90f2
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/7963-0f7cfa7ac9de2415.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; x-dtv-edgescape=VA:HERNDON:20170-20172+20192+22095; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-26de\"
+content-encoding: gzip
+content-length: 3110
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=33
+server-timing: origin; dur=41
+server-timing: ak_p; desc=\"1789365825150_386648401_995004659_7404_5130_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e90f3
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/6237-eecba90e42f28989.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; x-dtv-edgescape=VA:HERNDON:20170-20172+20192+22095; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-310a\"
+content-encoding: gzip
+content-length: 1670
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=45
+server-timing: origin; dur=39
+server-timing: ak_p; desc=\"1789365825150_386648401_995004660_8444_5109_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e90f4
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/5317.d2a552ec0ccdbbb6.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; x-dtv-edgescape=VA:HERNDON:20170-20172+20192+22095; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-14aa7\"
+content-encoding: gzip
+content-length: 26197
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=54
+server-timing: origin; dur=53
+server-timing: ak_p; desc=\"1789365825150_386648401_995004661_10695_5089_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e90f5
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/7897.d89b6999b032ec21.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; x-dtv-edgescape=VA:HERNDON:20170-20172+20192+22095; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-4c9\"
+content-encoding: gzip
+content-length: 736
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=25
+server-timing: origin; dur=39
+server-timing: ak_p; desc=\"1789365825150_386648401_995004662_6374_3468_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e90f6
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/30c1d94b.f7511281b8d05d3a.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-eea2\"
+content-encoding: gzip
+content-length: 15037
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=21
+server-timing: origin; dur=40
+server-timing: ak_p; desc=\"1789365825414_386648401_995004877_6082_4787_2_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e91cd
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/7196.7fce3fc58a3bc1a4.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-16ee4f\"
+content-encoding: gzip
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=29
+server-timing: origin; dur=81
+server-timing: ak_p; desc=\"1789365825419_386648401_995004882_10942_4974_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e91d2
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/8615.5f057ae944f257f0.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+content-length: 84
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: \"6aa2689b-54\"
+accept-ranges: bytes
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=25
+server-timing: origin; dur=40
+server-timing: ak_p; desc=\"1789365825419_386648401_995004883_6464_4949_2_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e91d3
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/5464-0debb70dd0df5b8b.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-b4fc\"
+content-encoding: gzip
+content-length: 9845
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=24
+server-timing: origin; dur=39
+server-timing: ak_p; desc=\"1789365825524_386648401_995004960_6295_4660_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e9220
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/5687-54d4e05ece048ebe.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-1ef9c\"
+content-encoding: gzip
+content-length: 33911
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=27
+server-timing: origin; dur=43
+server-timing: ak_p; desc=\"1789365825868_386648401_995005186_7084_4818_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e9302
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/7338.c3bdf7455d32f21b.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-1a307\"
+content-encoding: gzip
+content-length: 30328
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=44
+server-timing: origin; dur=40
+server-timing: ak_p; desc=\"1789365825873_386648401_995005190_8337_4958_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e9306
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/121-f1838adcb1255a47.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: W/\"6aa2689b-a988\"
+content-encoding: gzip
+content-length: 14366
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+vary: Accept-Encoding
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=23
+server-timing: origin; dur=39
+server-timing: ak_p; desc=\"1789365825873_386648401_995005191_6191_4937_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e9307
+----
+--Request 
+GET https://perf1.directv.com/shop//_next/static/chunks/7062.90df6913d0f45930.js
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/javascript; charset=utf-8
+content-length: 386
+last-modified: Thu, 10 Sep 2026 08:21:47 GMT
+etag: \"6aa2689b-182\"
+accept-ranges: bytes
+edge-cache-tag: perf1.directv.com,perf1.directv.com-shop-_next
+expires: Mon, 14 Sep 2026 06:03:45 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Mon, 14 Sep 2026 06:03:45 GMT
+set-cookie: jsSrc=nginxSec; Path=/
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: visitedPCP=true; expires=Tue, 14-Sep-2027 06:03:45 GMT; path=/; domain=.directv.com; secure
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=25
+server-timing: origin; dur=45
+server-timing: ak_p; desc=\"1789365825873_386648401_995005192_7031_3541_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: videosales-external.dev.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365825.3b4e9308
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/global/icons/fusion/price-tag-with-dollar-sign-ozone.svg
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+x-widen-app: pixelfront/3476+fe5f6b287ad1762cc82d81c1032b496266522626
+accept-ranges: bytes
+etag: \"2b4556633f67beedb2bcb099238e023a\"
+last-modified: Fri, 18 Apr 2025 17:31:18 GMT
+access-control-allow-origin: *
+content-disposition: inline; filename=\"price-tag-with-dollar-sign-ozone.svg\"
+x-amz-cf-pop: LAX54-P10
+x-amz-cf-id: RwS_cIBCl7m0L13Uc7sRBLmOIKQtV8xLIBEmC4y5KHCadfM0BAC_Ew==
+content-encoding: br
+content-length: 494
+edge-cache-tag: Uncategorized,test3.directv.com,test3.directv.com-dtvassets-global,test4.directv.com,test4.directv.com-dtvassets-global
+cache-control: max-age=1695
+expires: Mon, 14 Sep 2026 06:32:01 GMT
+date: Mon, 14 Sep 2026 06:03:46 GMT
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+server-timing: ak_p; desc=\"1789365826038_386648401_995005330_26_4719_1_0_146\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365826.3b4e9392
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/global/icons/2022/arrow-up_lt-bg.svg
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+x-widen-app: pixelfront/3275+f65a88d8b56adcbbc04091c143b9e249c2c5c069
+accept-ranges: bytes
+etag: \"fbf6c51f23c0cdf0cd513a707ea9a0b8\"
+last-modified: Fri, 18 Apr 2025 17:28:44 GMT
+access-control-allow-origin: *
+content-disposition: inline; filename=\"arrow-up_lt-bg.svg\"
+x-amz-cf-pop: LAX54-P10
+x-amz-cf-id: 4ZOAM_cacjKyJ7TSIY29l4bmaTNek5UHHBtNIXdwpQwwoZR_qKZU4Q==
+content-encoding: gzip
+content-length: 224
+akamai-amd-bc-debug: [a=23.11.201.71,b=1702066518,c=p,d=1788284611,h=200,k=34,l=1,n=US_CA_SANTACLARA,o=20940,r=35,p=224]
+edge-cache-tag: Uncategorized,perf1.directv.com,perf1.directv.com-dtvassets-global,www.directv.com-acquia-dtvassets,www.directv.com-dtvassets-global
+cache-control: max-age=3101
+expires: Mon, 14 Sep 2026 06:55:27 GMT
+date: Mon, 14 Sep 2026 06:03:46 GMT
+vary: Accept-Encoding
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+server-timing: ak_p; desc=\"1789365826350_386648401_995005553_25_4967_1_0_146\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365826.3b4e9471
+----
+--Request 
+GET https://perf1.directv.com/assets/content/5dxndeve0g/svg/fusion-offers-dollar-blue900.svg
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+x-widen-app: pixelfront/3476+fe5f6b287ad1762cc82d81c1032b496266522626
+accept-ranges: bytes
+last-modified: Wed, 25 Feb 2026 18:22:36 GMT
+access-control-allow-origin: *
+content-disposition: inline; filename=\"fusion-offers-dollar-blue900.svg\"
+etag: \"96d5a32de507b03ee327dded595db7bf\"
+x-amz-cf-pop: LAX54-P10
+x-amz-cf-id: iOo5Ag2oANQOhCeyu3g0nWz4fsV5OBktm4chsoAzvSWjrp7UFjzOmA==
+content-encoding: br
+content-length: 1115
+edge-cache-tag: perf1.directv.com,perf1.directv.com-assets-content
+cache-control: max-age=2914
+expires: Mon, 14 Sep 2026 06:52:20 GMT
+date: Mon, 14 Sep 2026 06:03:46 GMT
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+server-timing: ak_p; desc=\"1789365826357_386648401_995005557_76_5277_1_0_219\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365826.3b4e9475
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/global/icons/fusion/wifi-desktop-blue900.svg
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON; optimizelyEndUserId=oeu1789365827724r0.1556100109173968; _ga=GA1.1.625547176.1789365828; _ga_LEXYQWQ1NF=GS2.1.s1789365827$o1$g1$t1789365828$j59$l0$h1040212346; FPID=FPID2.2.L6jnLw%2F%2FY4oTtVIUHvNpCvT%2FuQTOhJC1tYzH6yWDEk4%3D.1789365828; FPLC=3%2FiPKNyU4spLiDp%2F5Ivs5DZ9oyf1sQUFz3iI3wrNUk9qVYs6lvdxiK%2FKIQzG7sBlWZ69l%2FKNzVvTGgfm%2FgWbLf%2BSHT5lnOV7tj1%2BEfpM8FbNUWUsZEGHKjtBS3mZUA%3D%3D; FPGSID=1.1789365828.1789365828.G-LEXYQWQ1NF.K1mkji9TFy5AQGvc8T0PRg
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+x-widen-app: pixelfront/3476+fe5f6b287ad1762cc82d81c1032b496266522626
+accept-ranges: bytes
+last-modified: Fri, 18 Apr 2025 17:28:41 GMT
+access-control-allow-origin: *
+content-disposition: inline; filename=\"wifi-desktop-blue900.svg\"
+etag: \"a7a6137405d0bf1001e6042adc3d0c39\"
+x-amz-cf-pop: LAX54-P10
+x-amz-cf-id: SHz425fFw0g77RD4j04ICkuXltiZsOdoHNzj97NgoZiDS892E8i4tw==
+content-encoding: br
+content-length: 334
+acquia-site-category: Uncategorized
+edge-cache-tag: Uncategorized,perf1.directv.com,perf1.directv.com-dtvassets-global
+cache-control: max-age=1842
+expires: Mon, 14 Sep 2026 06:34:30 GMT
+date: Mon, 14 Sep 2026 06:03:48 GMT
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+server-timing: ak_p; desc=\"1789365828512_386648401_995007143_28_4667_1_0_146\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365828.3b4e9aa7
+----
+--Request 
+GET https://perf1.directv.com/assets/content/q3blkbtlh5/svg/Add-on_ViX-Premium-stacked_square.svg
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON; optimizelyEndUserId=oeu1789365827724r0.1556100109173968; _ga=GA1.1.625547176.1789365828; FPID=FPID2.2.L6jnLw%2F%2FY4oTtVIUHvNpCvT%2FuQTOhJC1tYzH6yWDEk4%3D.1789365828; FPLC=3%2FiPKNyU4spLiDp%2F5Ivs5DZ9oyf1sQUFz3iI3wrNUk9qVYs6lvdxiK%2FKIQzG7sBlWZ69l%2FKNzVvTGgfm%2FgWbLf%2BSHT5lnOV7tj1%2BEfpM8FbNUWUsZEGHKjtBS3mZUA%3D%3D; FPGSID=1.1789365828.1789365828.G-LEXYQWQ1NF.K1mkji9TFy5AQGvc8T0PRg; isShowingLoader=false; _ga_LEXYQWQ1NF=GS2.1.s1789365827$o1$g1$t1789365830$j57$l0$h1040212346
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+x-widen-app: pixelfront/3476+fe5f6b287ad1762cc82d81c1032b496266522626
+accept-ranges: bytes
+etag: \"9f03e43c67fb036d07069345cdc67350\"
+last-modified: Thu, 09 Jul 2026 20:37:47 GMT
+access-control-allow-origin: *
+content-disposition: inline; filename=\"Add-on_ViX-Premium-stacked_square.svg\"
+x-amz-cf-pop: LAX54-P10
+x-amz-cf-id: -k2TuvLvmOWzY9aOIdJIvWxLwsaiHkafdsBcFwcwZQjXKyFPXLwHPA==
+content-encoding: br
+content-length: 3172
+edge-cache-tag: perf1.directv.com,perf1.directv.com-assets-content
+cache-control: max-age=2912
+expires: Mon, 14 Sep 2026 06:52:24 GMT
+date: Mon, 14 Sep 2026 06:03:52 GMT
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+server-timing: ak_p; desc=\"1789365832120_386648401_995009260_28_4068_1_0_146\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365832.3b4ea2ec
+----
+--Request 
+GET https://perf1.directv.com/dtvassets/global/icons/fusion/plus-icon-white.svg
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=0&tt=0&bcn=%2F%2F17de4c1a.akstat.io%2F\"; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON; optimizelyEndUserId=oeu1789365827724r0.1556100109173968; _ga=GA1.1.625547176.1789365828; FPID=FPID2.2.L6jnLw%2F%2FY4oTtVIUHvNpCvT%2FuQTOhJC1tYzH6yWDEk4%3D.1789365828; FPLC=3%2FiPKNyU4spLiDp%2F5Ivs5DZ9oyf1sQUFz3iI3wrNUk9qVYs6lvdxiK%2FKIQzG7sBlWZ69l%2FKNzVvTGgfm%2FgWbLf%2BSHT5lnOV7tj1%2BEfpM8FbNUWUsZEGHKjtBS3mZUA%3D%3D; FPGSID=1.1789365828.1789365828.G-LEXYQWQ1NF.K1mkji9TFy5AQGvc8T0PRg; isShowingLoader=false; _ga_LEXYQWQ1NF=GS2.1.s1789365827$o1$g1$t1789365830$j57$l0$h1040212346
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+x-widen-app: pixelfront/3275+f65a88d8b56adcbbc04091c143b9e249c2c5c069
+etag: \"f64b5955103000ad0e77d650d09a97e5\"
+last-modified: Fri, 18 Apr 2025 17:30:53 GMT
+access-control-allow-origin: *
+content-disposition: inline; filename=\"plus-icon-white.svg\"
+x-amz-cf-pop: LAX54-P10
+x-amz-cf-id: B_9STxCyA7zDtlgDLhjAXtlkxUONIQDZHkeBMf2PxiM5rBUkJntZjA==
+akamai-amd-bc-debug: [a=23.11.201.70,b=82277568,c=p,d=1787581995,h=200,k=3,l=106,n=US_CA_SANTACLARA,o=20940,r=109,p=279,j=[[a=23.214.170.35,b=82277568,c=c,d=1787581995,h=304,k=25,l=75,m=3,r=103]]]
+content-encoding: br
+content-length: 182
+edge-cache-tag: Uncategorized,perf1.directv.com,perf1.directv.com-dtvassets-global,www.directv.com-acquia-dtvassets,www.directv.com-dtvassets-global
+cache-control: max-age=2913
+expires: Mon, 14 Sep 2026 06:52:25 GMT
+date: Mon, 14 Sep 2026 06:03:52 GMT
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+server-timing: ak_p; desc=\"1789365832120_386648401_995009261_27_4661_1_0_146\";dur=1
+x-dtv-acquia: true
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directv.widen.net
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365832.3b4ea2ed
+----
+--Request 
+GET https://perf1.directv.com/favicon.ico
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://perf1.directv.com/shop/dtvi/choice-package
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=53ad202a-9ab4-48e2-a6aa-02ea895c34b2; salesPod=perf1-668bdd6db-thmh8-stable; CIP=66.220.31.146; x-dtv-DMA=511; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; Sierramigration=true; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1789369422~rv=67~id=f91dded84ac7ec9432a216702585b095~rn=; uxePod=perf1-5c6b4dfffd-kfsk9; jsSrc=nginxSec; _gcl_au=1.1.445648676.1789365824; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; x-dtv-edgescape=VA:HERNDON:HERNDON; optimizelyEndUserId=oeu1789365827724r0.1556100109173968; _ga=GA1.1.625547176.1789365828; FPID=FPID2.2.L6jnLw%2F%2FY4oTtVIUHvNpCvT%2FuQTOhJC1tYzH6yWDEk4%3D.1789365828; FPLC=3%2FiPKNyU4spLiDp%2F5Ivs5DZ9oyf1sQUFz3iI3wrNUk9qVYs6lvdxiK%2FKIQzG7sBlWZ69l%2FKNzVvTGgfm%2FgWbLf%2BSHT5lnOV7tj1%2BEfpM8FbNUWUsZEGHKjtBS3mZUA%3D%3D; FPGSID=1.1789365828.1789365828.G-LEXYQWQ1NF.K1mkji9TFy5AQGvc8T0PRg; isShowingLoader=false; invoca_session=%7B%22ttl%22%3A%222026-10-14T06%3A03%3A52.907Z%22%2C%22session%22%3A%7B%22invoca_id%22%3A%22i-eebc920f-065d-491b-da2c-c8b6e7d3de4c%22%2C%22returnVisitorFlag%22%3A%22No%22%2C%22utm_medium%22%3A%22Direct%22%7D%2C%22config%22%3A%7B%22ce%22%3Atrue%2C%22fv%22%3Afalse%2C%22rn%22%3Afalse%7D%7D; OTGPPConsent=DBABLA~BAAAAAAAAABY.QA; RT=\"z=1&dm=perf1.directv.com&si=492af0b4-5e29-40a4-a383-443087810b96&ss=mu0u7k97&sl=1&tt=958&bcn=%2F%2F17de4c1a.akstat.io%2F&ld=95a\"; OptanonConsent=isGpcEnabled=0&datestamp=Mon+Sep+14+2026+01%3A03%3A53+GMT-0500+(Central+Daylight+Time)&version=202608.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&identifierType=BAN+(Billing+Account+Number)&hosts=&consentId=c0733d04-fd33-4ec9-bcc1-a81b3f2bba2f&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fperf1.directv.com%2Fshop%2Fdtvi%2Fchoice-package&GPPCookiesCount=1&gppSid=7&groups=C0012%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1%2CC0001%3A1%2CC1003%3A1; user_id=GA1.1.625547176.1789365828; _ga_LEXYQWQ1NF=GS2.1.s1789365827$o1$g1$t1789365834$j53$l0$h1040212346
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+accept-ranges: bytes
+content-type: image/x-icon
+etag: \"b473540787f9e14c72f52da58ec438c0:1663469308.376796\"
+last-modified: Sun, 18 Sep 2022 02:48:28 GMT
+content-encoding: br
+content-length: 1458
+edge-cache-tag: perf1.directv.com,perf1.directv.com-favicon.ico
+cache-control: max-age=472
+expires: Mon, 14 Sep 2026 06:11:46 GMT
+date: Mon, 14 Sep 2026 06:03:54 GMT
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=VA:HERNDON:HERNDON; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=511; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+set-cookie: Sierramigration=true; path=/; domain=.perf1.directv.com; secure
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+server-timing: ak_p; desc=\"1789365834513_386648401_995010725_24_4181_1_0_219\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: directvcom.download.akamai.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+strict-transport-security: max-age=86400
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-dtvtokn: bad
+x-dtvaka-grn: 0.51c90b17.1789365834.3b4ea8a5
+----
+
