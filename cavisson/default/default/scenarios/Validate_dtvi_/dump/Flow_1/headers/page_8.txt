@@ -1,0 +1,60 @@
+--Request 
+POST https://perf1.directv.com/vpmapi/cart/v1/remove/DTVNOW
+Host: perf1.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: application/json
+appname: VideoSales
+Content-Type: application/json; charset=utf-8
+sec-ch-ua: \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://perf1.directv.com/shop/dtvi/choice-package-device
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: UUID=a95e251f-e0a5-4f9b-af61-3639c2f85adb; salesPod=perf1-74fd676db4-267vf-stable; CIP=66.220.31.146; x-dtv-DMA=807; x-dtv-DeviceType=Desktop; x-dtv-DeviceOS=Linux; ccsuppress_social=false; visitedPCP=true; akaas_DCPLIVE=1790682041~rv=11~id=4d417bdc44af15cf78f425d7d9237ea6~rn=; uxePod=perf1-5d9fbdd897-pqknk; Sierramigration=true; jsSrc=nginxSec; AB_IDPROOT=new_idproot_20190410; IDPROOT-TEST=AB-IDPROOT-New; optimizelyEndUserId=oeu1790678444094r0.7069545787504304; _ga=GA1.1.1787193260.1790678444; FPID=FPID2.2.9QKAM6Xdj%2FPTbMqwtnzHCmDmrdJpRSlE9abmVBNXUQY%3D.1790678444; FPLC=L3zi9y7RxwMP%2FfB9K4NzoRegVh5b0y82hIyM%2FIVyT3au0q2cqXi4M0CBq90LPliVD5xfSqDU9ncblCIDrR7HFxpBkqcmWjZg4atduKHVyIc2CrI%2FtIHy6Go4DvC5NQ%3D%3D; FPGSID=1.1790678444.1790678444.G-LEXYQWQ1NF.hLwmT_7EXyiGpDorifJinQ; isShowingLoader=false; utag_main__sn=1; utag_main_ses_id=1790678447047%3Bexp-session; utag_main__pn=1%3Bexp-session; _bts=38c35445-0580-404d-d340-2842e4ca97f7; _fbp=fb.1.1790678447466.577147742620039279.Bg; utag_main__ss=0%3Bexp-session; _rdt_uuid=1790678447903.2ec7f0a4-6aca-435d-92d8-3b1a26ce4cf3; _scid=yQF-E45QeToeFhfBZnOZftoWOqt3XnP4; _scid_r=yQF-E45QeToeFhfBZnOZftoWOqt3XnP4; _pin_unauth=dWlkPU1qWTFZMlJsT0dNdE5qSmlaQzAwT1dJeExXSmlZekl0WTJObVlXVmhNR1U1Wm1ZMw; _tt_enable_cookie=1; _ttp=01M3PC1EB4TY3X5CMK1Z63K7S5_.tt.1.1790678448485; RT=\"z=1&dm=perf1.directv.com&si=800f9f40-c899-44f7-9880-53cc0572d60c&ss=mumjpgfb&sl=1&tt=9ne&bcn=%2F%2F17de4c1f.akstat.io%2F&ld=9ng\"; _sctr=1%7C1790658000000; user_id=GA1.1.1787193260.1790678444; TEAL=v:61a0ecc0b3b791835866511340498536553325d4bb9$t:1790680249043$s:1790678447035%3Bexp-sess$sn:1$en:2; pzn1=mc05-ms69; _gcl_au=1.1.1727141569.1790678442.-.-.1790678449.186372744.1790678450.1790678449; cjConsent=MHxOfDB8Tnww; cjUser=b686b301-03bd-4774-8e5e-19694452b75b; currentZipcode=94536; ab.storage.userId.18ce6f7b-ec06-4912-a4c4-f483a3eae844=g%3A1787193260.1790678444%7Ce%3Aundefined%7Cc%3A1790678449854%7Cl%3A1790678449860; ab.storage.deviceId.18ce6f7b-ec06-4912-a4c4-f483a3eae844=g%3A6d33186c-f447-4b8a-d719-a1bfb0bdb8ec%7Ce%3Aundefined%7Cc%3A1790678449863%7Cl%3A1790678449863; ab.storage.sessionId.18ce6f7b-ec06-4912-a4c4-f483a3eae844=g%3A7275e11b-3bab-5299-8d5a-741842e4c9e1%7Ce%3A1790680249873%7Cc%3A1790678449858%7Cl%3A1790678449873; _bti=%7B%22app_id%22%3A%22directv-com%22%2C%22bsin%22%3A%22m0%2BWSKb1lKbsNdSL%2Bdt2zYDtOApdN8haUigLS6v8Sgl0FtZJaobnVCiwammyFYn8Rh9NFluHtr7HpjtJeoNv0w%3D%3D%22%2C%22external_ids%22%3A%7B%22zync%22%3A%22a4e4fe18-b450-4458-871a-0bacac39d226%3A1790678449.1072793%22%7D%2C%22is_identified%22%3Afalse%2C%22known_to_zeta%22%3Afalse%7D; x-dtv-edgescape=CA:FREMONT:FREMONT; sm_uuid=1790678904954; _uetsid=3d034ac0bbf211f187575746105c26c1|1dcpcn4|2|g9v|0|2463; utag_main__se=5%3Bexp-session; utag_main__st=1790680265171%3Bexp-session; _uetvid=3d03a7d0bbf211f1a2b8a386356dfe6d|1pflnj6|1790678466175|2|1|bat.bing.com/p/insights/c/b; _ga_LEXYQWQ1NF=GS2.1.s1790678444$o1$g1$t1790678466$j38$l0$h1441590191; invoca_session=%7B%22ttl%22%3A%222026-10-29T10%3A41%3A08.206Z%22%2C%22session%22%3A%7B%22invoca_id%22%3A%22i-37ce306f-6ca4-4839-ac40-eb17447df00b%22%2C%22returnVisitorFlag%22%3A%22No%22%2C%22utm_medium%22%3A%22Direct%22%7D%2C%22config%22%3A%7B%22ce%22%3Atrue%2C%22fv%22%3Afalse%2C%22rn%22%3Afalse%7D%7D; ttcsid=1790678448496::XubnM04aIUMWuZAlwlZ6.1.1790678470833.0::1.16697.32::22319.2.679.1261::20258.20.707; ttcsid_CJ6LAJBC77U6MVP86REG=1790678448494::paGdL6kzhOWHHt5UlQ75.1.1790678470833.1
+disable-dtvi-captcha: true
+----
+--Response 
+HTTP/1.1 200
+content-type: application/json
+content-length: 32
+x-amzn-requestid: 3e1b9af9-d276-4c9a-9250-b88cbadfcac0
+traceresponse: 00-b0baacdb94ea2e5bfe5e018d3eabdb6e-7c1b034c37f77749-01
+x-amzn-remapped-content-length: 32
+x-amz-apigw-id: EdRXKGGhvHcEV1A=
+x-dt-tracestate: def0e96d-6a8f088b@dt
+link: <baseUrl>; rel=\"self\"
+link: <https://cdn.cookielaw.org>; rel=preconnect
+link: <https://s.go-mpulse.net>; rel=preconnect
+link: <https://js-cdn.dynatrace.com>; rel=preconnect
+link: <https://www.googletagmanager.com>; rel=preconnect
+x-amzn-remapped-date: Tue, 29 Sep 2026 10:41:11 GMT
+edge-cache-tag: perf1.directv.com,perf1.directv.com-vpmapi-cart
+expires: Tue, 29 Sep 2026 10:41:11 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Tue, 29 Sep 2026 10:41:11 GMT
+set-cookie: CIP=66.220.31.146; path=/; domain=.directv.com
+set-cookie: x-dtv-edgescape=CA:FREMONT:FREMONT; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DMA=807; path=/; domain=.directv.com; secure
+set-cookie: x-dtv-DeviceType=Desktop; path=/; domain=.directv.com
+set-cookie: x-dtv-DeviceOS=Linux; path=/; domain=.directv.com
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=8
+server-timing: origin; dur=594
+server-timing: ak_p; desc=\"1790678470885_400336366_1927981236_60031_5776_13_0_219\";dur=1
+idpctx-true-ip: 66.220.31.146
+x-robots-tag: noindex, nofollow
+x-dtvaka-origin: api-external.perf.directv.com
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+idpctx-visitorid: GA1.1.1787193260.1790678444
+strict-transport-security: max-age=86400
+x-dtvtokn: bad
+x-dtvaka-grn: 0.eea5dc17.1790678470.72eaa8b4
+----
+
