@@ -1,0 +1,574 @@
+{
+  "title": "payment",
+  "chnldata": {},
+  "index": {
+    "analytics": {
+      "lineOfBusiness": "general"
+    },
+    "seo": {
+      "twittercard": "summary",
+      "metaRobots": "INDEX,FOLLOW"
+    },
+    "pageinfo": {
+      "lineOfBusiness": "general"
+    },
+    "disableAuxNav": false,
+    "disableGNav": false,
+    "disableLinkFarm": false,
+    "disableSkinnyGNav": false,
+    "isV2GNav": false,
+    "isV2Footer": false,
+    "isV2LinkFarm": false,
+    "disableTFN": false,
+    "disableBusinessLink": false,
+    "helpCenterInfoLabel": "Call us: ",
+    "CustomerCareNum": "8553836121",
+    "CustomerCareNumLabel": "855.383.6121",
+    "arsFee": "",
+    "disableStrikeThruPricing": false,
+    "disableCheckoutTFN": false,
+    "isBreadcrumbPostionTop": false,
+    "showPromoInCart": false,
+    "disableBBBanner": false,
+    "disableSaveCart": false,
+    "disableOfferBanner": false,
+    "isDoubleBreadcrumbNeeded": false
+  },
+  ":items": {
+    "page": {
+      "title": "page",
+      "elements": {
+        "title": "Billing & Payments | DIRECTV"
+      }
+    },
+    "sessionTimeout": {
+      "title": "sessionTimeout",
+      "elements": {
+        "txtKeepYouSafe": "To keep your info safe, we’ll sign you out in [[X]] minute and [[XX]] seconds.",
+        "txtStayIn": "Want to stay signed in?",
+        "title": "Are you still there?",
+        "ctaDetails": {
+          "txtSignOut": "NO, SIGN OUT",
+          "txtStaySignIn": "YES, STAY SIGNED IN"
+        }
+      }
+    },
+    "myUpcomingCharges": {
+      "title": "myUpcomingCharges",
+      "elements": {
+        "txtAutoPayMsgCardFreeTrial": "Your charges start on [[AUTOPAY_DATE]] when the free trial ends. We will auto-charge your [[CARD_TYPE]] ending in [[CARD_NUMBER]].",
+        "cardTypes": {
+          "lblVisa": "VISA",
+          "lblAM": "American Express",
+          "lblDiscover": "Discover",
+          "lblAmex": "AMEX",
+          "lblMasterCard": "MasterCard"
+        },
+        "otherCharges": {
+          "textArsFeeLabel": "Advanced receiver service fee",
+          "title": "Other charges",
+          "textArsTooltip": "The Advanced Receiver Service (ARS) fee is required with your service and covers all the advanced equipment features on your account"
+        },
+        "textRsnTooltip": "The Regional Sports Fee assists in covering costs related to regional sports programming and applies to all Signature Packages above CHOICE<sup>TM</sup>. The fee amount varies by ZIP Code and cannot be removed.",
+        "txtAutoPayMsgPendingPause": "Your [[CREDIT_CARD]] ending in [[LAST_FOUR_DIGITS]] will be automatically charged $[[MONTHLY_CHARGES]] on [[AUTOPAY_DATE]].",
+        "txtLastAutopayMsg": "Your last payment of $[[LAST_PAYMENT_AMOUNT]] was received on [[LAST_PAYMENT_DATE]].",
+        "txtLearnMoreModel": "<p>Your DIRECTV service requires automatic payments, which will be charged to your payment method on file each month. You can update your payment method in the <b>MY PAYMENT INFO</b> section.</p>",
+        "title": "Upcoming Charges",
+        "txtMsgDuringGracePeriodLossOfAccess": "to avoid loss of access to your DIRECTV service on [[DISCONNECT_DATE]].",
+        "txtAutoPayMsgPaypalFreeTrial": "Your charges start on [[AUTOPAY_DATE]] when the free trial ends. We will auto-charge your PayPal account.",
+        "amazonPaymentFailureMessage": "It looks like there's an issue processing your Amazon payment. Please go to <a href=[[LINK]] target=\"_blank\">Amazon.com</a> to update your payment information.",
+        "txtAutoPayMsgGoogle": "Your subscription auto-charges by Google Play on [[DATE]].",
+        "txtAutoPayMsgCardBRE": "Your charges start on the day you activate your service on your TV or on [[AUTOPAY_DATE]], whichever comes first. We'll auto-charge your [[CARD_TYPE]] ending in [[CARD_NUMBER]].",
+        "txtAutoPayMsgPaypalBRE": "Your charges start on the day you activate your service on your TV or on [[AUTOPAY_DATE]], whichever comes first. We'll auto-charge your PayPal account.",
+        "txtPackagesAddonsHeading": "TV packages and add-ons",
+        "txtNoCharge": " Great news! You do not have any upcoming charges.Your package is included at no cost to you.",
+        "txtUpdatePaymentMethod": "update your payment method",
+        "txtAutoPayMsgRoku": "Your subscription auto-charges by Roku on [[DATE]].",
+        "addOns": {
+          "title": "Add-ons",
+          "ctaDetails": {
+            "txtDesc": "CHANGE",
+            "lnkRedirect": "/packages"
+          }
+        },
+        "txtSuspendMsg": "Your service is temporarily suspended as we couldn’t process your latest payment. Please ",
+        "txtAutoPayMsgPaypal": "We'll charge $[[MONTHLY_CHARGES]] + tax to your PayPal account on [[AUTOPAY_DATE]].",
+        "txtAutoPayMsgPendingCancel": "You can still enjoy your DIRECTV service(s) until [[DATE]] when your subscription ends.",
+        "txtGracePeriodMsg": "Your account is now [[AUTOPAY_DATE]] days past due. Please update your payment method by [[AUTOPAY_DATE]] to avoid any service interruptions.",
+        "txtAutoPayMsgPaypal1": "Your last payment of [[LAST_PAYMENT_AMOUNT]] was received on [[LAST_PAYMENT_DATE]].",
+        "packages": {
+          "title": "Base package",
+          "ctaDetails": {
+            "txtDesc": "CHANGE",
+            "lnkRedirect": "/packages"
+          }
+        },
+        "txtSuspendPeriodMsg": "Your account has been suspended for non-payment. Please update your payment method to resume your account.",
+        "monthlyCharges": {
+          "termDetails": {
+            "txtCurrentEarlyTerminationFee": "<b> Current Early Termination Fee </b> ",
+            "txtFirstAutoCharge": "24 months agreement commencement date",
+            "txtEarlyTerFeeInfo": "Good to know: Your Early Termination Fee is reduced each month you have service.",
+            "title": "Term details",
+            "txtLastAutoCharge": "24 months agreement ends on"
+          },
+          "txtTaxes": "(Pre-tax)",
+          "title": "Monthly charges",
+          "txtTaxesGenre": "(Pre-tax)",
+          "txtTermDetails": "See term details"
+        },
+        "txtLearnMore": "Learn more",
+        "txtNoBillingInfo": "Oops, looks like your next billing information is not available. It will be made available soon.",
+        "attTvDevices": {
+          "title": "Devices",
+          "ctaDetails": {
+            "txtDesc": "SEE DETAILS",
+            "lnkRedirect": "/installDevices"
+          }
+        },
+        "txtAutoPayMsgAmazon": "Your subscription auto-charges by Amazon on [[DATE]].",
+        "txtRFSBanner": "Your Regional Sports Fee price guarantee expires on [[RFS_DATE]]. <a role='link' target='_blank' tabIndex='0' aria-label='current fee' href='https://www.directv.com/sports/regional-sports-fee/'>Check the current fee</a> in your area.",
+        "txtGraceSuspendMsg": "to avoid disconnection of your DIRECTV service on [[DISCONNECT_DATE]]. Questions? Call us at 844.704.4307.",
+        "txtPlease": "Please",
+        "txtAutoPayMsgCard": "We'll charge $[[MONTHLY_CHARGES]] + tax to your [[CREDIT_CARD]] ending in [[LAST_FOUR_DIGITS]] on [[AUTOPAY_DATE]]."
+      }
+    },
+    "myPaymentInfo": {
+      "title": "myPaymentInfo",
+      "elements": {
+        "updatepaymentMethod": {
+          "txtcardExpiresSoon": "Expires soon on [[cardExpiryDate]]",
+          "txtpayMethodupdateSuccess": "We've updated your payment method. If your payment is overdue, your outstanding balance may not be updated immediately. Any interrupted service has been restored.",
+          "errPageLevelError": "It’s not you, it’s us. We hit a snag and can’t complete your request right now.",
+          "txtcardExpired": "Expired [[cardExpiryDate]]",
+          "errNopayMethodOnFile": "No payment method on file.",
+          "termAndConditionTxt1": "I understand that my protection plan was canceled when my DIRECTV service was suspended. When my service resumes, I agree to be enrolled in a new DIRECTV TECH PROTECT plan. I understand there will be a new 30-day waiting period to make claims for damage or breakdown on my new plan. I agree to the <a href=\"https://www.directv.com/legal/techprotecttermsandconditions/\" target=\"_blank\">DIRECTV TECH PROTECT terms and conditions</a>.",
+          "title": "Update your payment method",
+          "txtcardExpiry": "Expires [[cardExpiryDate]]",
+          "ctaAdd": "ADD",
+          "imgNortanImageURL": "/acctmgmt/assets/images/getseal.png",
+          "smsPayMethodUpdateSuccess": "All set! We’ve updated your payment info.",
+          "smsRemovePayPalSuccess": "All set!  You removed PayPal as a payment method.",
+          "txtTermsAndConditionTil": "Your suspension and your DIRECTV TECH PROTECT enrollment",
+          "errRemovePayPalFailure": "It’s not you, it’s us.  We hit a snag and can’t remove your PayPal account right now. Give it some time and try again.",
+          "ctaChange": "CHANGE",
+          "txtTermsAndCondition": "I understand that my DIRECTV TECH PROTECT plan was canceled when my service was suspended. With resumption of my DIRECTV service, I agree to be enrolled in a new DIRECTV TECH PROTECT plan. I understand that there will be a new 30-day waiting period to make claims for breakdown or damage on my new plan. Please agree to the <a href=\"https://www.directv.com/legal/techprotecttermsandconditions/\" target=\"_blank\">terms and conditions</a>.",
+          "TXTCardAutChargeMsg": "You will see a temporary one-time pre-authorization hold of $30 on your card to validate thepayment method. It will be released in up to 7 business days depending on your bank and isnot an additional charge to your monthly fee.",
+          "errPaypalDefaultMsg": "It’s not you. It’s us. We hit a snag and can’t complete your request right now. Please try again. If that doesn’t work, try signing out and signing back in again.",
+          "expiredMessage": "To avoid any service interruptions, we’ll charge your updated payment method for the outstanding balance.",
+          "invalidParamError" : "Invalid input parameters",
+          "addressMatchError": "Oops! There was an issue validating your address. Please ensure all details including apartment, suite or unit number are included if applicable.",
+          "txtBilling": "billing",
+          "paypal": {
+            "txtRemoveModalHeaderWithNoCCT": "First, add another payment method",
+            "ctaOK": "YES, REMOVE PAYPAL",
+            "txtRemoveModalContentWithNoCCT": "Once you add another way to pay, we can remove this PayPal account. Either add a credit or debit card or sign in to another PayPal account to make it your primary payment method.",
+            "txtRemoveModalContentWithCCT": "Then, we can remove this PayPal account. Either select your stored credit or debit card or sign in to another PayPal account and make it your primary payment method.",
+            "txtRemoveModalHeaderWithCCT": "First, select another payment method",
+            "txtRemoveHeader": "Remove PayPal Account",
+            "lblRemoveModalButtonWithCC": "Use my credit or debit card",
+            "txtRemoveModalBody": "Are you sure you want to remove this PayPal account?",
+            "ctaLefttBtnTXT": "Pay with PayPal",
+            "ctaUpdate": "Update info at PayPal",
+            "txtComeBack": "You’ll come back here to finish the update.",
+            "lblRemoveModalButtonWithNoCC": "Add a credit or debit card",
+            "txtUpdate": "Let’s go to <b>PayPal </b> to make it your primary payment method.",
+            "ctaRemove": "Remove PayPal",
+            "ctaRightBtnTXT": "Use my credit or debit card"
+          },
+          "termsConditionText2": "I understand and agree to the autopay <a href=\"https://www.directv.com/legal/directv-payment-terms-and-conditions\" target=\"_blank\">terms and conditions</a>.",
+          "txtMsgTechplan": "If you change your billing address when updating your payment info, your TECH PROTECT plan will be canceled at the end of your billing period. To stay covered, you'll have to sign up for the plan again.",
+          "txtNortonImageAlt": "Norton Secured Powered by Digicert",
+          "ctaGoToGooglePlay": "GO TO GOOGLE PLAY",
+          "errCardDefaultMsg": "It’s not you, it’s us. We hit a snag and can’t complete your request right now. Give it some time and try again later.",
+          "smsPayMethodUpdateSuccRSN": "Just a reminder - your new regional sports fee is [[rsnFee]].",
+          "Card": {
+            "CardNumber": {
+              "errCardCount": "Card number must be 16 digits.",
+              "errFieldInvalid": "Try entering your card number again with no dashes or spaces.",
+              "errEnterValidCard": "Please enter a valid card number.",
+              "errAMCardCount": "Card number must be 15 digits.",
+              "title": "Card #",
+              "phtForField": "Enter up to 16 digits.",
+              "errFieldEmpty": "This field is required"
+            },
+            "txtCardAutChargeMsgStream": "We do not accept prepaid or gift cards.",
+            "CVV": {
+              "errCVVEmpty": "CVV must be 3 to 4 digits.",
+              "txtToolTipNonAmex": "For Visa, Mastercard, Discover, JCB, and Diners Club, the 3-digit security code is on the back of the card right after the credit card number.",
+              "imgToolTipAmexURL": "/acctmgmt/assets/images/ccv2-security-amex.png",
+              "CvvTooltip": {
+                "imgToolTipNonAmexURL": "/accounts/stream/logos/ccv2-security.png",
+                "imgToolTipAmexURL": "/accounts/stream/logos/ccv2-security-amex.png",
+                "amexCard": "American Express (Front)",
+                "NonAmexCards": "VISA, Discover, Mastercard & JCB (Back)",
+                "title": "Find your CVV Security Code"
+              },
+              "errCVVCount": "CVV must be 3 digits.",
+              "errAMCVVCount": "CVV must be 4 digits.",
+              "errFieldInvalid": "Try entering your security code again.",
+              "txtToolTipAmex": "For American Express, the 4-digit security code is on the front of the card.",
+              "title": "CVV",
+              "phtForField": "CVV",
+              "errFieldEmpty": "This field is required, must be [[CVV_LENGTH]] numbers",
+              "imgToolTip": "/acctmgmt/assets/images/ccv2-security.png"
+            },
+            "ZIPCode": {
+              "errFieldInvalid": "Please enter a valid zipcode",
+              "title": "ZIP Code",
+              "phtForField": "5 digits",
+              "errFieldEmpty": "This field is required"
+            },
+            "cardTypes": {
+              "lblVisa": "Visa",
+              "lblAM": "American Express",
+              "lblDiscover": "Discover",
+              "lblMasterCard": "MasterCard"
+            },
+            "txtDifferentCardAccepted": "We accept Visa, Mastercard, American Express, Discover, Diners Club, and JCB cards.",
+            "txtCardAccepted": "Accepted cards:",
+            "CardExpiry": {
+              "errMonthEmpty": "Select month card expires.",
+              "errYearEmpty": "Select year card expires.",
+              "errMonthInvalid": "Select correct month card expires.",
+              "errFieldInvalid": "Please enter the correct exp date",
+              "errYearInvalid": "Select correct year card expires.",
+              "errExpiredField": "Exp. must be a future date.",
+              "title": "Exp. date",
+              "phtForField": "MM/YY",
+              "errDateFormat": "Expire date should be mm/yy",
+              "errFieldEmpty": "Please enter a Expire date"
+            },
+            "City": {
+              "errMinChar": "Minimum of 3 characters required",
+              "errFieldInvalid": "Only alphabetical characters allowed",
+              "title": "City",
+              "phtForField": "Enter city name",
+              "errFieldEmpty": "This field is required"
+            },
+            "imgCreditCardMobileURL": "/acctmgmt/assets/images/creditcards@2x.png",
+            "cardCodes": {
+              "lblVisa": "VI",
+              "lblAM": "AX",
+              "lblDiscover": "DI",
+              "lblMasterCard": "MC"
+            },
+            "ctaCancel": "CANCEL",
+            "BillingAddress": {
+              "errMinChar": "Must have a minimum of 3 characters",
+              "errFieldInvalid": "Enter a valid billing address.",
+              "title": "Billing address",
+              "phtForField": "Enter billing address",
+              "errFieldEmpty": "This field is required",
+              "errNoMatchAddress": "No address match found"
+            },
+            "billingAddressOptional": {
+              "errFieldInvalid": "Please enter a valid address.",
+              "title": "Apartment, suite, etc. (optional)",
+              "phtForField": "Apartment, suite, etc. (optional)"
+            },
+            "CardholderName": {
+              "errMinChar": "Minimum of 3 characters",
+              "errFieldInvalid": "Be sure to enter your name the way it's shown on your card.",
+              "title": "Name on card",
+              "phtForField": "Enter cardholder name",
+              "errFieldEmpty": "This field is required"
+            },
+            "txtCardAutChargeMsg": "You may see a $30 temporary hold on your card for payment validation. The hold will be refunded within seven business days at no extra cost to your monthly fee.",
+            "ctaSubmit": "SUBMIT",
+            "ctaSave": "SAVE",
+            "State": {
+              "title": "State",
+              "errFieldEmpty": "Select state."
+            },
+            "txtCard": "Debit/Credit card",
+            "userInfoValidationErrors": {
+              "3SMU": "Address is missing unit information.",
+              "3SUH": "House number is not recognized by the U.S. Postal Service.",
+              "3SUU": "Unit information is not recognized by the U.S. Postal Service.",
+              "3SXU": "Unit information is not recognized by the U.S. Postal Service.",
+              "2E010": "Incorrect City + State or ZIP Code.",
+              "2E026": "No address match found",
+              "cityEmpty": "Please enter a valid city",
+              "stateEmpty": "State is required",
+              "exitSerCode": "The address is already associated with an Active account",
+              "zipcodeEmpty": "Please enter a valid ZIP code",
+              "cityValidation": "Please enter a valid city",
+              "stateValidation": "State is not valid",
+              "expDateValidation": "Expiry date is not valid",
+              "zipcodeValidation": "Please enter a valid ZIP code",
+              "lastNameValidation": "Enter a valid last name. Single space, apostrophe, or hyphen allowed.",
+              "apartmentValidation": "Apartment should match the format",
+              "firstNameValidation": "Enter a valid first name. Single space, apostrophe, or hyphen allowed.",
+              "cityValidationFusion": "Please enter a valid city",
+              "addressMsgCantValidate": "We’re sorry, but we can’t validate the address you provided and we are unable to proceed with your order. <b> Please update the address you entered below. </b>",
+              "addressline1Validation": "Please enter a valid address.",
+              "federalStateValidation": "State is not valid",
+              "zipcodeValidationFusion": "Please enter a valid ZIP Code",
+              "addressNotSavedPriorToOrder": "Please review and save the address below before submitting your order.",
+              "addressMsgCantDeliverWithTFN": "We’re sorry, but we can’t deliver a streaming device to the address you provided and we are unable to proceed with your order. <b> Please check the address you entered below and update it or call <a href='tel:+1-810-333-3333'> 810-333-3333 </a> for assistance. </b>",
+              "addressMsgCantValidateWithTFN": "We’re sorry, but we can’t validate the address you provided and we are unable to proceed with your order. <b> Please enter a different address or call <a href='tel:+1-810-333-3333'> 810-333-3333 </a> for assistance. </b>",
+              "General-0001": "User {0} with id {1} does not exist",
+              "General-0002": "User with id {0} already exists",
+              "General-0003": "User already modified by another transaction",
+              "General-S-1001": "There is an error handling your request. Please Try Again.",
+              "General-S-1002": "There is an error handling your request.Please Try Again.",
+              "General-S-1003": "Validation Errors.Please Try Again.",
+              "General-U-1001": "Validation Errors. Please Try Again.",
+              "General-U-1002": "JSON Parsing Errors.Please Try Again.",
+              "Service-I-1001": "There is an error handling your request.Please Try Again.",
+              "Service-I-1002": "There is an error handling your request.Please Try Again.",
+              "Service-I-1003": "Error returned from downstream system.",
+              "Service-I-1004": "There is an error handling your request.Please Try Again.",
+              "Service-I-1005": "There is an error handling your request.Please Try Again.",
+              "Service-I-1006": "There is an error handling your request.Please Try Again.",
+              "Service-I-1007": "There is an error handling your request.Please Try Again.",
+              "Service-I-1008": "There is an error handling your request.Please Try Again.",
+              "Service-I-1009": "There is an error handling your request.Please Try Again.",
+              "Service-I-1010": "There is an error handling your request.Please Try Again.",
+              "Service-I-1011": "There is an error handling your request.Please Try Again.",
+              "Service-I-1012": "There is an error handling your request.Please Try Again.",
+              "Service-I-1013": "There is an error handling your request.Please Try Again.",
+              "Service-I-1014": "There is an error handling your request.Please Try Again.",
+              "Service-I-1015": "There is an error handling your request.Please Try Again.",
+              "Service-I-1016": "There is an error handling your request.Please Try Again.",
+              "System-DC-1001": "There is an error handling your request.Please Try Again.",
+              "System-DC-1002": "There is an error handling your request.Please Try Again.",
+              "System-DC-1004": "There is an error handling your request.Please Try Again.",
+              "System-DI-1001": "Invalid Response returned from downstream",
+              "System-DI-1002": "There is an error handling your request.Please Try Again.",
+              "System-DT-1001": "There is an error handling your request.Please Try Again.",
+              "System-DT-1002": "There is an error handling your request.Please Try Again.",
+              "System-OB-1001": "There is an error handling your request.Please Try Later.",
+              "System-OB-1002": "There is an error handling your request.Please Try Later.",
+              "General-4000000": "Invalid Request",
+              "General-4001000": "Invalid Request as per strict validation rules",
+              "General-4002000": "Invalid Request as per minimal validation rules",
+              "System-SEC-1001": "There is an error handling your request.Please Try Again.",
+              "INVALID_REQUEST_ERROR": "Incorrect request...",
+              "DTVSMARTY-5001000": "Address validation service is currently unavailable. Please try again later.",
+              "DTVSMARTY-4081000": "Address validation service is currently unavailable. Please try again later."
+            }
+          },
+          "rokuPaymentMethod": "Roku processes your subscription billing. To make a payment go to my.Roku.com.",
+          "amazonPaymentMethod": "Amazon processes your subscription billing. You may update your payment info at Amazon.",
+          "ctaGoToAmazon": "GO TO AMAZON",
+          "ctaGoToRoku": "GO TO ROKU",
+          "googlePlayPaymentMethod": "Google Play processes your subscription billing. To make a payment, go to Google Play.",
+          "txtMakeItPrimaryPayMethod": "Make <b> PayPal </b> my primary payment method.",
+          "txtAutoPmtMsgCard": "Visa ending in[[cardNumberDigits]]"
+        },
+        "title": "Payment Method"
+      }
+    },
+    "promoCode": {
+      "title": "promoCode",
+      "elements": {
+        "errNoEligible": "No eligible promo codes",
+        "errFieldInvalid": "Sorry that code isn’t working",
+        "ctaApply": "APPLY",
+        "title": "Promo codes",
+        "txtPromoSuccess": "Promo code [[XXXXXXX]] applied! Starts [[MONTH_DAY_YEAR]]",
+        "phtForField": "Enter code "
+      }
+    },
+    "myActivity": {
+      "title": "myActivity",
+      "elements": {
+        "txtNullData": "We couldn't find any results. Try searching with a different activity type or date range to check for more results.",
+        "txtSemanticElements": "Semantic Elements",
+        "title": "CHARGES AND PAYMENT HISTORY",
+        "tableHeader": {
+          "txtPayMethod": "Payment method",
+          "txtDate": "Date",
+          "txtAmount": "Amount",
+          "txtDesc": "Description"
+        },
+        "txtNOData": "We couldn't find any results. Try searching with a different date range to check for more results.",
+        "txtYourSubscriptionEnded": "Your subscription ended ",
+        "ctaSeeMore": "SEE MORE",
+        "ctaNext": "NEXT",
+        "txtNoChargeAndPaymentHistory": "No results found. Please try a different date range or category.",
+        "lblYearSelection": "Year",
+        "ctaPrev": "PREVIOUS",
+        "descriptionDetails": {
+          "txtRefundsIssued": "Refund issued to your payment method",
+          "geminiDevice": "Gemini Device(s)",
+          "txtYouRemoved": "You removed:",
+          "txtCancelledService": "You canceled your service",
+          "txtPreviousBalance": "Previous balance",
+          "txtCredit": "Credit",
+          "txtYouUpgradedTo": "You upgraded to:",
+          "txtYouPaidOff": "You paid off:",
+          "txtYouAdded": "You added:",
+          "txtChangePlaneCompleted": "The change to your plan has been completed",
+          "txtNoAnnualContractCancelled": "Your plan change to a no annual contract package has been canceled",
+          "txtPaymentDidntGoThrough": "Payment didn't go through",
+          "geminiAirDevice": "Gemini Air Device(s)",
+          "txtDebitMonthlyCharges": "Debit applied to monthly charges",
+          "txtNoAnnualContractCompleted": "Your plan change to a no annual contract package has been completed",
+          "txtNoAnnualContractProgress": "Your plan change to a no annual contract package is in progress",
+          "txtTaxesAndSurcharges": "Taxes and Surcharges",
+          "txtCreditMonthlyCharges": "Credit applied to monthly charges",
+          "txtYouDowngradedTo": "You downgraded to:",
+          "txtPreviousPayment": "Previous payment"
+        },
+        "lblTypeSelection": "Type",
+        "descriptionCategories": {
+          "txtMonthlyChargesFailed": "Monthly charges-Payment failed",
+          "txtMonthlyChargesPending": "Monthly charges-Payment pending",
+          "txtCredit": "Credit",
+          "txtSubscriptionChangesUnsuccessful": "Subscription changes-Payoff unsuccessful",
+          "txtSubscriptionChanges": "Subscription changes",
+          "txtMonthlyCharges": "Monthly charges",
+          "txtRefunds": "Refunds",
+          "txtDebit": "Debit"
+        },
+        "txtEverthingWeFound": "Didn't find any results? Try using a different date range or category.",
+        "selectCategory": {
+          "txtCredits": "Adjustments",
+          "txtAll": "All",
+          "txtSubscriptionChanges": "Subscription changes",
+          "txtRefunds": "Refunds",
+          "txtMonthlyCharges": "Payments",
+          "txtPromo": "Promos"
+        }
+      }
+    },
+    "pageAlerts": {
+      "title": "pageAlerts",
+      "elements": {
+        "pausedSubscription": "Your account has been paused. You'll not be charged until your account resumes on [[DATE]]. If you want to cancel or extend your pause period, go to <a href=[[LINK]] > Manage my TV package</a>.",
+        "errSnagMsg": "You have a hit a snag... please try after sometime.",
+        "paymentSuccess": "Your payment info has been updated!",
+        "pauseSubscription": "We’ve received your request to pause your account on [[START_DATE]]. If you want to resume your account or extend the pause period go to <a href=[[LINK]] > Manage my TV package</a>.",
+        "creditSuccess": "Thank you for being our valued customer.<br><br>Your order has been canceled. We’ve initiated your refund. It may take 3-5 days for you to see this credit on the payment method you have on file.",
+        "expiryCardMsg": "Heads up! Your card expires on [[MONTH]]/[[YEAR]]. Be sure to update it as soon as possible.",
+        "streamPaymentSuccess": "We've updated your payment method. If your payment is overdue, your outstanding balance may not be updated immediately. Any interrupted service has been restored.",
+        "expiredCardMsg": "Heads up! Your card expired. Be sure to update it as soon as possible."
+      }
+    },
+    "eddReporting": {
+      "title": "eddReporting",
+      "elements": {
+        "pageLoad": {
+          "pageId": {
+            "lblQualtricsBilling": "billingPayment",
+            "lblBilling": "billingAndPayment"
+          }
+        },
+        "linkClick": {
+          "linkId": {
+            "lblMyActivityYear": "myActivityYearSelect",
+            "lblMyActivityNext": "myActivityNextCta",
+            "lblMyActivityCategory": "myActivityCategorySelect",
+            "lblMyActivityPrevious": "myActivityPrevCta",
+            "lblMyActivitySeeMore": "myActivitySeeMoreCta"
+          }
+        }
+      }
+    },
+    "PurchasesRentals": {
+      "title": "purchasesRentals",
+      "elements": {
+        "cancelModal": {
+          "txtCancelPurchaseRentalGA": "cancel video purchase_rental",
+          "txtReund": "Estimated refund: ",
+          "modalHead": "Cancel your order",
+          "buttonNoCta": "NO, DON'T CANCEL",
+          "showMessage": "Canceling removes the title permanently and you’ll no longer have access to it.",
+          "txtCancelRentalErrorMessage": "Sorry, it’s not you, It’s us. Something went wrong on our end. Give it a few minutes and try again.",
+          "links": "https://www.directv.com/MovieTerms",
+          "buttonYesCta": "YES, CANCEL",
+          "txtTitle": "Movie/show name: "
+        },
+        "lblCancel": "Canceled",
+        "txtExpired": "Expired",
+        "showMessage": "Canceling removes the title permanently and you’ll no longer have access to it.",
+        "txtSuccessmessage": "We’re sorry to see you go!.<br><br>Your order has been canceled. We’ve initiated your refund. It may take 3-5 days for you to see this credit on the payment method you have on file.",
+        "txtPurchaseRentalGA": "purchases and rentals",
+        "title": "PURCHASES AND RENTALS",
+        "infoIcon": {
+          "txtInfo": "<p><b>More on Purchases and rentals:</b></p><p>Purchase or rental charges occur immediately via your saved payment method, and the same will be reflected on your account.</p><p><b>Purchase and rental terms:</b></p><ul><li>All your purchases or refunds are made to the payment method on file.</li><li>Canceling removes the title permanently and you’ll no longer have access to it. </li><li>You can only cancel an unviewed title before the expiration date to receive a refund.</li><li>Your purchase is available for playback only if you remain a DIRECTV subscriber. You have 60 days from the order date to cancel an unviewed title. </li><li>Your rental is available for playback and can be canceled 30 days from the order date if it’s unviewed. </li></ul> For more information, visit <a href=\"https://www.directv.com/movieterms\" target=\"_blank\"> https://directv.com/movieterms.</a><p></p>"
+        },
+        "txtAll": "All",
+        "ctaNext": "NEXT",
+        "txtTax": "(taxes included, if applicable)",
+        "txtmessage": "We’re sorry to see you go!Your order has been canceled. We’ve initiated your refund. It may take 3-5 days for you to see this credit on the payment method you have on file.",
+        "streamSelectCategory": {
+          "txtShortDays": {
+            "displayText": "6 months",
+            "value": "180"
+          },
+          "txtAll": {
+            "displayText": "24 months",
+            "value": "730"
+          },
+          "txtLongDays": {
+            "displayText": "12 months",
+            "value": "365"
+          }
+        },
+        "ctaPrev": "PREVIOUS",
+        "lblTypeSelection": "Type",
+        "selectCategory": {
+          "txtShortDays": {
+            "displayText": "Last 30 days",
+            "value": "30"
+          },
+          "txtAll": {
+            "displayText": "All",
+            "defaultSinceValue": "1670112000000",
+            "value": "365"
+          },
+          "txtLongDays": {
+            "displayText": "Last 60 days",
+            "value": "60"
+          }
+        },
+        "infoMessage": "No rentals and purchases to display.",
+        "txtNullData": "We couldn't find any results. Try searching with a different activity type or date range to check for more results.",
+        "txtNoData": "We couldn't find any results. Try searching with a different date range to check for more results.",
+        "txtExpirationDate": "Expiration date",
+        "tstSuccessMessage": "Your credit has successfully been applied.",
+        "txtRental": "-day rental",
+        "txtAmount": "Amount: ",
+        "txtErrorMessage": "Sorry, it’s not you, It’s us. Something went wrong on our end. Give it a few minutes and try again.",
+        "lblPurchase": "Purchase",
+        "tableHeader": {
+          "txtDate": "Date",
+          "txtAmount": "Amount",
+          "txtType": "Purchase/rental",
+          "txtTitle": "Title"
+        },
+        "ctaCancel": "CANCEL",
+        "txtfirstViewdate": "First view date",
+        "ctaSeeMore": "SEE MORE",
+        "txtUnviewed": "Unviewed",
+        "txtCreditApplied": "credit applied",
+        "lblYearSelection": "Year",
+        "txtTaxes": "Taxes: "
+      }
+    },
+    "backupPaymentStream": {
+      "title": "backupPaymentStream",
+      "elements": {
+        "paymentUpdate": "Your payment method is updated. Now, continue to watch your favorite shows, sports, and news."
+      }
+    },
+    "ftcDisclosures": {
+      "title": "ftcDisclosures",
+      "elements": {
+        "addEquipmentLeaseDevice": "I consent to lease [[DEVICE_QUANTITY]] [[DEVICE_NAME]] at $[[XX]]/mo. Cancel anytime by calling 800.531.5000",
+        "noPromotionalOffer": "By clicking \"[[submitCta]]\" you agree and subscribe to [[product]] at the prevailing price, currently $[[XX]]/mo. Cancel anytime by visiting directv.com.",
+        "hasPromotionalOffer": "By clicking \"[[submitCta]]\" you agree and subscribe to [[product]] at a promotional price. At the end of promotional period [[product]] will auto-renew at the then prevailing rate currently $[[XX]]/mo. Cancel anytime by visiting directv.com.",
+        "mdu": {
+          "zeroDollarPackageWithoutPromotion": "You can change your package on directv.com or cancel service by calling 866-258-8766",
+          "zeroDollarPackageWithPromotion": "By clicking \"[[submitCta]]\" you agree and subscribe to [[product]] at a promotional price. At the end of promotional period [[product]] will auto-renew at the then prevailing rate currently $[[XX]]/mo. You can return to the included package on directv.com or cancel service anytime by calling 866-258-8766.",
+          "noPromotionalOfferForPackage": "By clicking \"[[submitCta]]\" you agree and subscribe to [[product]] at the prevailing price, currently $[[XX]]/mo. You can return to the included package on directv.com or cancel service anytime by calling 866-258-8766.",
+          "promotionalOfferForPackage": "By clicking \"[[submitCta]]\" you agree and subscribe to [[product]] at a promotional price. At the end of promotional period [[product]] will auto-renew at the then prevailing rate currently $[[XX]]/mo. You can return to the included package on directv.com or cancel service anytime by calling 866-258-8766."
+        }
+      }
+    }
+  }
+}

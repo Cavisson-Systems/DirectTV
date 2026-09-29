@@ -1,0 +1,171 @@
+{
+  "billingCard": [
+    {
+      "itemType": ["ptr", "mdutenant", "mducomp"],
+      "rules": {
+        "currentBalanceInfoEligible": false,
+        "autopayInfoEligible": false,
+        "paymentMethodInfoEligible": false,
+        "payOptionsInfoEligible": false,
+        "paperlessInfoEligible": false,
+        "partnerInfoEligible": true,
+        "lastPaymentInfoEligible": false      }
+    },
+    {
+      "itemType": ["rokutv", "firetv", "google"],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "lastPaymentInfoEligible": true,
+        "paymentMethodInfoEligible": false,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": false,
+        "partnerInfoEligible": false
+      }
+    }
+  ],
+  "launchpadTiles": [
+    {
+      "accountType": ["residential"],
+      "subscriberType": ["byod", "tazbyod"],
+      "rules": {
+        "tvPackageEligible": true,
+        "techProtectEligible": false,
+        "dtvPerksEligible": false
+      }
+    },
+    {
+      "accountType": ["residential"],
+      "subscriberType": ["taz", "tazcontract", "edsp", "bbtv", "rr", "genre"],
+      "rules": {
+        "tvPackageEligible": true,
+        "techProtectEligible": false
+      }
+    },
+    {
+      "accountType": ["residential"],
+      "subscriberType": ["edsp"],
+      "rules": {
+        "tvPackageEligible": true,
+        "addOnsEligible": false,
+        "techProtectEligible": false,
+        "manageDevicesEligible": false,
+        "orderHistoryEligible": false,
+        "serviceAddressEligible": true
+      }
+    },
+    {
+      "accountType": ["employee"],
+      "rules": {
+        "dtvPerksEligible": false,
+        "serviceAddressEligible": false,
+        "techProtectEligible": false
+      }
+    },
+    {
+      "accountType": ["employee"],
+      "subscriberType": ["byod", "tazbyod", "taz", "tazcontract", "edsp", "bbtv", "rr", "genre", "frontporch"],
+      "rules": {
+        "techProtectEligible": false
+      }
+    },
+    {
+      "accountType": ["mdutenant", "mdupo", "mducomp", "mdu"],
+      "rules": {
+        "tvPackageEligible": true,
+        "techProtectEligible": false,
+        "dtvPerksEligible": false,
+        "serviceAddressEligible": false
+      }
+    },
+    {
+      "accountType": ["ptr"],
+      "rules": {
+        "paymentMethodEligible": false,
+        "paymentHistoryEligible": false,
+        "billingHistoryEligible": false,
+        "billingPaymentSettingsEligible": false
+       
+      }
+    },
+    {
+      "accountType": ["dtv"],
+      "rules": {
+        "dtvPerksEligible": false
+      }
+    },
+    {
+      "accountType": ["3rdPartyChild", "childCommercial"],
+      "rules": {
+        "paymentMethodEligible": false,
+        "paymentHistoryEligible": false,
+        "billingHistoryEligible": false,
+        "billingPaymentSettingsEligible": false,
+        "tvPackageEligible": false,
+        "addOnsEligible": false,
+        "dtvPerksEligible": false,
+        "manageDevicesEligible": false,
+        "manageReceiversEligible": false,
+        "manageRemotesEligible": false,
+        "ordersAppointmentHistoryEligible": false,
+        "protectionPlanEligible": false,
+        "channelLineupCommercialEligible": true,
+        "sportsSchedulesEligible": true,
+        "commercialAccountInfoEligible": true,
+        "accountInfoEligible": false
+      }
+    },
+    {
+      "accountType": [
+        "regularCommercial",
+        "masterCommercial",
+        "3rdPartyMaster"
+      ],
+      "rules": {
+        "tvPackageEligible": false,
+        "addOnsEligible": false
+      }
+    }
+  ],
+  "launchpadIapRules": [
+    {
+      "itemType": ["firetv"],
+      "rules": {
+        "paymentMethodEligible": false,
+        "manageDevicesEligible": false,
+        "orderHistoryEligible": false,
+        "serviceAddressEligible": true,
+        "techProtectEligible": false
+      }
+    },
+    {
+      "itemType": ["rokutv", "google"],
+      "rules": {
+        "paymentMethodEligible": false,
+        "manageDevicesEligible": false,
+        "orderHistoryEligible": false,
+        "serviceAddressEligible": true,
+        "addOnsEligible": false,
+        "techProtectEligible": false
+      }
+    }
+  ],
+  "launchpadFFPRules": [
+    {
+      "subscriberType": ["frontporch"],
+      "rules": {
+        "tvPackageEligible": false,
+        "paymentMethodEligible": false,
+        "techProtectEligible": false,
+        "paymentHistoryEligible": true,
+        "addOnsEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": false,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": false,
+        "channelLineupEligible": true,
+        "myFreeDtvFaqEligible": true
+      }
+    }
+  ]
+}

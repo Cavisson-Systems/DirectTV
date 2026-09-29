@@ -1,0 +1,11 @@
+{"authId":"{LoginAuthId}","callbacks":[{"type":"PasswordCallback","output":[{"name":"prompt","value":"One Time Password"}],"input":[{"name":"IDToken1","value":"393939"}],"_id":0},{"type":"TextOutputCallback","output":[{"name":"message","value":"Enter your OTP"},{"name":"messageType","value":"0"}],"_id":1},{"type":"ChoiceCallback","output":[{"name":"prompt","value":"Do you want to cancel?"},{"name":"choices","value":["no","yes"]},{"name":"defaultChoice","value":0}],"input":[{"name":"IDToken3","value":0}],"_id":2},{"type":"ChoiceCallback","output":[{"name":"prompt","value":"Do you want to Submit your OTP or Resend a new OTP?"},{"name":"choices","value":["continue","resend"]},{"name":"defaultChoice","value":0}],"input":[{"name":"IDToken4","value":0}],"_id":3}],"header":"OTP_Collection","description":"Validates OTP."}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+{"autoPayment":true,"cardInfo":{"billingAddress":{"address1":"{P_streetAddress}","address2":"","city":"{P_city}","country":"US","state":"{P_state}","zipCode":"{P_zipCode}"},"cardAboutToExpire":false,"cardExpired":false,"cardHolderName":"Test User","cardNumber":"4444414444444441","cardType":"Visa","expireMonth":"12","expireYear":"2027","securityCode":"123"},"channelCode":null,"label":"Card","payPalInfo":null,"paymentMethodId":null,"status":"Active"}
+
+
+
+
+
+
+

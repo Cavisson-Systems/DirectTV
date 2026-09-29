@@ -1,0 +1,711 @@
+{
+  "title": "ModalAndPopUp",
+  "chnldata": {},
+  "index": {
+    "analytics": {
+      "lineOfBusiness": "general"
+    },
+    "seo": {
+      "twittercard": "summary",
+      "metaRobots": "INDEX,FOLLOW"
+    },
+    "pageinfo": {
+      "lineOfBusiness": "general"
+    },
+    "disableAuxNav": false,
+    "disableGNav": false,
+    "disableLinkFarm": false,
+    "disableSkinnyGNav": false,
+    "isV2GNav": false,
+    "isV2Footer": false,
+    "isV2LinkFarm": false,
+    "disableTFN": false,
+    "disableBusinessLink": false,
+    "helpCenterInfoLabel": "Call us: ",
+    "CustomerCareNum": "8553836121",
+    "CustomerCareNumLabel": "855.383.6121",
+    "arsFee": "",
+    "disableStrikeThruPricing": false,
+    "disableCheckoutTFN": false,
+    "isBreadcrumbPostionTop": false,
+    "showPromoInCart": false,
+    "disableBBBanner": false,
+    "disableSaveCart": false,
+    "disableOfferBanner": false,
+    "isDoubleBreadcrumbNeeded": false
+  },
+  ":items": {
+    "pageHeadings": {
+      "title": "pageHeading",
+      "elements": {
+        "billingTitle": "Billing and payments",
+        "profileTitle": "Profile"
+      }
+    },
+    "page": {
+      "title": "page",
+      "elements": {
+        "title": "ModelAndPopUp"
+      }
+    },
+    "restartSubscription": {
+      "title": "restartSubscriptionModal",
+      "elements": {
+        "ctaCancel": "CANCEL",
+        "tltRestartSubscriptionError": "It’s not you, it’s us",
+        "tltAutoSubscription": "All set! Your subscription will auto-renew as usual.",
+        "tltLastSubscription": "Pick back up where you left off",
+        "txtModalContent3": "After the end of your current billing cycle, you can reconnect DIRECTV by logging into your account and following the prompts on your account overview page. Please note that any promotions you had on your former account will no longer be valid, and you may need to order new equipment.",
+        "ctaOk": "SUBMIT",
+        "txtModalContent2": "Since you’ve already canceled and returned your equipment, we can’t restart your service at this time.",
+        "txtModalContent1": "We’re sorry, we can’t restart your service at this time",
+        "ctaClose": "CLOSE",
+        "txtEquipment": "Do you still have your DIRECTV equipment?",
+        "fieldDetails": {
+          "txtBasePackage": "[[BASE_PACKAGE]] base package",
+          "txtRestartNow": "Your subscription auto-charges on [[DATE]] 7 p.m. ET. We'll charge [[AUTOPAY_AMOUNT]] to your [[CARD_NAME]] account ending in [[CARD_NUMBER]].",
+          "txtStreamDevices": "[[QUANTITY]] streaming devices",
+          "txtRestartNowForAmazon": "Your account would auto charge by Amazon on [[AUTOPAY_DATE]].",
+          "txtSubscriptionRenewDatePaypal": "Your subscription auto-charges on [[AUTOPAY_DATE]] at 7 p.m. ET. We'll charge [[AUTOPAY_AMOUNT]] to your PayPal account.",
+          "txtRestartNowPaypal": "If you restart now,you can keep what you have. We will auto charge your PayPal account [[AUTOPAY_AMOUNT]] on [[AUTOPAY_DATE]]",
+          "txtFieldDetailsRestartSubscriptionError": "Something went wrong, and we couldn’t complete your order. Give it some time and try again later.",
+          "txtFieldDetails": "Keep enjoying your service without missing a beat. Here’s what you had:",
+          "txtFieldDetails2": "Here’s what you had:",
+          "txtSubscriptionRenewDate": "We will auto charge your account [[AUTOPAY_AMOUNT]] to [[CARD_NAME]] ending in [[CARD_NUMBER]] on [[DATE]] at 7 p.m. ET.",
+          "txtFieldDetails1": "Restart now and keep enjoying your service without missing a beat!",
+          "txtAddOns": "[[ADD-ONS]]"
+        },
+        "txtModalTitle": "Restart service"
+      }
+    },
+    "updatepaymentMethod": {
+      "title": "updatepaymentMethod",
+      "elements": {
+        "ctaCancel": "Cancel",
+        "smsPayMethodUpdateSuccess": "All set! We’ve updated your payment info.",
+        "txtNortonImageAlt": "Norton Secured – powered by DigCert",
+        "txtpayMethodupdateSuccess": "Payment details successfully updated!",
+        "errPageLevelError": "It’s not you, it’s us. We hit a snag and can’t complete your request right now.",
+        "errNopayMethodOnFile": "Heads up! We don’t have a payment method on file for you. Take a minute to set one up now.",
+        "smsPayMethodUpdateSuccRSN": "Just a reminder - your new regional sports fee is [[rsnFee]].",
+        "title": "Update payment method",
+        "paypal": {
+          "lblRemoveModalButtonWithCC": "Use my credit or debit card",
+          "txtRemoveModalHeaderWithNoCCT": "First, add another payment method",
+          "txtRemoveModalBody": "Are you sure you want to remove this PayPal account?",
+          "txtRemoveModalContentWithNoCCT": "Once you add another way to pay, we can remove this PayPal account. Either add a credit or debit card or sign in to another PayPal account to make it your primary payment method.",
+          "txtRemoveModalContentWithCCT": "Then, we can remove this PayPal account. Either select your stored credit or debit card or sign in to another PayPal account and make it your primary payment method.",
+          "lblRemoveModalButtonWithNoCC": "Add a credit or debit card",
+          "txtRemoveModalHeaderWithCCT": "First, select another payment method",
+          "txtRemoveHeader": "Remove PayPal Account"
+        },
+        "Card": {
+          "BillingAddress": {
+            "errMinChar": "Must have a minimum of 3 characters",
+            "errFieldInvalid": "Enter a valid billing address.",
+            "title": "Billing address",
+            "phtForField": "Enter billing address",
+            "errFieldEmpty": "This field is required"
+          },
+          "CardNumber": {
+            "errFieldInvalid": "Try entering your card number again with no dashes or spaces.",
+            "title": "Card number",
+            "phtForField": "Enter up to 19 digits.",
+            "errFieldEmpty": "This field is required"
+          },
+          "CardholderName": {
+            "errMinChar": "Minimum of 3 characters",
+            "errFieldInvalid": "Be sure to enter your name the way it's shown on your card.",
+            "title": "Cardholder name",
+            "phtForField": "Enter cardholder name",
+            "errFieldEmpty": "This field is required"
+          },
+          "CVV": {
+            "txtToolTipNonAmex": "For Visa, Mastercard, Discover, JCB, and Diners Club, the 3-digit security code is on the back of the card right after the credit card number.",
+            "imgToolTipAmexURL": "/acctmgmt/assets/images/ccv2-security-amex.png",
+            "errFieldInvalid": "Try entering your security code again.",
+            "txtToolTipAmex": "For American Express, the 4-digit security code is on the front of the card.",
+            "title": "CVV",
+            "phtForField": "CVV",
+            "errFieldEmpty": "This field is required, must be [[CVV_LENGTH]] numbers",
+            "imgToolTip": "/acctmgmt/assets/images/ccv2-security.png"
+          },
+          "ZIPCode": {
+            "errFieldInvalid": "Please enter a valid zipcode",
+            "title": "ZIP Code",
+            "phtForField": "5 digits",
+            "errFieldEmpty": "This field is required"
+          },
+          "State": {
+            "title": "State",
+            "errFieldEmpty": "Select state."
+          },
+          "CardExpiry": {
+            "errMonthEmpty": "Select month card expires.",
+            "errYearEmpty": "Select year card expires.",
+            "errMonthInvalid": "Select correct month card expires.",
+            "errFieldInvalid": "Please enter the correct exp date",
+            "errYearInvalid": "Select correct year card expires.",
+            "title": "Exp Date",
+            "phtForField": "Expiry date",
+            "errDateFormat": "Expire date should be mm/yy",
+            "errFieldEmpty": "Please enter a Expire date"
+          },
+          "City": {
+            "errMinChar": "Minimum of 3 characters required",
+            "errFieldInvalid": "Only alphabetical characters allowed",
+            "title": "City",
+            "phtForField": "Enter city name",
+            "errFieldEmpty": "This field is required"
+          },
+          "imgCreditCardMobileURL": "/acctmgmt/assets/images/creditcards@2x.png"
+        },
+        "imgNortanImageURL": "/acctmgmt/assets/images/getseal.png"
+      }
+    },
+    "cardExpireInfo": {
+      "title": "cardExpireInfo",
+      "elements": {
+        "lnkUpdate": "/payment",
+        "txtCardExpired": "Heads up! Your card expired. Be sure to",
+        "txtASAP": " it as soon as possible.",
+        "ctaUpdate": "Update",
+        "txtCardExpiring": "Heads up! Your card expires on [[EXPIRE_MONTH]]/[[EXPIRE_YEAR]]. Be sure to"
+      }
+    },
+    "termDetails": {
+      "title": "termDetails",
+      "elements": {
+        "txtFirstAutoCharge": "First auto-charge",
+        "txtEarlyTerFeeInfo": "Good to know: Your Early Termination Fee is reduced each month you have service.",
+        "title": "Term details",
+        "txtLastAutoCharge": "Last auto-charge"
+      }
+    },
+    "sessionTimeout": {
+      "title": "sessionTimeout",
+      "elements": {
+        "txtKeepYouSafe": "To keep your info safe, we’ll sign you out in [[minutes]] minutes and [[seconds]] seconds.",
+        "txtStayIn": "Want to stay signed in?",
+        "title": "Are you still there?",
+        "ctaDetails": {
+          "txtSignOut": "No, sign out",
+          "txtStaySignIn": "Yes, stay signed in"
+        }
+      }
+    },
+    "autoSignInInfo": {
+      "title": "autoSignInInfo",
+      "elements": {
+        "ctaButton": "Got it",
+        "txtSignExplain": "Because the device recognizes you during initial setup, you won’t have to enter your DIRECTV STREAM user ID and password. Instead, you’ll be automatically signed in.",
+        "txtMain": "Auto sign-in makes setting up your DIRECTV STREAM Device a breeze.",
+        "stepsForDisableSign": {
+          "firstStep": "Disable the auto sign-in feature to prevent others from accessing your service. ",
+          "secondStep": "Then, reset your device to its original factory settings. Heads up: Disabling auto sign-in is a permanent change and you can’t turn it back on again later. ",
+          "txtMain": "If you stop using your device for any reason, we recommend you follow these steps:"
+        },
+        "tltDetail": "Auto sign-in explained"
+      }
+    },
+    "disableAutoSignOn": {
+      "title": "disableAutoSignOn",
+      "elements": {
+        "firstInstruction": "You won’t be able to turn it back on again later.",
+        "ctaButtonDisable": "Yes, disable now",
+        "ctaButtonCancel": "No, cancel this change",
+        "txtMain": "Here’s what you need to know before you make this change. If you disable auto sign-in:",
+        "secondInstruction": "Once the change is complete, you’ll be prompted to sign in manually with your user ID and password.",
+        "tltDetail": "Disable auto sign-in?"
+      }
+    },
+    "disableAutoSignOnFailure": {
+      "title": "disableAutoSignOnFailure",
+      "elements": {
+        "ctaButtonCancel": "Cancel",
+        "txtMain": "We’re having some trouble completing your request. Tap Retry to give it another shot.",
+        "ctaButtonRetry": "Retry",
+        "txtMainDetail": "If that doesn’t help, try signing out and signing back in again.",
+        "tltDetail": "Something went wrong"
+      }
+    },
+    "disableAutoSignOnSuccess": {
+      "title": "disableAutoSignOnSuccess",
+      "elements": {
+        "helpSupport": {
+          "lblDescription": "Get support"
+        },
+        "stepsForDisableAutoSignOnSuccess": {
+          "firstStep": "Reset the device to its original factory settings.",
+          "secondStep": "Change your DIRECTV STREAM user ID and password. This will sign you out of any apps you accessed on the device.",
+          "txtMain": "If you stop using the device for any reason, we recommend you:"
+        },
+        "txtMain": "We received your request to disable the auto sign-in feature on your DIRECTV STEAM Device",
+        "tltDetail": "Success",
+        "txtMainBold": "Important things to know"
+      }
+    },
+    "orderConfirmation": {
+      "title": "orderConfirmation",
+      "elements": {
+        "tltDialogSuccess": "We're on it!",
+        "tltDialogFailure": "It’s not you, it’s us",
+        "txtOrderShippingSuccess": "Keep an eye on your inbox. We’ll send you an email when your order ships.",
+        "ctaCloseButtonv": "Close",
+        "txtMainSuccess": "Your order number is [[confirmationNumber]]",
+        "txtMainFailure": "Something went wrong, and we couldn’t complete your order. Give it some time and try again later."
+      }
+    },
+    "cancelSubscriptionModal": {
+      "title": "cancelSubscriptionModal",
+      "elements": {
+        "ctaCancel": "Cancel now",
+        "ctaCloseGotIt": "Got it",
+        "txtCancelByCall": "If you still want to cancel, call us at 800.531.5000 (M-F 8 a.m. to midnight ET). We can help you with any device returns, fees, or refunds",
+        "tltCancelService": "Are you sure this is goodbye?",
+        "txtEarlyTerminationFee": "Pay an Early Termination Fee of $[[AMOUNT]] (plus taxes)—we’ll auto-charge your payment method on [[DATE]].",
+        "txtRemainingBalance": "Pay off the remaining balance on your device(s)—we’ll auto-charge your payment method on [[DATE]].",
+        "txtCancel": "We thought you’d like to know: If you cancel now, you’ll have to:",
+        "catchUpRecordings": {
+          "txtMainExplainCatchUpRecordings": "Plus, you may not be able to get this package back at this price. If you’re getting any promos and credits, those will also go away.",
+          "txtMainCatchUpRecordings": "Catch up on your recordings—they’re gone when your subscription ends."
+        },
+        "ctaChatToCancel": "Chat to cancel ",
+        "ctaKeepSubscription": "Keep subscription"
+      }
+    },
+    "changeShippingAddress": {
+      "title": "changeShippingAddress",
+      "elements": {
+        "zipCode": {
+          "errZipCode": "Enter a 5-digit ZIP Code.",
+          "lblZipCode": "Zip Code",
+          "phtZipCode": "Zip Code"
+        },
+        "addressDetail": {
+          "phtAddressOne": "Enter address.Can't be a PO box.",
+          "errAddress": "Enter a valid address.",
+          "lblAddressOne": "Address",
+          "phtAddressTwo": "Apt., unit, suite (optional)"
+        },
+        "ctaSaveAddressButton": "SAVE ADDRESS",
+        "ctaCancelButton": "CANCEL",
+        "State": {
+          "phtState": "State",
+          "errState": "Select a state.",
+          "lblState": "State"
+        },
+        "City": {
+          "phtCity": "City",
+          "errCity": "Enter a valid city.",
+          "lblCity": "City"
+        },
+        "tltChangeShippingAddress": "Change your shipping address"
+      }
+    },
+    "promoCodes": {
+      "title": "promoCodes",
+      "elements": {
+        "txtPromoDiscounts": "My promos & discounts",
+        "txtEndDate": "Ends [[DATE]]",
+        "txtStreamDevicesFree": "DIRECTV STREAM Device for free"
+      }
+    },
+    "reviewChangesDetailsDialog": {
+      "title": "reviewChangesDetailsDialog",
+      "elements": {
+        "swimLaneSwitchWithEDSP": {
+          "txtMain": "We’ll auto-charge your DIRECTV STREAM subscription at the rates listed, plus taxes and fees, unless you cancel. All prices are subject to change at any time. You authorize us to charge all payments to your payment method at 7 p.m. ET on your monthly auto-charge date.",
+          "txtCancelService": "To change or cancel your service, call <a href=\"tel:8005315000\">800.531.5000</a>. Or go to DIRECTV.com to manage your account or chat with an agent. Your service will renew monthly at the then-prevailing rate unless you cancel."
+        }
+      }
+    },
+    "channelLineUp": {
+      "title": "channelLineUp",
+      "elements": {
+        "mySportsBetaLnk": "https://streamtv.directv.com/channels/modal/?pkg=mysportsbeta",
+        "edsp": {
+          "withRSNTablnk": "/channel-lineup/modal/?channels=internet&tab=rsn",
+          "packageslnk": "/channel-lineup/modal/?channels=internet",
+          "withNationalChannelsTablnk": "/channel-lineup/modal/?channels=internet&tab=national"
+        },
+        "atttvNow": {
+          "packageslnk": "/accounts/stream/ATTTVNowChannels"
+        },
+        "contract": {
+          "withRSNTablnk": "/stream/channel-lineup/modal/?tab=rsn&edsp=false",
+          "packageslnk": "/stream/channel-lineup/modal/?edsp=false",
+          "withNationalChannelsTablnk": "/stream/channel-lineup/modal/?tab=national&edsp=false"
+        }
+      }
+    },
+    "sharedPackageInfo": {
+      "title": "sharedPackageInfo",
+      "elements": {
+        "catalogInfo": {
+          "BASE-PLUSWOHBO-2020": {
+            "displayName": "PLUS",
+            "header": "PLUS",
+            "description": "<ul><li>Watch live, on demand, or on your cloud-based DVR**. Also 23,000 videos are available On Demand!</li><li>Includes locals, sports, news, popular channels like ESPN, CNN, Fox News, Disney Jr., TNT, Hallmark Channel, Bravo, Viacom channels BET, Comedy Central, MTV, Nickelodeon.</li></ul>"
+          },
+          "BASE-PLUS-2018": {
+            "description": "<ul><li>Watch live, on demand, or on your cloud-based DVR**. Also 23,000 videos are available On Demand!</li><li>Includes HBO, locals, sports, news, popular channels like ESPN, CNN, Fox News, Disney Jr., TNT, Hallmark Channel, Bravo, Viacom channels BET, Comedy Central, MTV, Nickelodeon.</li><ul>"
+          },
+          "BOLT-HBO-201610": {
+            "image": "/dtvassets/sales/pcp/logos/HBO_MAX_000000.svg",
+            "displayOrder": "30",
+            "tabType": "Premium"
+          },
+          "BASE-OMG-201610": {
+            "description": "<ul><li>An outstanding package featuring popular programming channels, Regional Sports Networks, music, national sports, and entertainment networks.</li><li>Includes SundanceTV, commercial-free movie channels, and STARZ ENCORE channels.</li><ul>"
+          },
+          "BOLT-DEPORTES-201802": {
+            "displayOrder": "10",
+            "tabType": "International"
+          },
+          "BOLTNOW-SHOW-201810": {
+            "image": "/dtvassets/sales/pcp/logos/showtime.svg",
+            "displayOrder": "50",
+            "tabType": "Premium"
+          },
+          "BOLT-NBALP-201912": {
+            "image": "/dtvassets/sales/pcp/logos/NBA_000000.svg",
+            "displayOrder": "10",
+            "tabType": "Sports"
+          },
+          "BASE-TODOYMAS-201802": {
+            "description": "<ul><li>Some of the most popular Spanish-language and English-language programming channels for the whole family, with more news, entertainment, sports, and music.</li><li>Includes movies, national sports networks, and family-friendly programming.</li></ul>"
+          },
+          "BOLT-BRAZIL-201810": {
+            "displayOrder": "30",
+            "tabType": "International"
+          },
+          "BOLT-VIETNAM-201810": {
+            "displayOrder": "50",
+            "tabType": "International"
+          },
+          "HARD-GEMINILEASE-202311": {
+            "displayName": "Device lease fee"
+          },
+          "BOLT-SHOWTIME-201707": {
+            "image": "/dtvassets/sales/pcp/logos/showtime.svg",
+            "displayOrder": "50",
+            "tabType": "Premium"
+          },
+          "BOLT-MVPX-201910": {
+            "image": "/dtvassets/sales/pcp/logos/movies_extra.svg",
+            "displayOrder": "80",
+            "tabType": "Premium"
+          },
+          "STANDNOW-JUPSHO-201804": {
+            "image": "/dtvassets/sales/pcp/logos/showtime.svg",
+            "displayOrder": "50",
+            "tabType": "Premium"
+          },
+          "STANDNOW-JUPSTZ-201804": {
+            "image": "/dtvassets/sales/pcp/logos/starz.svg",
+            "displayOrder": "60",
+            "tabType": "Premium"
+          },
+          "BASE-LIVEALITTLE-201610": {
+            "displayName": "Live a Little",
+            "header": "LIVEALITTLE",
+            "description": "<ul><li>Channels for all, including news and entertainment networks, basic sports networks, and popular broadcast channels.</li><li>A perfect and affordable package for fans of casual sports, kid-friendly entertainment, news, music, and lifestyle programming.</li></ul>"
+          },
+          "PROMO-EMPEPIX-202007": {
+            "image": "/dtvassets/sales/pcp/logos/epix.svg",
+            "displayOrder": "20",
+            "tabType": "Premium"
+          },
+          "BOLTNOW-STZ-201810": {
+            "image": "/dtvassets/sales/pcp/logos/starz.svg",
+            "displayOrder": "60",
+            "tabType": "Premium"
+          },
+          "BOLT-ENESPANOL-201802": {
+            "displayOrder": "20",
+            "tabType": "International"
+          },
+          "BASE-OPTIMOMAS-122018": {
+            "image": "images/BasePackageIcons/Optimomas.png",
+            "displayName": "OPTIMO M&Aacute;S",
+            "header": "SPORTS, NEWS, MOVIES",
+            "description": "<ul><li>Some of the most popular Spanish-language and English-language programming channels for the whole family, with more news, entertainment, sports, and music.</li><li>Includes movies, national sports networks, and family-friendly programming.</li></ul>"
+          },
+          "BASE-JUSTRIGHT-201610": {
+            "displayName": "Just Right",
+            "description": "<ul><li>Variety package with a wide selection of entertainment channels for the whole household.</li><li>Includes movies, Regional Sports Networks (RSNs), national sports networks, music, and family programming.</li></ul>"
+          },
+          "PROMO-HBOSKINNY-201703": {
+            "image": "/dtvassets/sales/pcp/logos/HBO_MAX_000000.svg",
+            "displayOrder": "30",
+            "tabType": "Premium"
+          },
+          "BOLT-CINEMAX-201610": {
+            "image": "/dtvassets/sales/pcp/logos/cinemax.svg",
+            "displayOrder": "40",
+            "tabType": "Premium"
+          },
+          "BOLT-BASEPP-202309": {
+            "displayName": "DIRECTV TECH PROTECT"
+          },
+          "BOLT-EPIX-201907": {
+            "image": "/dtvassets/sales/pcp/logos/epix.svg",
+            "displayOrder": "70",
+            "tabType": "Premium"
+          },
+          "PROMO-FREEHBO-201703": {
+            "image": "/dtvassets/sales/pcp/logos/HBO_MAX_000000.svg",
+            "displayOrder": "10",
+            "tabType": "Premium"
+          },
+          "BOLT-PREMIUMPP-202309": {
+            "displayName": "DIRECTV TECH PROTECT PREMIUM"
+          },
+          "BOLT-KOREA-201812": {
+            "displayOrder": "40",
+            "tabType": "International"
+          },
+          "BASE-ULTIMATE-201811": {
+            "image": "images/BasePackageIcons/Ultimate.png",
+            "css": "blue",
+            "header": "SPORTS, NEWS, MOVIES",
+            "description": "<ul><li>An outstanding package featuring popular programming channels, Regional Sports Networks, music, national sports, and entertainment networks.</li><li>Includes SundanceTV, commercial-free movie channels, and STARZ ENCORE channels.</li></ul>"
+          },
+          "BASE-ENTERTAINMENT-201811": {
+            "image": "images/BasePackageIcons/Entertainment.png",
+            "css": "lightBlue",
+            "header": "THE ESSENTIALS",
+            "description": "<ul><li>Channels for all, including news and entertainment networks, basic sports networks, and popular broadcast channels.</li><li>A perfect and affordable package for fans of casual sports, kid-friendly entertainment, news, music, and lifestyle programming.</li></ul>"
+          },
+          "BOLTNOW-HBO-201810": {
+            "image": "/dtvassets/sales/pcp/logos/HBO_MAX_000000.svg",
+            "displayOrder": "30",
+            "tabType": "Premium"
+          },
+          "BASE-XTRA-201811": {
+            "image": "images/BasePackageIcons/Xtra.png",
+            "header": "XTRA",
+            "description": "<ul><li>Includes the best in movies, sports, music, series, documentaries, educational shows, specialty programming, and Regional Sports Networks (RSNs). </li><li>Has most of the channels from CHOICE package, plus hard-to-find favorites.</li></ul>"
+          },
+          "STANDNOW-JUPMAX-201804": {
+            "image": "/dtvassets/sales/pcp/logos/cinemax.svg",
+            "displayOrder": "40",
+            "tabType": "Premium"
+          },
+          "BOLT-CDVRINCL-201710": {
+            "longDescription": "<p>Record a little</p> <ul> <li> This week's game</li> <li>One season of a show</li> <li> The movie that's not on demand</li> </ul>",
+            "packageCategory": "Bolt-on",
+            "longDescriptionForSales": "Keep recordings for 90 days",
+            "displayName": "20 Hours of Cloud DVR",
+            "displayOrder": "0",
+            "description": "20 Hours of Cloud DVR",
+            "shortDescriptionForSales": [
+              {
+                "system": "myatt",
+                "shortDesc": "20 hours of storage"
+              },
+              {
+                "system": "OPUS",
+                "shortDesc": "Store 20 hours of recordings for 90 days"
+              }
+            ],
+            "shortDescription": "20 Hours of Cloud DVR",
+            "packageType": "Bolt-on",
+            "basicService": false,
+            "includedWithService": false,
+            "expiryDate": "12-30-9999",
+            "rateType": "Retail Price",
+            "descriptionForSales": "20 Hours  <br> 90 Days expiration##Record 20 hours||Keep recordings 90 days",
+            "displayType": "included",
+            "displayNameForSales": "20 Hours of Cloud DVR",
+            "serviceId": "BOLT-CDVRINCL-201710",
+            "retailPrice": "0",
+            "planPrice": "0",
+            "startDate": "08-06-2021",
+            "status": "Active"
+          },
+          "BASE-PREMIER-202004": {
+            "image": "images/BasePackageIcons/Premier.png",
+            "css": "darkBlue",
+            "header": "THE ONE WITH THE MOST",
+            "description": "<ul><li>A top-of-the-line entertainment package. </li><li>Includes HBO, STARZ, SHOWTIME, CINEMAX, Hallmark Movies & Mysteries, and SPORTS PACK channels.</li><li>HBO Max app at no extra cost!</li></ul>"
+          },
+          "STANDNOW-JUPHBO-201804": {
+            "image": "/dtvassets/sales/pcp/logos/HBO_MAX_000000.svg",
+            "displayOrder": "30",
+            "tabType": "Premium"
+          },
+          "BOLT-STARZ-201610": {
+            "image": "/dtvassets/sales/pcp/logos/starz.svg",
+            "displayOrder": "60",
+            "tabType": "Premium"
+          },
+          "BASE-CHOICE-201811": {
+            "image": "images/BasePackageIcons/Choice.png",
+            "css": "orange",
+            "header": "MUST-HAVE SPORTS & MORE",
+            "description": "<ul><li>Variety package with a wide selection of entertainment channels for the whole household.</li><li>Includes movies, Regional Sports Networks, national sports networks, music, and family programming.</li></ul>"
+          },
+          "BOLT-2STREAMS-201710": {
+            "longDescription": "Watch TV on any 2 devices at the same time.",
+            "packageCategory": "Bolt-on",
+            "displayName": "2 streams",
+            "displayOrder": "0",
+            "description": "Watch live TV on two devices at the same time - on the couch  on the go  anywhere.",
+            "packageType": "Bolt-on",
+            "basicService": false,
+            "includedWithService": false,
+            "rateType": "Retail Price",
+            "descriptionForSales": "Watch live TV on two devices at the same time - on the couch  on the go  anywhere.",
+            "displayType": "included",
+            "displayNameForSales": "2 streams",
+            "serviceId": "BOLT-2STREAMS-201710",
+            "retailPrice": "0",
+            "planPrice": "0",
+            "startDate": "07-07-2021",
+            "status": "Active"
+          },
+          "BASE-GOBIG-201610": {
+            "description": "<ul><li>Includes the best in movies, sports, music, series, documentaries, educational shows, specialty programming, and Regional Sports Networks (RSNs).</li><li>Has most of the channels from JUST RIGHT package, plus hard-to-find favorites.</li></ul>"
+          }
+        },
+        "ctaSwitch": "SWITCH"
+      }
+    },
+    "registrationPicker": {
+      "title": "registrationPicker",
+      "elements": {
+        "ctaCancel": "CANCEL",
+        "ctaContinue": "CONTINUE",
+        "lblSatellite": "DIRECTV satellite",
+        "txtSelectingAccount": "Tell us which account you want to create a user ID for:",
+        "txtSetUp": "By clicking continue, we will take you over to <a href='https://www.att.com' style='text-decoration: none; color: blue;'> att.com </a> so that you can create your ID.<br/> You can then use your DIRECTV account number to complete setup.",
+        "lblStream": "DIRECTV STREAM",
+        "tltRegistrationPicker": "Create Your User ID & Register Your DIRECTV Account"
+      }
+    },
+    "pageProperties": {
+      "title": "pageProperties",
+      "elements": {
+        "meta": [
+          {
+            "name": "robots",
+            "content": "INDEX, FOLLOW"
+          },
+          {
+            "name": "description",
+            "content": "Tell us which account you want to create a user ID for, DIRECTV STREAM or DIRECTV Satellite TV, and we will get started on creating your user ID and account."
+          },
+          {
+            "property": "og:site_name",
+            "content": "DIRECTV"
+          },
+          {
+            "property": "og:description",
+            "content": "Tell us which account you want to create a user ID for, DIRECTV STREAM or DIRECTV Satellite TV, and we will get started on creating your user ID and account."
+          },
+          {
+            "property": "og:image",
+            "content": "https://www.directv.com/dtvassets/logos/DIRECTV-1200x628.png"
+          },
+          {
+            "property": "og:title",
+            "content": "Create Your User ID & Register Your DIRECTV Account"
+          },
+          {
+            "property": "og:type",
+            "content": "website"
+          },
+          {
+            "property": "og:url",
+            "content": "https://www.directv.com/accounts/stream/registrationPicker"
+          },
+          {
+            "name": "twitter:description",
+            "content": "Tell us which account you want to create a user ID for, DIRECTV STREAM or DIRECTV Satellite TV, and we will get started on creating your user ID and account."
+          },
+          {
+            "name": "twitter:creator",
+            "content": "@DIRECTV"
+          },
+          {
+            "name": "twitter:image",
+            "content": "https://www.directv.com/dtvassets/logos/DIRECTV-1200x628.png"
+          },
+          {
+            "name": "twitter:site",
+            "content": "@DIRECTV"
+          },
+          {
+            "name": "twitter:title",
+            "content": "Create Your User ID & Register Your DIRECTV Account"
+          },
+          {
+            "name": "twitter:url",
+            "content": "https://www.directv.com/accounts/stream/registrationPicker"
+          },
+          {
+            "name": "twitter:card",
+            "content": "summary"
+          }
+        ],
+        "link": [
+          {
+            "hreflang": "en",
+            "rel": "alternate",
+            "href": "https://www.directv.com/accounts/stream/registrationPicker"
+          },
+          {
+            "hreflang": "es",
+            "rel": "alternate",
+            "href": "https://www.directv.com/accounts/stream/registrationPicker"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://www.directv.com/accounts/stream/registrationPicker"
+          }
+        ],
+        "disableLanguageLink": false
+      }
+    },
+    "autoSignOffAccountFailure": {
+      "title": "autoSignOffAccountFailure",
+      "elements": {
+        "txtOne": "It’s not you, it’s us. We are experiencing issues and logging you out. Please try again later.",
+        "txtFour": "It’s not you, it’s us…",
+        "ctaSignOut": "Sign out",
+        "ctaRefresh": "Refresh",
+        "txtFive": "We’re experiencing technical issues loading your account info right now. You can try to view the page again by refreshing the page, or sign out and try signing in later.",
+        "txtTwo": "This window will log you out momentarily."
+      }
+    },
+    "autoSignOffAccountFailureFR": {
+      "title": "autoSignOffAccountFailureFR",
+      "elements": {
+        "txtOne": "Oops! It looks like you've entered your AT&T credentials. Need to access an AT&T account? Visit att.com.",
+        "txtTwo": "We'll send you back to login momentarily and you can try again with your DIRECTV credentials."
+      }
+    },
+    "ffpPageVariant": {
+      "title": "ffpPageVariant",
+      "elements": {
+        "disNoFfpNoRec": "Disc_noFFP_NoServicesRecon",
+        "disFfpRec": "Disc_FFP_ServicesRecon",
+        "discFfpNoRec": "Disc_FFP_NoServicesRecon",
+        "disNoFfpRec": "Disc_noFFP_ServicesRecon",
+        "netNewFfp": "NetnewFFP"
+      }
+    },
+    "topMaintenanceBanner": {
+      "bannerTxt": "Due to scheduled maintenance, some activities like making payments or managing your package might be unavailable from Monday 9:00 PM PT to Tuesday 3:00 AM PT. We apologize for any inconvenience.",
+      "startTimeInEpochTimestamp": 1751947200000,
+      "endTimeInEpochTimestamp": 1751968800000,
+      "bannerLocation": [
+        "/overview",
+        "/billing"
+      ],
+      "billingSystem":["evg"]
+    }
+  }
+}

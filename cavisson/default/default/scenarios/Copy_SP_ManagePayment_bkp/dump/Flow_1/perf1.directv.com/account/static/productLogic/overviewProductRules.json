@@ -1,0 +1,73 @@
+{
+  "billingCard": [
+    {
+      "biller": "atttv",
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": false,
+        "paperlessInfoEligible": false,
+        "partnerInfoEligible": false
+      }
+    },
+    {
+      "biller": "enabler",
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": true
+      }
+    },
+    {
+      "biller": "stms",
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": true,
+        "lastPaymentInfoEligible": true
+      }
+    }
+  ],
+  "launchpadTiles": [
+    {
+      "biller": "stms",
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "billingHistoryEligible": true,
+        "billingPaymentSettingsEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "channelLineupEligible": false,
+        "myFreeDtvFaqEligible": false,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false,
+        "manageReceiversEligible": true,
+        "manageRemotesEligible": true,
+        "ordersAppointmentHistoryEligible": true,
+        "protectionPlanEligible": true
+      }
+    },
+    {
+      "biller": "atttv",
+      "rules": {
+        "billingHistoryEligible": false,
+        "billingPaymentSettingsEligible": false,
+        "manageReceiversEligible": false,
+        "manageRemotesEligible": false,
+        "ordersAppointmentHistoryEligible": false,
+        "protectionPlanEligible": false
+      }
+    }
+  ]
+}

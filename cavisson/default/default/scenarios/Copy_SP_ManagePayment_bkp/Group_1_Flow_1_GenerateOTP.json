@@ -1,0 +1,13 @@
+{"frCallback":{"authId":"{LoginAuthId}","callbacks":[{"type":"ChoiceCallback","output":[{"name":"prompt","value":"phone"},{"name":"choices","value":["none"]},{"name":"defaultChoice","value":0}],"input":[{"name":"IDToken1","value":0}],"_id":0},{"type":"ChoiceCallback","output":[{"name":"prompt","value":"email"},{"name":"choices","value":["none","{OTPGenerateEmail}"]},{"name":"defaultChoice","value":0}],"input":[{"name":"IDToken2","value":1}],"_id":1},{"type":"TextOutputCallback","output":[{"name":"message","value":"Choose your delivery choice"},{"name":"messageType","value":"0"}],"_id":2},{"type":"ChoiceCallback","output":[{"name":"prompt","value":"Do you want to cancel?"},{"name":"choices","value":["no","yes"]},{"name":"defaultChoice","value":0}],"input":[{"name":"IDToken4","value":0}],"_id":3}],"header":"DELIVERY_CHOICES"},"isGuidedMigration":false,"guid":null}
+
+
+
+
+
+
+
+
+
+
+
+
