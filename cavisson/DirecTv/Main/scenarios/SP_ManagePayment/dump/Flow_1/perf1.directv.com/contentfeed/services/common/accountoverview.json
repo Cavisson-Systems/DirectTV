@@ -1,0 +1,1215 @@
+{
+  "title": "accountoverview",
+  "chnldata": {},
+  "index": {
+    "disableAuxNav": false,
+    "disableGNav": false,
+    "disableLinkFarm": false,
+    "disableSkinnyGNav": false,
+    "isV2GNav": false,
+    "isV2Footer": false,
+    "isV2LinkFarm": false,
+    "disableTFN": false,
+    "disableBusinessLink": false,
+    "helpCenterInfoLabel": "Call us: ",
+    "CustomerCareNum": "8553836121",
+    "CustomerCareNumLabel": "855.383.6121",
+    "arsFee": "",
+    "disableStrikeThruPricing": false,
+    "disableCheckoutTFN": false,
+    "isBreadcrumbPostionTop": false,
+    "showPromoInCart": false,
+    "disableBBBanner": false,
+    "disableSaveCart": false,
+    "disableOfferBanner": false,
+    "isDoubleBreadcrumbNeeded": false
+  },
+  ":items": {
+    "page": {
+      "title": "page",
+      "elements": {
+        "txtUpdatePaymentInfo": "Your payment info has been updated!",
+        "title": "Account Overview | DIRECTV",
+        "txtDuoBasicBanner": "Your Disney+, Hulu bundle subscription is on the way. You’ll get an email within 7 business days with all the info you need to start streaming."
+      }
+    },
+    "txtWelcomeBack": {
+      "title": "txtWelcomeBack",
+      "elements": {
+        "lnkAtt": "/redirectToAtt?originationPoint=profile&accountNumber=",
+        "lnkOverview": "/accounts/stream/overview",
+        "txtAccountRegistration": "Account Registration",
+        "txtWelcomeBack": "Welcome back",
+        "txtSpecialCharacter1": ",",
+        "bannerIMG": "/dtvassets/account/header/services_background.png?noretina=true",
+        "txtSpecialCharacter2": "!"
+      }
+    },
+    "manageAT&TServiceRedirection": {
+      "title": "manageATTServiceRedirection",
+      "elements": {
+        "lblDescription": "Manage my AT&T services",
+        "lnkRedirect": [
+          {
+            "accountRedirect": "/accounts/stream/att-redirect"
+          },
+          {
+            "redirectFromOriginPoint": "/redirectToAtt?originationPoint=manageAttServices"
+          }
+        ]
+      }
+    },
+    "pageTabs": {
+      "title": "pageTabs",
+      "elements": {
+        "overviewTab": {
+          "lblDescription": "Overview",
+          "lnkRedirect": "/overview"
+        },
+        "billingAndPayments": {
+          "lblDescription": "Billing &amp; Payments",
+          "lnkRedirect": "/billing"
+        },
+        "profileTab": {
+          "lblDescription": "Profile",
+          "lnkRedirect": "/profile"
+        }
+      }
+    },
+    "watchTVCard": {
+      "title": "watchTVCard",
+      "elements": {
+        "ctaHBOMax": "WATCH MAX",
+        "txtCardDesc": "Stream your faves on your favorite compatible devices.",
+        "lnkHBOMax": "https://max.com",
+        "lnkWatchATTTV": "https://www.att.tv/watchnow",
+        "ctaWatchATTTVTaz": "WATCH DIRECTV",
+        "tltCard": "See what's on TV",
+        "ctaWatchATTTV": "WATCH DIRECTV",
+        "channelLink": {
+          "lnkchannelLink": "/accounts/stream/updateAddress",
+          "lblchannelLink": "Update your service address"
+        }
+      }
+    },
+    "manageDVRCard": {
+      "title": "manageDVRCard",
+      "elements": {
+        "ctaButton": "MANAGE CLOUD DVR",
+        "txtCardDesc": "Did you know you can edit and delete shows from your Cloud DVR online?",
+        "lnkButton": "https://www.att.tv/library",
+        "tltCard": "Manage my cloud DVR"
+      }
+    },
+    "orderCard": {
+      "title": "orderCard",
+      "elements": {
+        "txtOrderTooltip": "You can install your equipment once your service activates on [[SVCACTIVATIONDATE]] after [[INSTALLTIME]].",
+        "lblOrderDelivered": "Order delivered",
+        "ctaMultiOrderClose": "CLOSE",
+        "txtOrderDelivered": "Hooray! Your order arrived.",
+        "lblOrderShipped": "Order shipped",
+        "errOrderMsg": "Your orders are not available at the moment. Please check later!",
+        "txtOrderShipped": "Good news! Your order has shipped.",
+        "txtOrderReceived": "Good news! We have your order. We’ll let you know when it ships.",
+        "lblOrderActionRequired": "Action required",
+        "ctaOrderLearnInstall": "Learn how to install",
+        "tltOrder": "Orders",
+        "txtOrderInProgress": "We’re working on your order. We’ll let you know when it ships.",
+        "ctaMultiOrderButton": "SEE ORDER DETAILS",
+        "txtMultiOrderDescription": "Track your current orders.",
+        "txtOrderReceivedInHome": "Good news! We got your order.",
+        "txtOrderActionRequired": "Check your order details for more info.",
+        "lblOrderReceived": "Order received",
+        "txtOrderInstruction": "Read before installing",
+        "ctaOrderButton": "SEE ORDER DETAILS",
+        "txtAppointmentScheduledInHome": "Your delivery appointment has been scheduled for [[Date]].",
+        "lnkOrderLearnInstall": "https://www.att.com/esupport/main.html#!/directv-now/topic_gettingstarteddevice",
+        "txtMultiOrderHeader": "orders",
+        "txtOrderPartialShipped": "Part of your order has shipped.",
+        "lblOrderInProgress": "Order in progress",
+        "txtOnWayInHome": "Good news! Your expert is on the way.",
+        "txtTrackingNumber": "[[COURIER]] tracking number: <a href=[[link]] target='_blank'>[[TRACKING NUMBER]]</a>",
+        "lblConfirmationNumber": "Confirmation number",
+        "txtActionRequired": "Looks like we’re missing some info. Please call us a  800.531.5000."
+      }
+    },
+    "managePackageCard": {
+      "title": "managePackageCard",
+      "elements": {
+        "ctaButton": "MANAGE MY TV PACKAGE",
+        "lblAddonsHeader": "Add-ons",
+        "updateAddress": {
+          "changeServicetxt": "Change service address",
+          "changeAddresslink": "changeAddress",
+          "updateAddresstxt": "updateAddress"
+        },
+        "lblStreamingAddonsHeader": "Streaming services",
+        "lblpackageHeader": "Base package",
+        "lnkButton": "/packages",
+        "tltCard": "MY TV PACKAGE",
+        "channelLink": {
+          "lnkchannelLink": "https://cdn.directv.com/content/dam/dtv/gmott/html/compare-packages-account.html",
+          "lblchannelLink": "See channel lineup"
+        }
+      }
+    },
+    "manageEquipmentCard": {
+      "title": "manageEquipmentCard",
+      "elements": {
+        "manageEquipment": {
+          "ctaButton": "MANAGE",
+          "directTvDevice": "DIRECTV",
+          "txtStreamDevices": "[[STREAM DEVICES]] DIRECTV Devices.",
+          "txtOneDeviceInstallPlanDevice": "You pay monthly for 1 device.",
+          "geminiDevice": "DIRECTV",
+          "txtOneDevice": "[[STREAM DEVICES]] DIRECTV Device.",
+          "txtInstallPlanDevices": "You pay monthly for [[INSTALLPLANDEVICES]] devices.",
+          "txtForLatestAddedOneDevice": "Sweet! You recently ordered [[ORDERED DEVICES]] new streaming device",
+          "lnkButton": "/equipments",
+          "tltCardTaz": "My devices",
+          "txtForLatestAddedDevice": "Sweet! You recently ordered [[ORDERED DEVICES]] new streaming devices",
+          "tltCard": "My streaming devices"
+        },
+        "addEquipment": {
+          "ctaButton": "ADD NOW",
+          "txtCardDesc": "Watch with the DIRECTV Device to unlock more entertainment features and access your favorite apps—all in one place.",
+          "txtCardDescTaz": "Watch with the DIRECTV Device to unlock more entertainment features and access your favorite apps—all in one place.",
+          "lnkButton": "/addEquipment",
+          "tltCardTaz": "My devices",
+          "tltCard": "Add streaming devices"
+        },
+        "ctaButtonOrderHistory": "VIEW DEVICE ORDER HISTORY"
+      }
+    },
+    "subscriptionCancelledCard": {
+      "title": "subscriptionCanceledCard",
+      "elements": {
+        "ctaButton": "SEE PAST ACTIVITIES",
+        "txtCardDesc": "Your subscription was canceled on [[DATE]]. Select <b> See past activities </b> to view your charges and payments history.",
+        "txtStreamAgain": "Ready to stream again? Sign out and go to directv.com to see what’s available.",
+        "lnkButton": "/billing",
+        "tltCard": "Subscription canceled",
+        "txtChargesNPaymentHistory": "Looking for charges and payments history? You can check it for 6 months after your cancellation date."
+      }
+    },
+    "supportCard": {
+      "title": "supportCard",
+      "elements": {
+        "ctaButton": "SEE ALL DIRECTV SUPPORT",
+        "new": {
+          "linksSection": [
+            {
+              "linkId": "howtoRecordDeleteShow",
+              "isMDUApplicable": "N",
+              "lblDescription": "How do I record or delete shows on Cloud DVR?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/article/000069768"
+            },
+            {
+              "linkId": "whichDeviceToUseWithDirectvNow",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "Which devices can I use with DIRECTV?",
+              "lblDescription": "Which devices can I use with DIRECTV?",
+              "isNonMDUApplicable": "N",
+              "lnkRedirect": "/support/article/000066174"
+            },
+            {
+              "linkId": "whatsMyDirectvNowId",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "How do I find my DIRECTV ID?",
+              "lblDescription": "How do I find my DIRECTV ID?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/stream/article/000088114"
+            },
+            {
+              "linkId": "changeDirectvNowPaymentMethod",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "How can I change my DIRECTV payment method?",
+              "lblDescription": "How can I change my DIRECTV payment method?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/stream/article/000088283"
+            }
+          ],
+          "tltCard": "Tips to get started"
+        },
+        "mature": {
+          "linksSection": [
+            {
+              "linkId": "whichDeviceToUseWithDirectvNow",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "Which devices can I use with DIRECTV?",
+              "lblDescription": "Which devices can I use with DIRECTV?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/article/000066174"
+            },
+            {
+              "linkId": "howtoRecordDeleteShow",
+              "isMDUApplicable": "N",
+              "lblDescription": "How do I record or delete shows on Cloud DVR?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/article/000069768"
+            },
+            {
+              "linkId": "whatsMyDirectvNowId",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "How do I find my DIRECTV ID?",
+              "lblDescription": "How do I find my DIRECTV ID?",
+              "isNonMDUApplicable": "N",
+              "lnkRedirect": "/support/stream/article/000088114"
+            },
+            {
+              "linkId": "howToBookmarkChannels",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "How do I bookmark my favorite DIRECTV channels?",
+              "lblDescription": "How do I bookmark my favorite DIRECTV channels?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/article/000081400"
+            }
+          ],
+          "tltCard": "Get support"
+        },
+        "lnkButton": "/support/stream/",
+        "helpDeskInfoLabel": "For support call",
+        "pendingGoodbye": {
+          "linksSection": [
+            {
+              "linkId": "howToReactivateDirectvNow",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "How do I reactivate my DIRECTV account?",
+              "lblDescription": "How do I reactivate my DIRECTV account?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/stream/article/KM1254070"
+            },
+            {
+              "linkId": "creditOnCancellingDirectvNow",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "Will I get a credit if I cancel DIRECTV?",
+              "lblDescription": "Will I get a credit if I cancel DIRECTV?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/stream/article/KM1254070"
+            },
+            {
+              "linkId": "stopDirectvNowCancellation",
+              "isMDUApplicable": "Y",
+              "lblDescriptionTaz": "Can I stop my DIRECTV cancellation if I change my mind?",
+              "lblDescription": "Can I stop my DIRECTV cancellation if I change my mind?",
+              "isNonMDUApplicable": "Y",
+              "lnkRedirect": "/support/stream/article/KM1254070"
+            }
+          ],
+          "tltCard": "Before you go"
+        },
+        "mduCustomerCareNumForComp": "<a href=\"tel:8883427288\" >888.342.7288</a>",
+        "mduCustomerCareNumForTenant": "<a href=\"tel:8662588766\" >866.258.8766</a>"
+      }
+    },
+    "billingCard": {
+      "title": "billingCard",
+      "elements": {
+        "txtAccountGracePeriodCardMsg": "We are unable to process your payment. Please update payment method on your profile today to avoid disconnection of your DIRECTV service on [[DISCONNECT_DATE]].",
+        "txtMissingPaymentInfo": "Some of your payment details are missing. Please update your info and try again ",
+        "txtcardExpired": "Your card has expired. ",
+        "tltCard": "Total balance",
+        "txtAccountSuspendedCardMsg": "Please update your payment method to avoid service interruption.",
+        "ctaAccountGracePeriodUpdateCardMsg": "<br>Update payment method",
+        "ctaSeeChargesNpayments": "SEE BILLING AND PAYMENTS",
+        "rokuPaymentFailureMessage": "We were unable to process your payment. Please visit your account on <a href=\\http://www.roku.com/\\ target=\"_blank\">Roku.com</a> to update your payment info.",
+        "amazonPaymentFailureMessage": "We were unable to process your payment. Please visit your account on <a href=[[LINK]] target=\"_blank\">Amazon.com</a> to update your payment info.",
+        "ctaButtonPastActivity": "SEE PAST ACTIVITY",
+        "ctaSeeDetails": "Update payment info",
+        "ctaUpdate": "Update",
+        "txtPausedStateMessage": "You’ll be auto-charged this amount on [[RESUME_DATE]] or when you resume your service.",
+        "lnkChargesNpayments": "/billing",
+        "chargesTltCard": "Upcoming charges",
+        "ctaUpdatePayment": "Update payment info ",
+        "txtcardAboutToExpire": "Your card will expire soon. ",
+        "txtcomma": ",",
+        "updatepaymentmethod": {
+          "googlePlayPaymentFailureMessage": "We were unable to process your payment. Please visit your account on <a href=\\\\https://play.google.com//\\\\ target=\\\"_blank\\\">play.google.com</a> to update your payment info."
+        },
+        "txtMultiBillErrorMsg": "We hit a snag and can’t show your billing info. Select <b>See charges and payments </b> to view your upcoming charges.",
+        "txtAccountGracePeriodCardMsgLossOfAccess": "We are unable to process your payment. Please update your payment method today to avoid loss of access to your DIRECTV service on [[DISCONNECT_DATE]].",
+        "txtpaypalPaymentIssue": "We were unable to process your PayPal payment.",
+        "txtpaymentFailed": "Payment didn’t go through.",
+        "txtUnableToProcessPayment": "We were unable to process your payment. Please update your payment method. If updated just now, wait 15 minutes, select 'Refresh status' on your TV—and enjoy the show! ",
+        "ctaAccountSuspendedUpdateCardMsg": "Update payment method",
+        "balanceZeroMsg": "Great news! You do not have any upcoming charges. Your package is included at no cost to you.",
+        "txtAutoChargeson": "Autopay scheduled for"
+      }
+    },
+    "remainingServiceCard": {
+      "title": "remainingServicesCard",
+      "elements": {
+        "ctaButton": "RESTART SUBSCRIPTION",
+        "txtCardDesc": "You’ve still got service until [[CANCELLATION_DATE]]",
+        "txtComp": "We are sorry to see you go! Your subscription is canceled. You have full access until [[CANCELLATION_DATE]]. To restart your subscription, call 888-342-7288. We hope you come back soon.",
+        "txtTenant": "We are sorry to see you go! Your subscription is canceled. You have full access until [[CANCELLATION_DATE]]. To restart your subscription, call 866-258-8766. We hope you come back soon.",
+        "tltCard": "Subscription canceled",
+        "txtDVRMsg": "Don’t forget to catch up on your Cloud DVR recordings! They’re gone when your subscription ends."
+      }
+    },
+    "snapshotDetails": {
+      "title": "snapshotDetails",
+      "elements": {
+        "ACTIVE": {
+          "snapshotDetails": [
+            {
+              "cardName": "billingCard",
+              "displayOrder": "0",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "managePackageCard",
+              "displayOrder": "1",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "orderCard",
+              "displayOrder": "2",
+              "applicable": [
+                "BBTV",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "manageEquipmentCard",
+              "displayOrder": "3",
+              "applicable": [
+                "BBTV",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "watchTVCard",
+              "displayOrder": "4",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "supportCard",
+              "displayOrder": "6",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "manageDVRCard",
+              "displayOrder": "7",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            }
+          ]
+        },
+        "goodBye": {
+          "snapshotDetails": [
+            {
+              "cardName": "subscriptionCancelledCard",
+              "displayOrder": "0",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            }
+          ]
+        },
+        "pendingGoodbye": {
+          "snapshotDetails": [
+            {
+              "cardName": "billingCard",
+              "displayOrder": "0",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "managePackageCard",
+              "displayOrder": "1",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "remainingServiceCard",
+              "displayOrder": "2",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "orderCard",
+              "displayOrder": "3",
+              "applicable": [
+                "BBTV",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "manageEquipmentCard",
+              "displayOrder": "4",
+              "applicable": [
+                "BBTV",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "watchTVCard",
+              "displayOrder": "5",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "supportCard",
+              "displayOrder": "7",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            },
+            {
+              "cardName": "manageDVRCard",
+              "displayOrder": "8",
+              "applicable": [
+                "BBTV",
+                "BYOD",
+                "EDSP"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "reconnectServicesCard": {
+      "title": "reconnectServicesCard",
+      "elements": {
+        "ctaButton": "SHOP PACKAGES",
+        "seePastActivityLinkDesc": "See past activities ",
+        "reconnectByodCms": {
+          "labelTxtExp": "Exp. Date MM/YY",
+          "txtCollapse": "Collapse",
+          "imagePathVisa": "/dtvassets/sales/atttv/logos/visa.svg",
+          "useDifferentCardLink": "use a different card",
+          "labelTxtZip": "Zip code",
+          "promotionDuration": "(for [[couponDuration]] mos.)",
+          "txtDueTotal": "Due monthly",
+          "txtTerms&Conditions": "See terms & conditions",
+          "txtPlaceOrderBtn": "Complete order",
+          "couponRemoveBtn": "Remove",
+          "txtErrMessageExp": "Expiry date is not valid",
+          "type": "use a different card",
+          "txtErrMessageAddress2": "Address is required and should match the format",
+          "txtErrMessageZip": "ZIP code is not valid",
+          "txtErrMessageAddress3": "Apartment should match the format",
+          "promotionHeading": "Promotions",
+          "txtErrMessageAddress1": "Address is required",
+          "imagePathDiscover": "/dtvassets/sales/atttv/logos/discover.svg",
+          "couponLabel": "Enter promo code (optional)",
+          "couponApplyBtn": "Apply",
+          "couponApplyInfoIcon": "Please enter one coupon code at a time",
+          "txtRestartBtn": "Restart my service",
+          "txtOfferDetails": "Offer details",
+          "genericErrMessage": "Service cannot be processed at this time. Please try again later.",
+          "txtSeeAll": "See all",
+          "txtPaymentHeader": "Payment info",
+          "labelTxtOptionalAddress": "Apartment, suite, etc (optional)",
+          "txtCancelBtn": "Cancel",
+          "labelTxtAddress": "Address",
+          "txtErrMessageCardNumber2": "Card number is required",
+          "txtSpecialOffersHeader": "Special offers",
+          "txtErrMessageCardNumber1": "Card number is not valid",
+          "txtUpdateAddress": "Update address",
+          "txtMo": "/mo.",
+          "labelTxtCardNumber": "Card number",
+          "couponRemoveLoaderMsg": "deleting your coupon",
+          "txtMonthlyCharges": "Monthly estimated fees and taxes",
+          "txtPaymentModalHeader": "Make any changes needed",
+          "successMessage": "Welcome back! You successfully restarted your service.",
+          "txtEditAddressLink": "Edit my address",
+          "txtSaveBtn": "Save",
+          "txtCardExpiryError": "Unfortunately, the payment info we have on file for you has expired so please enter a current card.",
+          "txtOtherOptionsBody": "See what other great options we have for you.",
+          "txtCouponErrorCode": {
+            "COUPON_INVALID_ERROR": "Coupon does not exist.",
+            "SYSTEM_ERROR": "System Error.",
+            "COUPON_REDEEMED_ERROR": "Coupon no longer available for redemption.",
+            "COUPON_ACCOUNT_INELGIBLE_ERROR": "Account is not eligible for the coupon.",
+            "COUPON_EXPIRED_ERROR": "Coupon has Expired.",
+            "COUPON_NOTACTIVE_ERROR": "This coupon code is not yet active.",
+            "COUPON_INELGIBLE_ERROR": "Coupon is not valid for the cart items provided in the request."
+          },
+          "txtHeader2": "Ready to pick up where you left off?",
+          "txtHeader1": "We want you back!",
+          "promoAppliedMsg": "Applied",
+          "ccDeclined": "Looks like your current credit card isn’t working. No worries—just enter a different card’s info to restart your service.",
+          "txtAddressLinkHeader": "Is everything correct? To make changes, use the “Edit my address” link below.",
+          "labelTxtFname": "First name",
+          "channelLineUpLink": "https://www.directv.com/channel-lineup/modal",
+          "txtAddons": "Add ons",
+          "txtGoBackBtn": "Go back",
+          "txtBasePackage": "Base package",
+          "labelCardDiscover": "Discover",
+          "txtTC": "Terms & Conditions",
+          "labelTxtCvv": "CVV code",
+          "couponApplyLoaderMsg": "One moment while we apply your coupon...",
+          "txtSeeSpecialOffers": "See details",
+          "txtEditPaymentLink": "Edit my card info or use a new card",
+          "txtErrMessageCvv": "CVV is required",
+          "txtCardExpired": "Unfortunately, the payment info we have on file for you has expired so please enter a current card.",
+          "txtTax1": "tax",
+          "txtPaymentLinkHeader": "Just enter your CVV code if the card number and expiration date is accurate. Want to use a new card? Select “Edit my card info” below.",
+          "labelTxtStateName": "State",
+          "txtSelectAll": "Select All",
+          "txtBasePackageHeader": "You had this TV Package",
+          "txtAddOnsHeader": "You had these add-ons",
+          "txtTax": "Taxes",
+          "txtMakeChanges": "Make any changes needed. Note your address should be the address for your method of payment.",
+          "txtCloseBtn": "Close",
+          "txtShopNowLink": "Explore options",
+          "labelTxtCityName": "City",
+          "labelCardVisa": "Visa",
+          "txtPaymentAddressHeader": "You're almost there",
+          "txtOtherOptionsHeader": "Looking for something new?",
+          "labelTxtLname": "Last name",
+          "imagePathAmex": "/dtvassets/sales/atttv/logos/amex.svg",
+          "txtTaxesFooter": "* Taxes are estimates. Prices subject to change based on promotional offer and package updates.",
+          "imagePathMasterCard": "/dtvassets/sales/atttv/logos/mastercard.svg",
+          "labelCardAmex": "American Express",
+          "txtErrMessageFname2": "First name is required",
+          "txtUpdatePayment": "Update payment info",
+          "txtErrMessageFname1": "Enter a valid first name. Single space, apostrophe, or hyphen allowed.",
+          "txtCancelledSubscription1": "Your stream service was canceled on [[DATE]]. Restarting is quick and easy.",
+          "txtErrMessageCity2": "City is required",
+          "txtErrMessageState2": "State is required",
+          "txtErrMessageCity1": "City is not valid.",
+          "txtErrMessageState1": "State is not valid.",
+          "txtErrMessageLname1": "Enter a valid last name. Single space, apostrophe, or hyphen allowed.",
+          "txtErrMessageLname2": "Last name is required",
+          "txtDueToday": "Due today",
+          "labelCardMasterCard": "Master Card",
+          "txtOrderSummaryHeader": "Order summary"
+        },
+        "tltCard": "RESTART SERVICE",
+        "txtCancelledSubscription1": "Your service was canceled on [[DATE]]. ",
+        "roadRunnerReconnectTerms": {
+          "submitOrderTnC": "submitOrderTnC",
+          "genericTnc": "offerWtRRLease",
+          "autopayTnc": "autopayTermsOfService",
+          "dtvLeaseAgreement": "dtvLeaseAgreement",
+          "nbaTnc": "nbaOfferText",
+          "packageFtTnc":"packageTermsWithFreeTrial",
+          "packageTermsTnc": "Package Terms",
+          "genericTextTnc":"genericTnC",
+          "noOfOrders": "1"
+        },
+        "txtCardDesc": "No problem. You can choose the package you want and start watching today!",
+        "roadRunnerReconnectSalesUrl": "/reconnect/stream",
+        "txtCardDescTaz": "<b>Want to restart your service?</b>",
+        "txtCancelledSubscription2": "to view your charges and payment history.",
+        "lnkButton": "https://tst3.directv.com/stream/reconnect/",
+        "roadrunnerReconectModal": {
+          "tellMeButtonLink": "/addEquipment",
+          "modalDesc": "Want the very best? Add Gemini Air for just $10 a month. Plug and play. Seamlessly switch between live, On Demand, and streaming. Universal voice remote powered by Google. Up to 4K ultra HD, Bluetooth, and Dolby surround sound. Access thousands of apps.",
+          "modalTitle": "We’re excited to have you back!",
+          "noThanksBtn": "No Thanks",
+          "modalImg": "/dtvassets/global/gemini/GeminiAir_Remote.png",
+          "wantReconnectDevice": "Do you want to connect with a new device?",
+          "tellMeMoreBtn": "Tell me more",
+          "goButton": "Go"
+        },
+        "txtCardDescHighlight": "Want to restart your service?"
+      }
+    },
+    "eddReporting": {
+      "title": "eddReporting",
+      "elements": {
+        "pageLoad": {
+          "pageId": {
+            "lblPendantBanner": "Want our best TV experience at no cost? You've been selected for an exclusive trial offer with our new Gemini Air streaming device. Participation is limited, so sign up today!",
+            "lblAccountOverview": "accountOverview",
+            "lblStreamTv": "streamTv",
+            "lblManageDvr": "manageDvr",
+            "lblManagePackage": "managePackage",
+            "lblSupportCard": "supportCard",
+            "lblPendantBannerLink": "sign up today! "
+          }
+        },
+        "linkClick": {
+          "linkId": {
+            "lblAddmoreChannel": "addMoreChannels",
+            "lblCancelPaymentModal": "cancelPaymentInfoModal",
+            "lblStartWatching": "startWatching",
+            "lblClosePaymentModal": "closePaymentInfoModal",
+            "lblWatchAtt": "watchAttTv",
+            "lblmanageCloudDvrStms": "manageCloudDvrStms",
+            "lblmanageDVR": "manageCloudDvr",
+            "lblOpenPaymentModal": "update_openPaymentInfoModal"
+          }
+        }
+      }
+    },
+    "deactivatedAccountCard": {
+      "title": "deactivatedAccountCard",
+      "elements": {
+        "txtCardDesc": "Your DIRECTV account is currently deactivated. If you would like to resume your service, please call us at 800.531.5000",
+        "tltCard": "ACCOUNT DEACTIVATED"
+      }
+    },
+    "pageAlerts": {
+      "title": "pageAlerts",
+      "elements": {
+        "txtSuccessMessage": "Your payment info has been updated!",
+        "errSnagMsg": "Something went wrong. Please try again..",
+        "txtSignUpLink": "sign up today!",
+        "txtLess": " Less",
+        "rebateCampaignList": "SPORT-NFL,SPORT-COVID,TENFT_DEV,SEL_TO_ENT,STREAM_GIFT,ASTREAM_STAKE,MGM_STREAM1,MGM_STREAM2,FIRST_LAUNCH,LAS_VEGAS,ASTREAM_STAKE2,ALLSTAR_SSTAKE,ALLSTAR_SSTAKE2,NFL_CREDIT",
+        "specialMessagesForCustomer": {
+          "ALLSTAR_SSTAKE2": {
+            "showRemoveIcon": "true",
+            "id": "allstar_stream_stake2",
+            "message": "<span style=\"margin: 0\"><strong>Paramount+ with SHOWTIME has it all!</strong> Stream hit series like Halo and so much more with access to the Paramount+ app at no additional charge. <a href=\"https://www.directv.com/accounts/stream/packages?tabValue=premiums&utm_source=DTV+Internal&utm_medium=AO+Banner&utm_campaign=Showtime&utm_content=AddNow2CTA\" aria-label=\"AO-Banner\" target=\"_self\">Add now</a></span>",
+            "genericId": "rebate-banner"
+          },
+          "SPORT-NFL": {
+            "showRemoveIcon": "true",
+            "id": "sport-nfl",
+            "message": "<span style=\"margin: 0;\"><strong>You just scored NFL SUNDAY TICKET MAX on us!</strong> It’s your gift for being a loyal customer—and there’s nothing to do. Just lace up and get ready for the start of the NFL season that kicks off September 11, 2022!</span>",
+            "genericId": "rebate-banner"
+          },
+          "MGM_STREAM1": {
+            "showRemoveIcon": "true",
+            "id": "mgm_stream1",
+            "message": "<span style='margin: 0'><strong>Win DIRECTV for life!</strong> Enter now through 3/31—all part of DIRECTV PERKS. No purchase necessary. <strong><a href=\" https://perks.directv.com/?utm_source=Internet&utm_medium=AOBanner&utm_campaign=DIRECTVPERKS\" aria-label=\"AO-Banner\" target=\"_blank\">ENTER NOW</a></strong></span>",
+            "genericId": "rebate-banner"
+          },
+          "TENFT_DEV": {
+            "showRemoveIcon": "true",
+            "id": "tenft_dev",
+            "message": "<span style='margin: 0'><strong>Elevate your Entertainment!</strong> This summer sit back and enjoy non-stop sports coverage from MBL Network and Tennis Channel and keep the kids engaged with Nick Jr and Nicktoons and so much more when you upgrade to the DIRECTV® CHOICE package. <a href=\"https://www.directv.com/accounts/stream/packages?utm_source=DTV+Internal&utm_medium=AO+Banner&utm_campaign=BasePackageUpgrade+June+2023&utm_id=CTA&utm_term=Upgrade+Now\" aria-label=\"AO-Banner\" target=\"_self\">UPGRADE NOW</a>.</span>",
+            "genericId": "rebate-banner"
+          },
+          "SEL_TO_ENT": {
+            "showRemoveIcon": "true",
+            "id": "sel_to_ent",
+            "message": "<span style='margin: 0'><strong>Elevate your Entertainment!</strong> This summer sit back and enjoy top movies and shows from The Movie Channel, FX Movie, STARZ Encore, Magnolia Network, Smithsonian Channel and so much more when you upgrade to the DIRECTV® ULTIMATE package. <a href=\"https://www.directv.com/accounts/stream/packages?utm_source=DTV+Internal&utm_medium=AO+Banner&utm_campaign=BasePackageUpgrade+June+2023&utm_id=Choice+to+Ultimate&utm_term=Upgrade+Now\" aria-label=\"AO-Banner\" target=\"_self\">UPGRADE NOW</a>.</span>",
+            "genericId": "rebate-banner"
+          },
+          "MGM_STREAM2": {
+            "showRemoveIcon": "true",
+            "id": "mgm_stream2",
+            "message": "<span style='margin: 0'><strong>Win DIRECTV for life!</strong> DIRECTV PERKS members can enter to win a lifetime of sports, premium add-ons, and more! No purchase necessary. <strong><a href=\" https://perks.directv.com/?utm_source=Internet&utm_medium=AOBanner&utm_campaign=DIRECTVPERKS\" aria-label=\"AO-Banner\" target=\"_blank\">ENTER NOW</a></strong></span>",
+            "genericId": "rebate-banner"
+          },
+          "SPORT-COVID": {
+            "showRemoveIcon": "false",
+            "id": "sport-covid",
+            "message": "Due to COVID-19 sports interruptions, DIRECTV has received rebates from sports networks. We are passing those rebates on to our customers. Look for a one-time credit adjustment in the next 1-2 bill cycles.",
+            "genericId": "rebate-banner"
+          },
+          "ALLSTAR_SSTAKE": {
+            "showRemoveIcon": "true",
+            "id": "allstar_stream_stake",
+            "message": "<span style=\"margin: 0\"><strong>Paramount+ with SHOWTIME has it all!</strong> Originals, movies, series—plus access to the Paramount+ app at no additional charge! <a href=\"https://www.directv.com/accounts/stream/packages?tabValue=premiums&utm_source=DTV+Internal&utm_medium=AO+Banner&utm_campaign=Showtime&utm_content=AddNow1CTA\" aria-label=\"AO-Banner\" target=\"_self\">Add now</a></span>",
+            "genericId": "rebate-banner"
+          },
+          "LAS_VEGAS": {
+            "showRemoveIcon": "true",
+            "message": "<span style='margin: 0'><strong>Calling all college basketball fans!</strong> Win an ultimate flyaway for 4 to Las Vegas during the March tournament!<strong> Includes travel, hotel, and more from March 16-19.</strong> Ten extra winners will receive food delivery gift cards. <strong>No purchase necessary.</strong> <strong><a href=\"https://sweepstakes.directv.com/vegastourney?utm_source=DIRECTVSTREAM&utm_medium=AOBanner\" aria-label=\\\"AO-Banner\\\" target=\\\"_blank\\\">ENTER NOW</a></strong>.</span>"
+          },
+          "ASTREAM_STAKE2": {
+            "showRemoveIcon": "true",
+            "id": "astream_stake2",
+            "message": "<span style='margin: 0'>You're invited! Join our new loyalty program, DIRECTV PERKS to enjoy giveaways, discounts and more! <strong><a href=\"https://perks.directv.com?utm_source=Internet&utm_medium=AOBanner&utm_campaign=DIRECTVPERKS\" aria-label=\\\"AO-Banner\\\" target=\\\"_blank\\\">JOIN NOW</a></strong></span>",
+            "genericId": "rebate-banner"
+          },
+          "STREAM_GIFT": {
+            "showRemoveIcon": "true",
+            "id": "stream_gift",
+            "message": "<span style='margin: 0'>Learn how to <strong>score up to $500 in eGift cards per year</strong> by referring your friends to DIRECTV! Redemption Req'd. Restr’s apply. <strong><a href=\"https://referafriend.directv.com/?utm_medium=AOBanner2_source=Internet&utm\" aria-label=\\\"AO-Banner\\\" target=\\\"_blank\\\">LET’S GO</a></strong></span>",
+            "genericId": "rebate-banner"
+          },
+          "ASTREAM_STAKE": {
+            "showRemoveIcon": "true",
+            "id": "astream_stake",
+            "message": "<span style='margin: 0'>Ready for rewards? Join DIRECTV PERKS, our new loyalty program. Score big—just for \tbeing the loyal TV lover you already are! <strong><a href=\"https://perks.directv.com?utm_source=Internet&utm_medium=AOBanner&utm_campaign=DIRECTVPERKS\" aria-label=\\\"AO-Banner\\\" target=\\\"_blank\\\">LEARN MORE</a></strong></span>",
+            "genericId": "rebate-banner"
+          },
+          "FIRST_LAUNCH": {
+            "showRemoveIcon": "true",
+            "message": "<span style='margin: 0'>We've recently launched a new channel called <strong>The First</strong> that features several of the most influential conservative commentators in media today. It's already live and available to you at no extra charge on <strong>Ch. 349</strong>.</span>"
+          }
+        },
+        "txtMore": "...More",
+        "txtGeminiUserMessage": "Want our best TV experience at no cost? You've been selected for an exclusive trial offer with our new Gemini Air streaming device. Participation is limited, so"
+      }
+    },
+    "myPaymentInfo": {
+      "title": "myPaymentInfo",
+      "elements": {
+        "updatepaymentMethod": {
+          "txtcardExpiresSoon": "Expires soon on [[cardExpiryDate]]",
+          "txtpayMethodupdateSuccess": "Your payment method is updated. Now, continue to watch your favorite shows, sports, and news.",
+          "errPageLevelError": "It’s not you, it’s us. We hit a snag and can’t complete your request right now.",
+          "txtcardExpired": "Expired [[cardExpiryDate]]",
+          "errNopayMethodOnFile": "No payment method on file.",
+          "title": "Update payment method",
+          "txtcardExpiry": "Expires [[cardExpiryDate]]",
+          "ctaAdd": "ADD",
+          "imgNortanImageURL": "/acctmgmt/assets/images/getseal.png",
+          "smsPayMethodUpdateSuccess": "All set! We’ve updated your payment info.",
+          "smsRemovePayPalSuccess": "All set!  You removed PayPal as a payment method.",
+          "txtTermsAndConditionTil": "Your suspension and your DIRECTV TECH PROTECT enrollment",
+          "errRemovePayPalFailure": "It’s not you, it’s us.  We hit a snag and can’t remove your PayPal account right now. Give it some time and try again.",
+          "lnkGoToRoku": "https://my.roku.com",
+          "ctaChange": "CHANGE",
+          "txtTermsAndCondition": " I understand that my DIRECTV TECH PROTECT plan was canceled when my service was suspended. With resumption of my DIRECTV service, I agree to be enrolled in a new DIRECTV TECH PROTECT plan. I understand that there will be a new 30-day waiting period to make claims for breakdown or damage on my new plan. Please agree to the <a href=\"https://www.directv.com/legal/techprotecttermsandconditions/\" target=\"_blank\">terms and conditions.</a>.",
+          "lnkGoToGooglePlay": "https://play.google.com",
+          "errPaypalDefaultMsg": "It’s not you. It’s us. We hit a snag and can’t complete your request right now. Please try again. If that doesn’t work, try signing out and signing back in again.",
+          "expiredMessage": "To avoid any service interruptions, we’ll charge your updated payment method for the outstanding balance.",
+          "paypal": {
+            "txtRemoveModalHeaderWithNoCCT": "First, add another payment method",
+            "ctaOK": "YES, REMOVE PAYPAL",
+            "txtRemoveModalContentWithNoCCT": "Once you add another way to pay, we can remove this PayPal account. Either add a credit or debit card or sign in to another PayPal account to make it your primary payment method.",
+            "txtRemoveModalContentWithCCT": "Then, we can remove this PayPal account. Either select your stored credit or debit card or sign in to another PayPal account and make it your primary payment method.",
+            "txtRemoveModalHeaderWithCCT": "First, select another payment method",
+            "txtRemoveHeader": "Remove PayPal Account",
+            "lblRemoveModalButtonWithCC": "Use my credit or debit card",
+            "txtRemoveModalBody": "Are you sure you want to remove this PayPal account?",
+            "ctaLefttBtnTXT": "Pay with PayPal",
+            "ctaUpdate": "Update info at PayPal",
+            "txtComeBack": "You’ll come back here to finish the update.",
+            "lblRemoveModalButtonWithNoCC": "Add a credit or debit card",
+            "txtUpdate": "Let’s go to <b>PayPal </b> to make it your primary payment method.",
+            "ctaRemove": "Remove PayPal",
+            "ctaRightBtnTXT": "Use my credit or debit card"
+          },
+          "txtNortonImageAlt": "Norton Secured Powered by Digicert",
+          "ctaGoToGooglePlay": "GO TO GOOGLE PLAY",
+          "errCardDefaultMsg": "It’s not you, it’s us. We hit a snag and can’t complete your request right now. Give it some time and try again later.",
+          "smsPayMethodUpdateSuccRSN": "Just a reminder - your new regional sports fee is [[rsnFee]].",
+          "Card": {
+            "CardNumber": {
+              "errFieldInvalid": "Try entering your card number again with no dashes or spaces.",
+              "title": "Card #",
+              "phtForField": "Enter up to 19 digits.",
+              "errFieldEmpty": "This field is required"
+            },
+            "CVV": {
+              "txtToolTipNonAmex": "For Visa, Mastercard, Discover, JCB, and Diners Club, the 3-digit security code is on the back of the card right after the credit card number.",
+              "imgToolTipAmexURL": "/acctmgmt/assets/images/ccv2-security-amex.png",
+              "CvvTooltip": {
+                "imgToolTipNonAmexURL": "/accounts/stream/logos/ccv2-security.png",
+                "imgToolTipAmexURL": "/accounts/stream/logos/ccv2-security-amex.png",
+                "amexCard": "American Express (Front)",
+                "NonAmexCards": "VISA, Discover, Mastercard & JCB (Back)",
+                "title": "Find your CCV Security Code"
+              },
+              "errFieldInvalid": "Try entering your security code again.",
+              "txtToolTipAmex": "For American Express, the 4-digit security code is on the front of the card.",
+              "title": "CVV",
+              "phtForField": "CVV",
+              "errFieldEmpty": "This field is required, must be [[CVV_LENGTH]] numbers",
+              "imgToolTip": "/acctmgmt/assets/images/ccv2-security.png"
+            },
+            "ZIPCode": {
+              "errFieldInvalid": "Please enter a valid zipcode",
+              "title": "ZIP Code",
+              "phtForField": "5 digits",
+              "errFieldEmpty": "This field is required"
+            },
+            "txtDifferentCardAccepted": "We accept Visa, Mastercard, American Express, Discover, Diners Club, and JCB cards.",
+            "txtCardAccepted": "Accepted cards:",
+            "CardExpiry": {
+              "errMonthEmpty": "Select month card expires.",
+              "errYearEmpty": "Select year card expires.",
+              "errMonthInvalid": "Select correct month card expires.",
+              "errFieldInvalid": "Please enter the correct exp date",
+              "errYearInvalid": "Select correct year card expires.",
+              "title": "Exp Date",
+              "errDateFormat": "Expire date should be mm/yy",
+              "errFieldEmpty": "Please enter a Expire date"
+            },
+            "City": {
+              "errMinChar": "Minimum of 3 characters required",
+              "errFieldInvalid": "Only alphabetical characters allowed",
+              "title": "City",
+              "phtForField": "Enter city name",
+              "errFieldEmpty": "This field is required"
+            },
+            "imgCreditCardMobileURL": "/acctmgmt/assets/images/creditcards@2x.png",
+            "ctaCancel": "CANCEL",
+            "BillingAddress": {
+              "errMinChar": "Must have a minimum of 3 characters",
+              "errFieldInvalid": "Enter a valid billing address.",
+              "title": "Billing Address",
+              "phtForField": "Enter billing address",
+              "errFieldEmpty": "This field is required"
+            },
+            "CardholderName": {
+              "errMinChar": "Minimum of 3 characters",
+              "errFieldInvalid": "Be sure to enter your name the way it's shown on your card.",
+              "title": "Name on card",
+              "phtForField": "Enter cardholder name",
+              "errFieldEmpty": "This field is required"
+            },
+            "ctaSubmit": "SUBMIT",
+            "ctaSave": "SAVE",
+            "State": {
+              "title": "State",
+              "errFieldEmpty": "Select state."
+            }
+          },
+          "rokuPaymentMethod": "Roku processes your subscription billing. To make a payment go to my.Roku.com.",
+          "amazonPaymentMethod": "Amazon processes your subscription billing. You may update your payment info at Amazon.",
+          "ctaGoToAmazon": "GO TO AMAZON",
+          "lnkGoToAmazon": "https://pay.amazon.com/jr/your-account/ba/B01-0466497-1172590",
+          "ctaGoToRoku": "GO TO ROKU",
+          "googlePlayPaymentMethod": "Google Play processes your subscription billing. To make a payment go to play.google.com.",
+          "txtMakeItPrimaryPayMethod": "Make <b> PayPal </b> my primary payment method.",
+          "txtAutoPmtMsgCard": "Visa Card Ending in[[cardNumberDigits]]"
+        },
+        "title": "My Payment Info"
+      }
+    },
+    "managePauseSubscription": {
+      "title": "manageSubscription",
+      "elements": {
+        "removeSubscriptionPause": {
+          "modalContent": "If you cancel your subscription pause request before the pause start date, your subscription will continue to auto-charge on [[NEXT_BILLING_DATE]]. We’ll charge [[NEXT_BILLING_AMOUNT]] to MasterCard ending in [[CARD_LAST_DIGITS]].",
+          "removeSubscriptiom": "REMOVE MY SERVICE PAUSE",
+          "discalimer": "Yes, I understand that after my pause service period is complete, my billing and services will automatically restart. At any time, during the pause period, I can unpause my service.",
+          "resumeSubscriptionContent2": "<li>Your account will auto-charge [[NEXT_BILLING_AMOUNT]] to your [[CARD_TYPE]] ending in [[CARD_LAST_DIGITS]] on [[TODAY_DATE]]. Once your payment is successfully processed, your service will resume. Your new billing date will be the [[day]]<small>[[ordinalPostFix]]</small> of each month.</li><br /><li>Any changes you made to your TV Package or add-ons during your pause will now take effect.</li><br /><li>You’ll be able to access any DVRs you saved before your pause started.</li>",
+          "resumeSubscriptionContent4": "You understand that your contract term was extended for the length of time your account was paused.",
+          "title": "Remove my service pause",
+          "resumeSubscriptionContent3": "<li>You're removing your service pause request.</li><br/><li>Once complete, you can make changes to your TV package and add-ons.</li><br/><li> Once complete, you can order new equipment.</li>",
+          "resumeSubscriptionContent6": "You understand that the base package price guarantee for your TV services will not be extended while your account is paused.",
+          "resumeSubscriptionContent5": "You understand that any outstanding payments for device(s) financed through DIRECTV will resume when your service resumes.",
+          "keepSubscription": "CANCEL"
+        },
+        "pauseMySubscription": {
+          "extendMyAccountCta": "SAVE CHANGES",
+          "oneMonth": "one month",
+          "extendbyTwoMonths": "Extend pause for two extra months. Your pause period will end on [[END DATE]]",
+          "bannerPauseUpdateMsg": "Your TV service pause period has been updated.",
+          "pauseMyAccountCta": "PAUSE MY SERVICE",
+          "period": "Service pause options",
+          "resumePausedSubscription": "I no longer need to pause my service",
+          "extendbyOneMonth": "Extend pause for one extra month. Your pause will end on [[END DATE]]",
+          "isAffirmDeviceDiscalimer": "After your pause period ends, your billing and service will resume automatically. Please note, Any active device installments that are financed by affirm would not be paused. You can easily resume your service at any time.",
+          "twoMonths": "two months",
+          "discalimer": "After your pause period ends, your billing and service will resume automatically and your payment method on file will be charged the prevailing price at that date. Any remaining promo offer balance will also be applied to your account. You can easily resume your service at any time.",
+          "streamDiscalimer": "After your pause period ends, your billing and service will resume automatically and your payment method on file will be charged the prevailing price at that date. When the account is reactivated, remaining balances on Base Package and Premiums promotions will be applied. Pausing your account could result in the loss of other promotions or credits (e.g. Video Loyalty Credits). Please call customer service at 800.531.5000 with questions.",
+          "isAffirmDeviceExtendDisclaimer": "After my pause period ends, my billing and services will automatically restart. Please note, Any active device installments that are financed by affirm would not be paused. I can unpause my service at any time.",
+          "txtActivePgOnBg": "You understand that the base package price guarantee for your TV services will not be extended while your account is paused.",
+          "title": "Ready for a pause?",
+          "extendDisclaimer": "After your pause period ends, billing and services will automatically restart. You can unpause your service at any time.",
+          "txtTazContractTerms": "You understand that your contract term will be extended for the length of time your account is paused.",
+          "noThanksCta": "CANCEL",
+          "pausePeriodCta": "I’d like to pause for:",
+          "modalContent": "It’s easy to pause your service and billings for one, two, or three months. Your pause starts on the first day of your next billing cycle—service resumes automatically when your pause ends.",
+          "extendTitle": "Manage my pause",
+          "extendModalContent": "Your service will pause for [[DURATION]] , from [[START DATE]] to [[END DATE]]. The maximum pause period is three months.",
+          "bannerPauseRemoveMsg": "Your TV service pause period has been removed.",
+          "quitPauseCta": "NEXT"
+        }
+      }
+    },
+    "accountSuspendedCard": {
+      "title": "accountSuspendedCard",
+      "elements": {
+        "ctaButton": "UPDATE PAYMENT METHOD",
+        "txtMsgPendingPause": "At your request, your service will be paused from [[START_DATE]] to [[END_DATE]].",
+        "txtCardDesc": "Your service is temporarily suspended as we couldn’t process your latest payment. Please update your payment method today to avoid disconnection of your DIRECTV service on [[DISCONNECT_DATE]].",
+        "ctaButtonRemovePause": "REMOVE MY SERVICE PAUSE",
+        "ctaButtonPause": "CHANGE MY SERVICE PAUSE",
+        "tltCardPause": "TV SERVICE PAUSED",
+        "txtMsgPause": "At your request, your service will resume on [[END_DATE]]",
+        "txtCardDescPendingPause": "You can keep watching your favorite movies and recordings until the end of your current billing cycle. You can also resume your service at any time.",
+        "txtCardDescPause": "You can make changes to your service pause at any time. You’ll be auto-charged when the pause period ends.",
+        "tltCard": "ACCOUNT SUSPENDED",
+        "ctaButtonPendingPause": "CHANGE MY SERVICE PAUSE",
+        "tltCardPendingPause": "TV SERVICE PAUSING SOON"
+      }
+    },
+    "businessCard": {
+      "title": "businessCard",
+      "elements": {
+        "ctaButton": "LEARN MORE",
+        "ctaDownloadAppstore": "DOWNLOAD FROM APP STORE",
+        "txtAdditionReqList": [
+          "DIRECTV HD Receivers must be Internet-connected (wireless router & DIRECTV Ethernet to coax adapter)",
+          "The business app is only available for compatible iOS and Android tablets"
+        ],
+        "txtDownloadOnTab": {
+          "appStoreURL": "https://apps.apple.com/us/app/id1313561825",
+          "playStoreURL": "https://play.google.com/store/apps/details?id=com.directv.copilotcommercial",
+          "txtPlayStore": "Google Play Store",
+          "txtInfoOne": "Download the Free DIRECTV FOR BUSINESS Remote App on your tablet from the ",
+          "txtOR": " or ",
+          "txtAppStore": "Apple App Store"
+        },
+        "txtFeaturesList": [
+          "Quickly identify receivers with custom names",
+          "See what’s playing on all TVs from one screen",
+          "Channel surf using the DIRECTV programming guide",
+          "View all current and upcoming sports schedules",
+          "Group receivers to change the channel on multiple TVs at once"
+        ],
+        "tltCard": "DIRECTV FOR BUSINESS<sup>SM</sup> REMOTE APP",
+        "imgInfo": {
+          "imgGooglePlay": "/dtvassets/forbusiness/ao/google-play-badge.png",
+          "imgAppStoreAlt": "Download on the App Store",
+          "imgRemoteApp": "/dtvassets/forbusiness/ao/dtvbiz-iPadx2.jpg",
+          "imgDtvBusinessLogo": "/dtvassets/forbusiness/ao/logo-dtvbiz.svg",
+          "imgAppStore": "/dtvassets/forbusiness/ao/apple-app-store-badge.png",
+          "imgGooglePlayAlt": "Get it on Google Play"
+        },
+        "ctaLearnMore": "Learn more",
+        "txtSignInOnApp": "Sign-in to the app",
+        "txt": "From the tablet, LAUNCH the DIRECTV for BUSINESS Remote App. Enter the email address and password that was registered on directv.com/register and SIGN IN",
+        "txtJustaReminder": "Just a reminder:",
+        "txtGetStarted": "Get started using your Tablet as a remote",
+        "tltRemoteCardInfo": "The DIRECTV FOR BUSINESS<sup>SM</sup> Remote App gives you control over all of your DIRECTV® Receivers from just one tablet.",
+        "tltRemoteApp": "DIRECTV FOR BUSINESS<sup>SM</sup> REMOTE APP gives business customers control of all their DIRECTV® Receivers from just one tablet (iOS or Android).",
+        "learnMoreGoDigitalUrl": "/support/business/article/000092421",
+        "ctaGetOnGooglePlay": "GET ON GOOGLE PLAY",
+        "txtSignInApp": "Sign-in to the app",
+        "txtLaunchDirectv": "From the tablet, launch the DIRECTV FOR BUSINESS Remote App. Enter the email address and password that was registered on directv.com/register and SIGN IN.",
+        "txtAdditionalInfo": "Certain remote control functions require a standard DIRECTV remote. Tablet remote control functionality requires an Internet or Wi-Fi connection and is limited to the range of network. DIRECTV Receiver(s) and the tablet must be connected to the same network. Charges may apply for an Internet Connection Kit and installation. Requires Internet-connected compatible DIRECTV® HD Receivers H21, H23, H24, H25, HR20, HR21, HR22, HR23, HR24 or H44. Business accounts are not authorized to access the residential DIRECTV app.",
+        "tltRemoteCard": "CONTROL ALL YOUR RECEIVERS"
+      }
+    },
+    "manageCombineCard": {
+      "title": "manageCombineCard",
+      "elements": {
+        "ctaDVRButton": "MANAGE CLOUD DVR",
+        "ctaWatchButton": "WATCH NOW",
+        "txtCardDesc": "Did you know can edit and delete shows from your cloud DVR? You can also stream your faves right now.",
+        "updateAddress": {
+          "lblUpdateAddressLink": "Update your service address",
+          "lnkUpdateAddressLink": "/accounts/stream/updateAddress"
+        },
+        "lnkDVRButton": "https://www.att.tv/library",
+        "lnkWatchButton": "https://www.att.tv/watchnow",
+        "tltCard": "WATCH AND RECORD TV"
+      }
+    },
+    "techProtectCombineCard": {
+      "title": "techProtectCombineCard",
+      "elements": {
+        "imgCardDescAdd": "/dtvassets/service/images/TechProtect_card.jpg",
+        "txtCardDescExistingBre": "Your coverage will be active soon. There’s a 30-day waiting period to make claims for breakdown or damage. Watch your email for your welcome kit from Assurant.",
+        "tltCardManage": "DIRECTV TECH PROTECT",
+        "lnkButtonAdd": "Learn more",
+        "tltCardExisting": {
+          "BOLT-BASEPP-202309": "DIRECTV TECH PROTECT",
+          "BOLT-PREMIUMPP-202309": "DIRECTV TECH PROTECT PREMIUM"
+        },
+        "txtCardDescRemoved": "PLEASE NOTE: You’ve canceled your DIRECTV TECH PROTECT plan. Your coverage will continue until your billing cycle ends on [[DATE]].",
+        "txtCardDescPaused": "Your DIRECTV TECH PROTECT plan is currently canceled. You've agreed to be enrolled in a new plan after your pause period ends.",
+        "txtCardDescEdit": "We’ve got you covered! Your home’s tech is protected—so you can relax and enjoy the show.",
+        "txtCardDescExisting": {
+          "BOLT-BASEPP-202309": "PLEASE NOTE: Technical support and coverage for power surges is active now. Claims for breakdowns and damage can be made after [[DATE]]",
+          "BOLT-PREMIUMPP-202309": "We’ve got you covered! Technical support is available now. You can make claims on this plan after [[DATE]]."
+        },
+        "txtCardDescAdd": "Get coverage and expert support for your home’s entertainment gear with DIRECTV TECH PROTECT.",
+        "lnkButtonManage": "MANAGE TECH PROTECT",
+        "txtCardDescSwitch": "We’ve got you covered! Support is available now. You can make claims on this plan after [[DATE]].",
+        "txtCardDescManage": "PLEASE NOTE: Premium support and coverage for power surges is active now. Claims for breakdowns and damage can be made after [[DATE]].",
+        "tltCardAdd": "Protect your tech"
+      }
+    },
+    "loyaltyCard": {
+      "title": "loyaltyCard",
+      "elements": {
+        "ctaButton": "Learn more",
+        "imgUrl": "https://www.directv.com/dtvassets/sales/directv/account/loyalty.png",
+        "txtCardDesc": "The future looks rewarding. Get started with DIRECTV's Loyalty App today.",
+        "cardName": "LoyaltyCard",
+        "lnkButton": "https://perks.directv.com/?utm_medium=direct&utm_source=account+overview+card&utm_campaign=directv+perks&utm_audience=existingcustomer",
+        "tltCard": "Learn more!"
+      }
+    },
+    "tileNetworkFailure": {
+      "title": "tileNetworkFailure",
+      "elements": {
+        "txtApiFailure": "Sorry, we’re unable to load this information at this time. Please try again later."
+      }
+    },
+    "frontPorchCards": {
+      "title": "frontPorchCards",
+      "elements": {
+        "freeTvCard": {
+          "elements": {
+            "freeTvBanner": {
+              "ctaButton": "Watch now",
+              "titleCard": "MyFree DIRECTV",
+              "description": "Enjoy a curated selection of live channels and On Demand content, personalized to your preferences—all for free!",
+              "freeTvImg": "/dtvassets/service/images/ffp/ffp_bg-under-purple.png",
+              "channelbutton": "See channel lineup",
+              "ctaLink": " ",
+              "channelLineUpLink": "/channel-lineup/modal?myFreeDtv=true"
+            }
+          },
+          "title": "freeTvCard"
+        },
+        "infoSupportCard": {
+          "elements": {
+            "supportBanner": {
+              "titleCard": "MyFree DIRECTV info and support",
+              "watchLink": "/support/article/000106897",
+              "watchName": "How to watch",
+              "description": "Need help with content, using the app, or other questions? Check out the links below.",
+              "faqLink": "/support/article/000106898",
+              "faqName": "MyFree DIRECTV FAQ"
+            }
+          },
+          "title": "infoSupportCard"
+        },
+        "ffpSignUpCards": {
+          "elements": {
+            "ffpSignUpCard": {
+              "ctaButton": "Sign up",
+              "titleCard": "Sign up for MyFree DIRECTV—<span class='[[signupTitleColor]]'>a free premium TV experience</span>",
+              "buttonLink": "/channel-lineup/?MyFree=true",
+              "description": "Sign up in seconds for free premium entertainment—no strings attached. Just the perfect mix of top-quality live channels and On Demand, personalized to your preferences.",
+              "channelbutton": "See channel lineup",
+              "bannerImg": "/dtvassets/service/images/ffp/ffp_signup_card_mobile.png"
+            },
+            "ffpSignUpModal": {
+              "ctaButton": "Sign up",
+              "submitOrderTnC": "submitOrderFP",
+              "genericTnc": "FPTnc",
+              "ffpSignUpErrorMessage": "There is an error handling your request. Please try again later.",
+              "dtvLeaseAgreement": "dtvFPAgreement",
+              "mayBeLater": "Maybe later",
+              "ffpSignUpFailedErrMsg": "Yikes! We can't sign you up right now. Please try again in 24 hours and we'll get you going with MyFree DIRECTV.",
+              "dtvTermsOfService": "termsOfService",
+              "tnc": "If you have selected Free Front Porch come back soon.",
+              "ffpSignedUpSuccessMessage": "<b>Congrats!</b> You're all signed up for MyFree DIRECTV. Sit back and enjoy the show.",
+              "description": "By selecting \"Sign up\" below you confirm that you’ve read and agree to our <a class='[[termsLink]]' href='/legal/directv-residential-terms-of-service/' target='_blank' aria-label='Terms of Service'><b>Terms of Service</b></a> and <a class='[[termsLink]]' href='/privacy/video-privacy-policy/' target='_blank' aria-label='Privacy Policy'><b>Privacy Policy</b></a>. <b>Just use your existing email and password</b> to sign in-and start watching now.",
+              "title": "Myfree DIRECTV—free TV with no strings attached."
+            }
+          },
+          "title": "ffpSignUpCards"
+        },
+        "bannerMessageMultiBanFfp": "<b>You've got free DIRECTV</b>&nbsp; You now have two accounts: your free streaming TV and your satellite account. Instantly switch between them using the selector above.",
+        "offerBannerCard": {
+          "elements": {
+            "firstBanner": {
+              "ctaButton": "Shop packages",
+              "titleCard": "Ready for more? Upgrade today.",
+              "txtCardImg": " ",
+              "watchLink": "/myfree-directv-upgrade",
+              "description": "Woo-hoo! Now get DIRECTV with or without a satellite dish. Enjoy the same outstanding TV via your home internet connection."
+            }
+          },
+          "title": "offerBannerCard"
+        },
+        "reconnectCard": {
+          "elements": {
+            "servicesEligibleReconnectCard": {
+              "nonSeasonalBanner": "/dtvassets/service/images/ffp/ffp_non-seasonal-backup.png",
+              "ctaButton": "Explore TV packages",
+              "restartButton": "Restart former service",
+              "titleCard": "We want you back!",
+              "seasonalTitle": "Upgrade to paid service and catch football’s hottest games",
+              "mayBeLaterBtn": "Maybe later",
+              "description": "Your paid service was canceled on [[serviceEndDate]]. Restart now and enhance your TV experience-or check out a new high-value TV package.",
+              "seasonalDescription": "Your paid service was canceled on [[serviceEndDate]]. But now it's blitz season for college bowl games, NFL playoffs—and the Big Game. Come back and score ESPN, ABC, and more.",
+              "bannerImg": "/dtvassets/service/images/ffp/ffp_fam_football.png"
+            },
+            "servicesNotEligibleReconnectCard": {
+              "nonSeasonalBanner": "/dtvassets/service/images/ffp/ffp_non-seasonal-backup.png",
+              "ctaButton": "Explore TV packages",
+              "titleCard": "Want more sports, more live content—more everything?",
+              "seasonalTitle": "Upgrade to paid service and catch football’s hottest games",
+              "description": "We've got a paid TV package that's perfect for your family and budget.",
+              "seasonalDescription": "Your paid service was canceled on [[serviceEndDate]]. But now it's blitz season for college bowl games, NFL playoffs—and the Big Game. Come back and score ESPN, ABC, and more.",
+              "bannerImg": "/dtvassets/service/images/ffp/ffp_fam_football.png"
+            }
+          },
+          "title": "reconnectCard"
+        }
+      }
+    },
+    "freemiumCard": {
+      "title": "freemiumCard",
+      "elements": {
+        "freemiumBanner": {
+          "ctaButton": "WATCH NOW",
+          "freemiumImg": "/public/images/FreeFrontPorch/MicrosoftTeams-image.png ",
+          "titleCard": "FREEMIUM",
+          "buttonLink": "https://www.google.com/",
+          "description": "DIRECTV Front Porch offers a great selection of 100% free shows and movies. No charge, no obligation-check it out! ",
+          "channelbutton": "See Channel lineup",
+          "ctaLink": "  "
+        }
+      }
+    },
+    "infoSupportCard": {
+      "title": "infoSupportCard",
+      "elements": {
+        "supportBanner": {
+          "titleCard": "INFO AND SUPPORT",
+          "accessLink": "https://www.google.com/",
+          "accessName": "How to access your purchased content",
+          "watchLink": "https://www.google.com/",
+          "watchName": "How to watch",
+          "description": "Need help with content, using the app, or other questions? Check out the links below",
+          "faqLink": "https://www.google.com/",
+          "faqName": "FAQ about Free Front Porch"
+        }
+      }
+    },
+    "streamRetentionMVP2": {
+      "title": "streamRetentionMVP2",
+      "elements": {
+        "bannerMsgBasePkgUpgrade": "Your new package [[displayName]] starts today.",
+        "bannerMsgBasePkgDowngrade": "Your new package [[displayName]] will be effective on [[nextBillingDate]] when your subscription auto-renews.",
+        "bannerMsgVideoAddOnOfferNotInActivePkg": "Congratulations! You’ve added [[displayName]]. Your promotion has been successfully applied.",
+        "bannerMsgVideoPlanOfferNotInActivePkg": "Your promotion on [[displayName]] has been successfully applied.",
+        "bannerMsgVideoAddOnOfferInActivePkg": "Your promotion on [[displayName]] has been successfully applied."
+      }
+    },
+    "manageTvGenreCard": {
+      "title": "manageTvGenreCard",
+      "elements": {
+        "txtMyTvPackage": "View and manage your TV packages and add-ons"
+      }
+    },
+    "mfrBanner": {
+      "title": "mfrBanner",
+      "elements": {
+        "txtMfrBannerDesc": "A simplified, mobile-friendly account overview will launch this month—because managing your account should be effortless.",
+        "txtMfrBannerTitle": "Big changes. Better experience."
+      }
+    }
+  }
+}

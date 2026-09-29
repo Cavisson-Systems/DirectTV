@@ -1,0 +1,440 @@
+{
+  "billingCard": [
+    {
+      "status": [
+        "active"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true,
+        "accountbasedTxtInfoEligible": false
+      }
+    },
+    {
+      "status": [
+        "pending pause"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true,
+        "accountbasedTxtInfoEligible": false
+      }
+    },
+    {
+      "status": [
+        "pause"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true,
+        "accountbasedTxtInfoEligible": false
+      }
+    },
+    {
+      "status": [
+        "graceperiod"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true,
+        "accountbasedTxtInfoEligible": false
+      }
+    },
+    {
+      "status": [
+        "suspend"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true,
+        "accountbasedTxtInfoEligible": false
+      }
+    },
+    {
+      "status": [
+        "pendingcancel"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true,
+        "accountbasedTxtInfoEligible": false
+      }
+    },
+    {
+      "status": [
+        "cancelled"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true,
+        "accountbasedTxtInfoEligible": false
+      }
+    },
+    {
+      "status": [
+        "actv"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true
+      }
+    },
+    {
+      "status": [
+        "suspended",
+        "susp"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": false,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true
+      }
+    },
+    {
+      "status": [
+        "psus"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": false,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true
+      }
+    },
+    {
+      "status": [
+        "disc",
+        "ctof"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": false,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true
+      }
+    },
+    {
+      "status": [
+        "coll"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": false,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": false,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true
+      }
+    },
+    {
+      "status": [
+        "pdis"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": false,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true
+      }
+    },
+    {
+      "status": [
+        "pend",
+        "tentative"
+      ],
+      "rules": {
+        "currentBalanceInfoEligible": true,
+        "autopayInfoEligible": true,
+        "paymentMethodInfoEligible": true,
+        "payOptionsInfoEligible": true,
+        "paperlessInfoEligible": true,
+        "partnerInfoEligible": false,
+        "lastPaymentInfoEligible": true
+      }
+    }
+  ],
+  "launchpadTiles": [
+    {
+      "status": [
+        "active"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false,
+        "channelLineupEligible": false,
+        "myFreeDtvFaqEligible": false
+      }
+    },
+    {
+      "status": [
+        "pending pause"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false
+      }
+    },
+    {
+      "status": [
+        "pause"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false
+      }
+    },
+    {
+      "status": [
+        "graceperiod"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false
+      }
+    },
+    {
+      "status": [
+        "suspend"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false
+      }
+    },
+    {
+      "status": [
+        "pendingcancel"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "tvPackageEligible": false,
+        "addOnsEligible": false,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false
+      }
+    },
+    {
+      "status": [
+        "cancelled"
+      ],
+      "rules": {
+        "paymentMethodEligible": false,
+        "paymentHistoryEligible": true,
+        "tvPackageEligible": false,
+        "addOnsEligible": false,
+        "techProtectEligible": false,
+        "manageDevicesEligible": false,
+        "orderHistoryEligible": false,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": false,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false
+      }
+    },
+    {
+      "status": [
+        "actv"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "billingHistoryEligible": true,
+        "billingPaymentSettingsEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false,
+        "manageReceiversEligible": true,
+        "manageRemotesEligible": true,
+        "ordersAppointmentHistoryEligible": true,
+        "protectionPlanEligible": true
+      }
+    },
+    {
+      "status": [
+        "psus",
+        "pdis"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "billingHistoryEligible": true,
+        "billingPaymentSettingsEligible": true,
+        "tvPackageEligible": true,
+        "addOnsEligible": true,
+        "techProtectEligible": false,
+        "manageDevicesEligible": true,
+        "orderHistoryEligible": true,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false,
+        "manageReceiversEligible": true,
+        "manageRemotesEligible": true,
+        "ordersAppointmentHistoryEligible": true,
+        "protectionPlanEligible": true
+      }
+    },
+    {
+      "status": [
+        "susp",
+        "disc",
+        "coll",
+        "ctof"
+      ],
+      "rules": {
+        "accountInfoEligible": true,
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "billingHistoryEligible": true,
+        "billingPaymentSettingsEligible": true,
+        "tvPackageEligible": false,
+        "addOnsEligible": false,
+        "techProtectEligible": false,
+        "manageDevicesEligible": false,
+        "orderHistoryEligible": false,
+        "dtvPerksEligible": false,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false,
+        "manageReceiversEligible": false,
+        "manageRemotesEligible": false,
+        "ordersAppointmentHistoryEligible": false,
+        "protectionPlanEligible": false
+      }
+    },
+    {
+      "status": [
+        "pend"
+      ],
+      "rules": {
+        "paymentMethodEligible": true,
+        "paymentHistoryEligible": true,
+        "billingHistoryEligible": true,
+        "billingPaymentSettingsEligible": true,
+        "tvPackageEligible": false,
+        "addOnsEligible": false,
+        "techProtectEligible": false,
+        "manageDevicesEligible": false,
+        "orderHistoryEligible": false,
+        "accountInfoEligible": true,
+        "dtvPerksEligible": true,
+        "accountSecurityEligible": false,
+        "serviceAddressEligible": false,
+        "manageReceiversEligible": false,
+        "manageRemotesEligible": false,
+        "ordersAppointmentHistoryEligible": false,
+        "protectionPlanEligible": false
+      }
+    }
+  ]
+}

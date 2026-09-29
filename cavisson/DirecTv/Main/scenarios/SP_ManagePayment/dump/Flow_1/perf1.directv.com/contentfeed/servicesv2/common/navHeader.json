@@ -1,0 +1,355 @@
+{
+    "title": "atttvheader",
+    "chnldata": {},
+    "index": {
+        "analytics": {
+            "lineOfBusiness": "general"
+        },
+        "seo": {
+            "disableBreadCrumbs": false,
+            "twittercard": "summary",
+            "metaRobots": "NOINDEX,NOFOLLOW"
+        },
+        "pageinfo": {
+            "lineOfBusiness": "general"
+        },
+        "disableAuxNav": false,
+        "disableGNav": false,
+        "disableLinkFarm": false,
+        "disableSkinnyGNav": false,
+        "isV2GNav": true,
+        "isV2Footer": true,
+        "isV2LinkFarm": true,
+        "disableTFN": false,
+        "disableBusinessLink": false,
+        "helpCenterInfoLabel": "Call us: ",
+        "CustomerCareNum": "8553836121",
+        "CustomerCareNumLabel": "855.383.6121",
+        "arsFee": "",
+        "disableStrikeThruPricing": false,
+        "disableCheckoutTFN": false,
+        "isBreadcrumbPostionTop": false,
+        "showPromoInCart": false,
+        "disableBBBanner": false,
+        "disableSaveCart": false,
+        "disableOfferBanner": false,
+        "isDoubleBreadcrumbNeeded": false
+    },
+    ":items": {
+        "options": {
+            "title": "options",
+            "elements": {
+                "enableLangSupport": false,
+                "alternateSVG": {
+                    "brandName": "DIRECTV",
+                    "logoAlt": "DIRECTV",
+                    "logoPath": {
+                        "svgxml": "\u003Csvg version=\"1.1\" id=\"DIRECTV_Icon_Logo_-_White\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" y=\"0\" viewBox=\"0 0 17.424 24.01\" xml:space=\"preserve\" width=\"17.424\" height=\"24.01\"\u003E\u003Cstyle\u003E.st0Col{fill:#fff}.st1Col{fill:#337ace}\u003C/style\u003E\u003Cpath class=\"st0Col\" d=\"M15,2.291C13.453.67,11.191,0,8.349,0H0V18.008q2.268-.892,4.687-1.736V4.176H8.272a4.2,4.2,0,0,1,3.46,1.485c.9,1.143.992,2.108.992,8.072,1.531-.437,4.7-1.265,4.7-1.265,0-5.785,0-7.637-2.423-10.177Z\"/\u003E\u003Cpath class=\"st1Col\" d=\"M8.665,24A8.736,8.736,0,0,0,15,21.7a8.038,8.038,0,0,0,2.255-4.773A102.423,102.423,0,0,0,1.985,24Z\"/\u003E\u003C/svg\u003E"
+                    },
+                    "logoURL": "/"
+                },
+                "hideGN": false,
+                "hideHamburger": false,
+                "subLevelCaps": false,
+                "showSearch": true,
+                "hideAux": false,
+                "showHelpIcon": false,
+                "firstMobileMenuExpanded": false,
+                "topLevelCaps": false,
+                "alternateSVGLight": {
+                    "brandName": "DIRECTV",
+                    "logoAlt": "DIRECTV",
+                    "logoPath": {
+                        "svgxml": "\u003Csvg version=\"1.1\" id=\"DIRECTV_Icon_Logo_-_Dark\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" y=\"0\" viewBox=\"0 0 17.424 24.01\" xml:space=\"preserve\" width=\"17.424\" height=\"24.01\"\u003E\u003Cstyle\u003E.st0Col{fill:#000}.st1Col{fill:#337ace}\u003C/style\u003E\u003Cpath class=\"st0Col\" d=\"M15,2.291C13.453.67,11.191,0,8.349,0H0V18.008q2.268-.892,4.687-1.736V4.176H8.272a4.2,4.2,0,0,1,3.46,1.485c.9,1.143.992,2.108.992,8.072,1.531-.437,4.7-1.265,4.7-1.265,0-5.785,0-7.637-2.423-10.177Z\"/\u003E\u003Cpath class=\"st1Col\" d=\"M8.665,24A8.736,8.736,0,0,0,15,21.7a8.038,8.038,0,0,0,2.255-4.773A102.423,102.423,0,0,0,1.985,24Z\"/\u003E\u003C/svg\u003E"
+                    },
+                    "logoURL": "/"
+                },
+                "overrideMobileMenu": true
+            }
+        },
+        "logo": {
+            "title": "logo",
+            "elements": {
+                "logoPosition": "left",
+                "logoAlt": "DIRECTV",
+                "logoDAM": "https://www.directv.com/dtvassets/global/logos/dtv/directv/directv_hz_rgb_rev.svg",
+                "logoURL": "/"
+            }
+        },
+        "lightLogo": {
+            "title": "lightLogo",
+            "elements": {
+                "logoPosition": "left",
+                "logoAlt": "DIRECTV LOGO.",
+                "logoDAM": "https://www.directv.com/dtvassets/global/logos/dtv/directv/directv_hz_rgb_pos.svg",
+                "logoURL": "/"
+            }
+        },
+        "search": {
+            "title": "search",
+            "elements": {
+                "iconSVGPath": {
+                    "svgxml": "\u003C?xml version=\"1.0\" encoding=\"UTF-8\"?\u003E\n\u003Csvg width=\"51px\" height=\"52px\" viewBox=\"0 0 51 52\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\u003E\n    \u003C!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com --\u003E\n    \u003Ctitle\u003Emagnifyingglass\u003C/title\u003E\n    \u003Cdesc\u003ECreated with Sketch.\u003C/desc\u003E\n    \u003Cg id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"\u003E\n        \u003Cg id=\"magnifyingglass\" fill=\"#191919\" fill-rule=\"nonzero\"\u003E\n            \u003Cpath d=\"M0.626,20.007 C0.617192767,27.0722713 4.50734807,33.5659185 10.7410158,36.8915045 C16.9746836,40.2170904 24.5346047,39.8319197 30.398,35.89 L44.522,50.014 C45.4756927,50.984475 46.8768059,51.3685537 48.1920617,51.0200518 C49.5073176,50.6715499 50.5344121,49.6440716 50.8824227,48.3286857 C51.2304332,47.0132997 50.8458312,45.6123301 49.875,44.659 L35.728,30.512 C41.1223104,22.3165639 39.4395173,11.3684198 31.8329859,5.17128846 C24.2264545,-1.02584292 13.1641339,-0.461294196 6.228,6.478 C2.63002158,10.0585424 0.612987418,14.929021 0.626,20.005 L0.626,20.007 Z M31.36,19.985 C31.36,26.3804574 26.1754574,31.565 19.78,31.565 C13.3845426,31.565 8.2,26.3804574 8.2,19.985 C8.2,13.5895426 13.3845426,8.405 19.78,8.405 C26.1724875,8.41216431 31.3528357,13.5925125 31.36,19.985 Z\" id=\"Shape\"\u003E\u003C/path\u003E\n        \u003C/g\u003E\n    \u003C/g\u003E\n\u003C/svg\u003E"
+                },
+                "searchInputBoxText": "I'm looking for…",
+                "iconSpinnerText": "One moment, please",
+                "iconSVGAlt": "search",
+                "searchMaxLength": "100"
+            }
+        },
+        "aux": {
+            "title": "aux",
+            "elements": {
+                "linkLabel": "DIRECTV for BUSINESS",
+                "linkURL": "https://www.directv.com/forbusiness?utm_source=resi_nav&utm_medium=banner&utm_campaign=referral",
+                "links": [],
+                "openInNewTab": false,
+                "helpCenterInfo": {
+                    "customerCareNum": "8559951380",
+                    "label": "Call us: ",
+                    "customerCareNumLabel": "855.995.1380"
+                }
+            }
+        },
+        "recog": {
+            "title": "recog",
+            "elements": {
+                "left": [
+                    {
+                        "linkLabel": "WATCH NOW",
+                        "linkURL": "https://www.directv.com/entertainment",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "ACCOUNT OVERVIEW",
+                        "linkURL": "/account/overview",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ],
+                "mobileTop": [
+                    {
+                        "linkLabel": "WATCH NOW",
+                        "linkURL": "https://www.directv.com/guide/?redirectToOv=true",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "ACCOUNT OVERVIEW",
+                        "linkURL": "https://identity.directv.com/login/signin?returnUrl=overview",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "SUPPORT",
+                        "linkURL": "/support/",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "MANAGE APPOINTMENTS",
+                        "linkURL": "https://identity.directv.com/login/signin?returnUrl=https://www.directv.com/account/appointments",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ],
+                "right": [
+                    {
+                        "linkLabel": "SUPPORT",
+                        "linkURL": "/support/",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "SIGN IN",
+                        "linkURL": "https://identity.directv.com/login/signin?returnUrl=overview",
+                        "links": [],
+                        "iconSVGAlt": "SIGN IN",
+                        "openInNewTab": false,
+                        "ariaLabel": "Account management and sign in"
+                    }
+                ],
+                "mobileHead": [
+                    {
+                        "linkLabel": "SIGN IN",
+                        "linkURL": "https://identity.directv.com/login/signin?returnUrl=overview",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ]
+            }
+        },
+        "unauth": {
+            "title": "unauth",
+            "elements": {
+                "left": [
+                    {
+                        "linkLabel": "WATCH NOW",
+                        "disableSatelliteLink": false,
+                        "linkURL": "https://stream.directv.com/watchnow",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "ACCOUNT OVERVIEW",
+                        "disableSatelliteLink": false,
+                        "linkURL": "/account/overview",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ],
+                "mobileTop": [
+                    {
+                        "linkLabel": "WATCH NOW",
+                        "disableSatelliteLink": false,
+                        "linkURL": "https://stream.directv.com/watchnow",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "ACCOUNT OVERVIEW",
+                        "disableSatelliteLink": false,
+                        "linkURL": "/account/overview",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "SUPPORT",
+                        "disableSatelliteLink": false,
+                        "linkURL": "/support/",
+                        "links": [],
+                        "openInNewTab": true
+                    },
+                    {
+                        "linkLabel": "MANAGE APPOINTMENTS",
+                        "linkURL": "https://identity.directv.com/login/signin?returnUrl=https://www.directv.com/account/appointments",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ],
+                "right": [
+                    {
+                        "linkLabel": "SUPPORT",
+                        "linkURL": "/support/",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "heading": "SIGN IN",
+                        "links": [
+                            {
+                                "linkLabel": "WATCH NOW",
+                                "linkURL": "https://www.directv.com/guide/?redirectToOv=true",
+                                "linkURLMobile": "",
+                                "toolTip": "",
+                                "dividerAbove": false,
+                                "openInNewTab": false
+                            },
+                            {
+                                "linkLabel": "ACCOUNT OVERVIEW",
+                                "linkURL": "https://identity.directv.com/login/signin?returnUrl=overview",
+                                "linkURLMobile": "",
+                                "toolTip": "",
+                                "dividerAbove": false,
+                                "openInNewTab": false
+                            },
+                            {
+                                "linkLabel": "MANAGE APPOINTMENTS",
+                                "linkURL": "https://identity.directv.com/login/signin?returnUrl=https://www.directv.com/account/appointments",
+                                "linkURLMobile": "",
+                                "toolTip": "",
+                                "dividerAbove": false,
+                                "openInNewTab": false
+                            }
+                        ],
+                        "iconSVGAlt": "SIGN IN",
+                        "openInNewTab": false,
+                        "ariaLabel": "Account management and sign in"
+                    }
+                ],
+                "mobileHead": [
+                    {
+                        "linkLabel": "SIGN IN",
+                        "linkURL": "https://identity.directv.com/login/signin?returnUrl=overview",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ]
+            }
+        },
+        "auth": {
+            "title": "auth",
+            "elements": {
+                "left": [
+                    {
+                        "linkLabel": "WATCH NOW",
+                        "linkURL": "https://stream.directv.com/watchnow",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "ACCOUNT OVERVIEW",
+                        "linkURL": "/account/overview",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ],
+                "mobileTop": [
+                    {
+                        "linkLabel": "WATCH NOW",
+                        "dividerAbove": false,
+                        "linkURL": "https://stream.directv.com/watchnow",
+                        "linkURLMobile": "https://stream.directv.com/watchnow",
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "ACCOUNT OVERVIEW",
+                        "dividerAbove": false,
+                        "linkURL": "/account/overview",
+                        "linkURLMobile": "/account/overview",
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "SUPPORT",
+                        "disableSatelliteLink": false,
+                        "linkURL": "/support/",
+                        "links": [],
+                        "openInNewTab": true
+                    },
+                    {
+                        "linkLabel": "MANAGE APPOINTMENTS",
+                        "dividerAbove": false,
+                        "linkURL": "/account/appointments",
+                        "linkURLMobile": "/account/appointments",
+                        "openInNewTab": false
+                    }
+                ],
+                "right": [
+                    {
+                        "linkLabel": "SUPPORT",
+                        "disableSatelliteLink": false,
+                        "linkURL": "/support/",
+                        "links": [],
+                        "openInNewTab": false
+                    },
+                    {
+                        "linkLabel": "SIGN OUT",
+                        "disableSatelliteLink": false,
+                        "linkURL": "https://identity.directv.com/login/signout",
+                        "links": [],
+                        "openInNewTab": false
+                    }
+                ],
+                "mobileHead": [
+                    {
+                        "linkLabel": "SIGN OUT",
+                        "dividerAbove": true,
+                        "linkURL": "https://identity.directv.com/login/signout",
+                        "openInNewTab": false
+                    }
+                ]
+            }
+        }
+    }
+}

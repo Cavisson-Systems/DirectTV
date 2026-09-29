@@ -1,0 +1,14 @@
+{"authId":"{LoginAuthId}","callbacks":[{"type":"NameCallback","output":[{"name":"prompt","value":"User Name"}],"input":[{"name":"IDToken1","value":"{Username}"}],"_id":1}],"header":"Username_Collector"}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+--Request 
+GET https://www.directv.com/dtvassets/global/icons/2022/Check-mark-white_dk-bg-24px.svg
+Host: www.directv.com
+sec-ch-ua-platform: \"Linux\"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+sec-ch-ua: \"Chromium\";v=\"135\", \"Not-A.Brand\";v=\"8\"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://identity.perf1.directv.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJ1aWQiOiIyNzAxMjk0ZS00OGQwLTRkYjUtOWIwZi02NGMxNGUzNjc2ZGMiLCJjb2RlX2NoYWxsZW5nZSI6IkJvZjRROUo0RlY5Q2R4UWlzMGRqQW10VF9NSmRhYUQwbEhQV2dwMVEtSEUiLCJjb2RlX3ZlcmlmaWVyIjoiOUtxUEM0NllLTXJrUTBaOWpLM2h3RFdzZ2JtcDgtSDJtdi05X1BveTNKZ0FqRTlWTzVWc0V4SXZBa1l3OWtEbXVlUSIsImVudiI6IiIsInJldHVyblVybCI6Imh0dHBzOi8vcGVyZjEuZGlyZWN0di5jb20vYWNjb3VudC9vdmVydmlldyJ9; session.sig=M1ko-nrz3QXdcuWES_jnHZoTyPc; canary-dark=always; _abck=323704E6137A1EF879AA4AA478AD32CD~-1~YAAQgtAuF+6ElAGgAQAA1XxYMxBeH2zcfRBQxI63DjQIJYUdiSs2Jz6EF0GraO0StuOOp7oxLGVJR4+b4o64hlTHUcjCLa+1u621v6drBmVbN+m0Tky8gvK2XaMgokLQTis4xvxnXKmJz9PzIFRXm317uxHg6+mCzlT67bQkzsWW4wy82wlxRnPlrRJ+/DK9vHeWaykCzZh+SRzH1Mn7FJHSiPQ35wBYHqpAiL7aqmAA+IU8lZgoO31HysI+Lud0XK576dH/tlFl3FZSj8X6taGoQPjgyjPNrYWy+0wqxhhrAH3G9VvX1hbAdR/IaoYFICBoFXGXZcrQWgJaghULndq5oK4oSOuVpgzZ3wB+nViqiK0//gOFlPP+0ZL9+XryE92zJJq2qOK6JOTYRYEX3VOCu6105anjqL7s27mGyXbJ+erZBy6/T6bTEEKlFppuO0lcgt+zEpk9ujvlHhk=~-1~-1~-1~-1~-1; bm_sz=18F22A489560D6042A5DDD87BC979F38~YAAQgtAuF++ElAGgAQAA1XxYMwDIPwd9XDt/EHUJgDclXNlUSORQ8EHPFDn7LbZRVZimYimmSE/piVCFvoZXCyyDS6wkqheEjclbVTNLN1wjPb5Nb3INfBWZPwvfGo+fLZZctwCBSIteMMlQoMZJGDD1nakTomX7BotUyx7l/nI0gfgaSuhAlVKZ2iBCgoWjSbTVdfHxnyYHzmgI4wrWhfk2ta0eiRMjFQAWZaAWwZy4flCskVD0wv3nC4eo9/x4OE/GWkD03BRj7lnIcTWIsIX1HlUle/aOKx5eBVxj2YHAEdeSSiSx5Z+l8TtgwFEdCsRvOtSGUAyFE5MjiVVfstHgAHpfXIGjZQNYKLFPwRK4ybuWvg==~3163444~3616835; x-dtv-edgescape=CA:FREMONT:94536-94539+94555
+----
+--Response 
+HTTP/1.1 200
+content-type: image/svg+xml
+x-widen-app: pixelfront/3346+fcd229e2efb753603f96ba27af25dbb04b944cbe
+last-modified: Fri, 18 Apr 2025 17:32:42 GMT
+access-control-allow-origin: *
+content-disposition: inline; filename=\"Check-mark-white_dk-bg-24px.svg\"
+etag: \"bf125e6dcfe5e58e84eba481fc5eeff6\"
+x-amz-cf-pop: LAX54-P10
+x-amz-cf-id: e37fBoeSPaq01YlK4aRsEgwaJ1moM5A9aUUM3mnePvgJuB6g7aQcHw==
+edge-cache-tag: Uncategorized,www.directv.com-acquia-dtvassets,www.directv.com-dtvassets-global
+vary: Accept-Encoding
+content-encoding: br
+cache-control: max-age=21600
+expires: Mon, 24 Aug 2026 16:37:21 GMT
+date: Mon, 24 Aug 2026 10:37:21 GMT
+content-length: 257
+akamai-request-bc: [a=23.11.201.88,b=482345956,c=g,n=US_CA_SANTACLARA,o=20940]
+x-dtv-acquia: true
+x-dtvaka-origin: directv.widen.net
+dtv-environment: www.directv.com
+ab_idproot: new_idproot_20190410
+strict-transport-security: max-age=2628000
+x-dtvaka-grn: 0.58c90b17.1787567841.1cc003e4
+----
+

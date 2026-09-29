@@ -1,0 +1,368 @@
+{
+    "title": "footer",
+    "chnldata": {
+  
+    },
+    "index": {
+      "analytics": {
+        "lineOfBusiness": "general"
+      },
+      "configuration": {
+        "enablePersonalization": "true"
+      },
+      "seo": {
+        "disableBreadCrumbs": "true",
+        "twittercard": "summary",
+        "metaRobots": "NOINDEX,NOFOLLOW"
+      },
+      "pageinfo": {
+        "releaseName": "2108d",
+        "lineOfBusiness": "general",
+        "cmsFeed": "/dtvcms/gnav/1111a/videoservicesgn/footer.model.dtv.json"
+      },
+      "disableAuxNav": false,
+      "disableGNav": false,
+      "disableLinkFarm": false,
+      "disableSkinnyGNav": false,
+      "isV2GNav": false,
+      "isV2Footer": false,
+      "isV2LinkFarm": false,
+      "disableTFN": false,
+      "disableBusinessLink": false,
+      "helpCenterInfoLabel": "Call us: ",
+      "CustomerCareNum": "8553836121",
+      "CustomerCareNumLabel": "855.383.6121",
+      "arsFee": "",
+      "disableStrikeThruPricing": false,
+      "disableCheckoutTFN": false,
+      "isBreadcrumbPostionTop": false,
+      "showPromoInCart": false,
+      "disableBBBanner": false,
+      "disableSaveCart": false,
+      "disableOfferBanner": false,
+      "isDoubleBreadcrumbNeeded": false
+    },
+    ":items": {
+      "options": {
+        "title": "options",
+        "elements": {
+          "enableLangSupport": false,
+          "extendFooter": true,
+          "showSocialMediaIcons": true,
+          "socialProfiles": [
+            {
+              "sbcomponent": "socialProfiles",
+              "name": "business",
+              "links": [
+                {
+                  "imgUrl": "",
+                  "imgWidth": "",
+                  "imgUrlV2": "",
+                  "imgWidthV2": "",
+                  "altText": "",
+                  "linkLabel": "DIRECTV LinkedIn",
+                  "linkURL": "https://www.linkedin.com/showcase/directvforbusiness/",
+                  "linkURLMobile": "",
+                  "newWindow": false
+                },
+                {
+                  "imgUrl": "/dtvassets/global/icons/white/svg/icon_twitter.svg",
+                  "imgWidth": "",
+                  "imgUrlV2": "",
+                  "imgWidthV2": "",
+                  "altText": "",
+                  "linkLabel": "Twitter",
+                  "linkURL": "https://twitter.com/directvbusiness/",
+                  "linkURLMobile": "",
+                  "newWindow": false
+                },
+                {
+                  "imgUrl": "/dtvassets/global/icons/2022/Youtube-white-16px.svg",
+                  "imgWidth": "",
+                  "imgUrlV2": "",
+                  "imgWidthV2": "",
+                  "altText": "",
+                  "linkLabel": "YouTube",
+                  "linkURL": "https://www.youtube.com/user/DIRECTV",
+                  "linkURLMobile": "",
+                  "newWindow": false
+                }
+              ]
+            }
+          ],
+          "sbcomponent": "options_footer",
+          "footerSVG": {
+            "brandName": "DIRECTV",
+            "sbcomponent": "footerSVG",
+            "logoAlt": "DIRECTV",
+            "logoPath": {
+              "sbcomponent": "footerSVG",
+              "svgxml": "\u003Csvg version=\"1.1\" id=\"directv\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" y=\"0\" viewBox=\"0 0 41.56 57.17\" xml:space=\"preserve\" width=\"64\" height=\"64\"\u003E\u003Cstyle\u003E.st0{fill:#FFFFFF}.st1{fill:#3E77BC}\u003C/style\u003E\u003Cpath class=\"st0\" d=\"M35.78,5.43C32.09,1.59,26.69,0,19.92,0H0v42.75c3.61-1.41,7.34-2.78,11.18-4.12V9.91h8.55c3.69,0,6.47,1.28,8.25,3.52c2.15,2.71,2.36,5,2.36,19.16c3.65-1.04,11.21-3,11.21-3C41.56,15.86,41.57,11.47,35.78,5.43\"/\u003E\u003Cpath class=\"st1\" d=\"M20.85,57c6,0,11.45-1.67,15.27-5.4c3.05-3.01,4.97-6.97,5.44-11.22C28.86,44.91,16.55,50.47,4.75,57H20.85z\"/\u003E\u003C/svg\u003E"
+            },
+            "logoURL": "http://www.directv.com"
+          },
+          "hideFooter": false,
+          "showFooterLogo": false
+        }
+      },
+      "common": {
+        "title": "footer-common",
+        "elements": {
+          "newWindowAltText": "some text here",
+          "sbcomponent": "footer-common",
+          "newWindowIconSVGPath": {
+            "sbcomponent": "logoPath",
+            "svgxml": "\u003Csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 36 36\"\u003E\u003Cpath class=\"currentColor\" d=\"m14.115 9.452c-.552-.555-1.531-.553-2.072-.012l-8.766 8.3a.375.375 0 1 0 .516.544l2.132-2.019-.005 9.488a1.23 1.23 0 0 0 1.228 1.228h11.845a1.23 1.23 0 0 0 1.228-1.228l.002-9.482 2.127 2.014a.372.372 0 0 0 .53-.014.375.375 0 0 0 -.015-.53zm5.357 16.301a.478.478 0 0 1 -.478.478h-3.04v-5.511a.888.888 0 0 0 -.887-.887h-3.991a.888.888 0 0 0 -.887.887v2.759a.375.375 0 0 0 .75 0v-2.759a.14.14 0 0 1 .137-.137h3.991c.075 0 .137.063.137.137v5.511h-8.056a.485.485 0 0 1 -.478-.478l.005-10.197 5.89-5.578a.733.733 0 0 1 1.026.011l5.882 5.572zm13.368-1.216c0 1.405-2.019 2.444-4.695 2.444-1.334 0-2.603-.278-3.479-.764a.375.375 0 1 1 .364-.656c.769.426 1.904.67 3.115.67 2.325 0 3.945-.878 3.945-1.666l-.017-.223-.019-.111-.084-.484c-.25-1.396-.545-2.494-.811-3.013-.208-.462-.883-.86-1.772-1.058a.393.393 0 0 1 -.298-.294.372.372 0 0 1 .136-.383l.05-.035a2.063 2.063 0 0 0 .924-1.71 2.054 2.054 0 0 0 -4.106 0 2.069 2.069 0 0 0 .903 1.693l.075.055a.376.376 0 0 1 -.135.667l-.049.012c-.878.199-1.546.595-1.743 1.034-.272.534-.559 1.591-.815 2.993a.372.372 0 0 1 -.436.301.373.373 0 0 1 -.301-.436c.19-1.041.497-2.438.876-3.182.234-.522.808-.966 1.609-1.255a2.807 2.807 0 0 1 -.733-1.881c0-1.544 1.257-2.8 2.803-2.8s2.803 1.256 2.803 2.8a2.802 2.802 0 0 1 -.732 1.883c.807.291 1.379.738 1.618 1.274.4.78.719 2.341.873 3.202l.086.496.018.108z\"/\u003E\u003C/svg\u003E"
+          }
+        }
+      },
+      "auxCol": {
+        "title": "auxCol1",
+        "elements": {
+          "heading": "Connect with us",
+          "sbcomponent": "footer-auxCol",
+          "links": [
+            {
+              "linkLabel": "Find a store",
+              "linkURL": "https://www.att.com/stores/",
+              "linkURLMobile": "https://m.att.com/stores/",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "Make a store appointment",
+              "linkURL": "https://www.att.com/storeappointment/",
+              "linkURLMobile": "https://m.att.com/mRAS/start.rt",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "Coverage maps",
+              "linkURL": "https://www.att.com/coverage/",
+              "linkURLMobile": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "Learn about 5G",
+              "linkURL": "https://www.att.com/5G/",
+              "linkURLMobile": "",
+              "newWindow": false
+            }
+          ]
+        }
+      },
+      "utility": {
+        "title": "footer-utility",
+        "elements": {
+          "sbcomponent": "footer-utility",
+          "links": [
+            {
+              "linkLabel": "Feedback",
+              "linkURL": "https://secure.opinionlab.com/ccc01/o.asp?id=fXJtjaWr",
+              "linkURLMobile": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "Ver en español",
+              "linkURL": "javascript:void(0)",
+              "linkURLMobile": "",
+              "newWindow": false
+            }
+          ]
+        }
+      },
+      "social": {
+        "title": "footer-social",
+        "elements": {
+          "sbcomponent": "social",
+          "links": [
+            {
+              "imgUrl": "https://www.directv.com/dtvassets/global/icons/white/svg/icon_linkedin.svg",
+              "imgWidth": "30",
+              "imgUrlV2": "https://www.directv.com/dtvassets/global/icons/2022/Linkedin-white-16px.svg",
+              "imgWidthV2": "16",
+              "altText": "DIRECTV LinkedIn",
+              "linkLabel": "DIRECTV LinkedIn",
+              "linkURL": "https://www.linkedin.com/company/directv",
+              "linkURLMobile": "",
+              "newWindow": true
+            },
+            {
+              "imgUrl": "https://www.directv.com/dtvassets/global/icons/white/svg/icon_facebook.svg",
+              "imgWidth": "30",
+              "imgUrlV2": "https://www.directv.com/dtvassets/global/icons/2022/facebook-white-16px.svg",
+              "imgWidthV2": "16",
+              "altText": "DIRECTV Facebook",
+              "linkLabel": "Facebook",
+              "linkURL": "https://www.facebook.com/directv",
+              "linkURLMobile": "",
+              "newWindow": true
+            },
+            {
+              "imgUrl": "https://www.directv.com/dtvassets/global/icons/white/svg/icon_twitter.svg",
+              "imgWidth": "30",
+              "imgUrlV2": "https://www.directv.com/dtvassets/global/icons/2022/Twitter-white-16px.svg",
+              "imgWidthV2": "16",
+              "altText": "DIRECTV Twitter",
+              "linkLabel": "Twitter",
+              "linkURL": "https://twitter.com/directv",
+              "linkURLMobile": "",
+              "newWindow": true
+            },
+            {
+              "imgUrl": "https://www.directv.com/dtvassets/global/icons/white/svg/icon_instagram.svg",
+              "imgWidth": "30",
+              "imgUrlV2": "https://www.directv.com/dtvassets/global/icons/2022/Instagram-white-16px.svg",
+              "imgWidthV2": "16",
+              "altText": "DIRECTV Instagram",
+              "linkLabel": "Instagram",
+              "linkURL": "https://www.instagram.com/directv/",
+              "linkURLMobile": "",
+              "newWindow": true
+            },
+            {
+              "imgUrl": "https://www.directv.com/dtvassets/global/icons/white/svg/icon_youtube.svg",
+              "imgWidth": "30",
+              "imgUrlV2": "https://www.directv.com/dtvassets/global/icons/2022/Youtube-white-16px.svg",
+              "imgWidthV2": "16",
+              "altText": "DIRECTV YouTube",
+              "linkLabel": "YouTube",
+              "linkURL": "https://www.youtube.com/user/DIRECTV",
+              "linkURLMobile": "",
+              "newWindow": true
+            },
+            {
+              "imgUrl": "https://www.directv.com/dtvassets/global/icons/white/svg/icon_tiktok.svg",
+              "imgWidth": "30",
+              "imgUrlV2": "https://www.directv.com/dtvassets/global/icons/2022/Tiktok-white-16px.svg",
+              "imgWidthV2": "16",
+              "altText": "DIRECTV TikTok",
+              "linkLabel": "TikTok",
+              "linkURL": "https://www.tiktok.com/@directv",
+              "linkURLMobile": "",
+              "newWindow": true
+            },
+            {
+              "imgUrl": "/dtvassets/global/icons/2022/reddit-18x18.svg",
+              "imgWidth": "30",
+              "imgUrlV2": "/dtvassets/global/icons/2022/reddit-18x18.svg",
+              "imgWidthV2": "16",
+              "altText": "DIRECTV Reddit",
+              "linkLabel": "Reddit",
+              "linkURL": "https://www.reddit.com/r/DIRECTVHelpOfficial/",
+              "linkURLMobile": "",
+              "newWindow": true
+            }
+          ]
+        }
+      },
+      "legal": {
+        "title": "legal",
+        "elements": {
+          "trusteImagePath": "//privacy.truste.com/privacy-seal/validation?rid=6a62df46-069b-45ec-8768-f516726eb8f6",
+          "copyright": "©2026 DIRECTV. DIRECTV and all other DIRECTV marks are trademarks of DIRECTV, LLC. All other marks are the property of their respective owners. ",
+          "trusteImageAlt": "TRUSTe",
+          "sbcomponent": "legal",
+          "trusteImageURL": "//privacy-policy.truste.com/privacy-seal/seal?rid=6a62df46-069b-45ec-8768-f516726eb8f6",
+          "links": [
+            {
+              "linkLabel": "    About DIRECTV    ",
+              "linkURL": "https://www.directv.com/insider/corporate/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "    Careers        ",
+              "linkURL": "https://jobs.directv.com/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "    Legal policy center    ",
+              "linkURL": "https://www.directv.com/legal/legal-policy-center/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "    Privacy center    ",
+              "linkURL": "https://www.directv.com/privacy/privacy-center/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "Your Privacy Choices",
+              "linkURL": "https://www.directv.com/privacy/choices/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "https://www.directv.com/dtvassets/ccpa/Your%20Pivacy%20Choices%20Icon.svg",
+              "iconAlt": "icon on",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "    Privacy notices",
+              "linkURL": "https://www.directv.com/privacy/directv-privacy-policies/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "    Site map    ",
+              "linkURL": "https://www.directv.com/sitemap/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "    FCC public files    ",
+              "linkURL": "https://www.directv.com/legal/fcc-public-inspection-for-directv-and-uverse/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "Accessibility",
+              "linkURL": "https://www.directv.com/corporate/accessibility/",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            },
+            {
+              "linkLabel": "Contact Us",
+              "linkURL": "https://www.directv.com/customer-service",
+              "linkURLMobile": "",
+              "toolTip": "",
+              "iconUrl": "",
+              "iconAlt": "",
+              "newWindow": false
+            }
+          ]
+        }
+      },
+      "helpCenterInfo": {
+        "title": "helpCenterInfo",
+        "elements": {
+          "customerCareNum": "8005315000",
+          "sbcomponent": "footer-helpCenterInfo",
+          "label": "Need help? Call us at 800.531.5000"
+        }
+      }
+    }
+}
