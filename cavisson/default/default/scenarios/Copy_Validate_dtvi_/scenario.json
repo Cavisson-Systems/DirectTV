@@ -2,7 +2,7 @@
   "references": [],
   "configuration": {
     "isFlow": "no",
-    "testname": "default/default/Validate_dtvi_"
+    "testname": "default/default/Copy_Validate_dtvi_"
   },
   "lastModifedBy": "Anmol",
   "convertScenario": true,
@@ -40,7 +40,7 @@
           "NA",
           "Internet",
           "0",
-          "default/default/.Validate_dtvi__Group_1",
+          "default/default/.Copy_Validate_dtvi__Group_1",
           "1",
           "",
           ""
@@ -5010,13 +5010,13 @@
             "param-group": "group1",
             "fileName": "autoParam_group1.csv",
             "parameter-name": "emailId:1",
-            "auto-param": true,
+            "auto-param": "true",
             "encodeMode": "All",
             "update": "Session",
             "declaredType": "file-test-data-generator",
-            "firstDataLine": 2,
-            "config": "eyJkYXRhIjpbeyJwYXJhbWV0ZXIiOiJlbWFpbElkIiwibmFtZVNwYWNlIjoiSW50ZXJuZXQiLCJncm91cCI6Il9nIiwiZmllbGRzIjpbImVtYWlsIl0sInNlbGVjdGlvbkNyaXRlcmlhIjpbXSwic2VsZWN0ZWQiOmZhbHNlfV0sInRvdGFsRW50cmllcyI6MTAwLCJ0cmFja2luZyI6W3sibmFtZSI6ImVtYWlsSWQiLCJjb2wiOjEsInNlbGVjdG9yIjoiJC5lbWFpbElkIiwidmFsdWUiOiJhbm0yNEBtZHUuY29tIiwicGxhY2UiOiJCT0RZIiwibWF0Y2hHcm91cCI6ImZpbGUtdGVzdC1kYXRhLWdlbmVyYXRvciIsIm1hdGNoTmFtZXNwYWNlIjoiSW50ZXJuZXQiLCJtYXRjaEZpZWxkIjoiZW1haWwifV19",
-            "regStrLine": "nsl_static_var(emailId:1, File=autoParam_group1.csv, Refresh=SESSION, Mode=SEQUENTIAL, FirstDataLine=2, EncodeMode=All, config=eyJkYXRhIjpbeyJwYXJhbWV0ZXIiOiJlbWFpbElkIiwibmFtZVNwYWNlIjoiSW50ZXJuZXQiLCJncm91cCI6Il9nIiwiZmllbGRzIjpbImVtYWlsIl0sInNlbGVjdGlvbkNyaXRlcmlhIjpbXSwic2VsZWN0ZWQiOmZhbHNlfV0sInRvdGFsRW50cmllcyI6MTAwLCJ0cmFja2luZyI6W3sibmFtZSI6ImVtYWlsSWQiLCJjb2wiOjEsInNlbGVjdG9yIjoiJC5lbWFpbElkIiwidmFsdWUiOiJhbm0yNEBtZHUuY29tIiwicGxhY2UiOiJCT0RZIiwibWF0Y2hHcm91cCI6ImZpbGUtdGVzdC1kYXRhLWdlbmVyYXRvciIsIm1hdGNoTmFtZXNwYWNlIjoiSW50ZXJuZXQiLCJtYXRjaEZpZWxkIjoiZW1haWwifV19);"
+            "firstDataLine": "2",
+            "config": "eyJkYXRhIjpbeyJwYXJhbWV0ZXIiOiJlbWFpbElkIiwibmFtZVNwYWNlIjoiSW50ZXJuZXQiLCJncm91cCI6Il9nIiwiZmllbGRzIjpbImVtYWlsIl0sInNlbGVjdGlvbkNyaXRlcmlhIjpbXSwic2VsZWN0ZWQiOmZhbHNlfV0sInRvdGFsRW50cmllcyI6MTAwLCJ0cmFja2luZyI6W3sibmFtZSI6ImVtYWlsSWQiLCJjb2wiOjEsInNlbGVjdG9yIjoiIiwidmFsdWUiOiJhbm0yNEBtZHUuY29tIiwicGxhY2UiOiJCT0RZIiwibWF0Y2hHcm91cCI6ImZpbGUtdGVzdC1kYXRhLWdlbmVyYXRvciIsIm1hdGNoTmFtZXNwYWNlIjoiSW50ZXJuZXQiLCJtYXRjaEZpZWxkIjoiZW1haWwifV19",
+            "regStrLine": "nsl_static_var(emailId:1, File=autoParam_group1.csv, Refresh=SESSION, Mode=SEQUENTIAL, FirstDataLine=2, EncodeMode=All, config=eyJkYXRhIjpbeyJwYXJhbWV0ZXIiOiJlbWFpbElkIiwibmFtZVNwYWNlIjoiSW50ZXJuZXQiLCJncm91cCI6Il9nIiwiZmllbGRzIjpbImVtYWlsIl0sInNlbGVjdGlvbkNyaXRlcmlhIjpbXSwic2VsZWN0ZWQiOmZhbHNlfV0sInRvdGFsRW50cmllcyI6MTAwLCJ0cmFja2luZyI6W3sibmFtZSI6ImVtYWlsSWQiLCJjb2wiOjEsInNlbGVjdG9yIjoiIiwidmFsdWUiOiJhbm0yNEBtZHUuY29tIiwicGxhY2UiOiJCT0RZIiwibWF0Y2hHcm91cCI6ImZpbGUtdGVzdC1kYXRhLWdlbmVyYXRvciIsIm1hdGNoTmFtZXNwYWNlIjoiSW50ZXJuZXQiLCJtYXRjaEZpZWxkIjoiZW1haWwifV19);"
           }
         ]
       },
