@@ -1013,7 +1013,7 @@
               ],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_choice_package.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "choice_package",
               "url": "https://perf1.directv.com/shop/dtvi/choice-package"
             },
@@ -1157,7 +1157,7 @@
               ],
               "enable": true,
               "bodyFile": "body_performanceDashboard_main_1_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "performanceDashboard",
               "url": "https://perf1.directv.com/shop/api/performanceDashboard"
             },
@@ -1223,7 +1223,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_performanceDashboard_2_main_2_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "performanceDashboard_2",
               "url": "https://perf1.directv.com/shop/api/performanceDashboard"
             },
@@ -1289,7 +1289,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_performanceDashboard_3_main_3_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "performanceDashboard_3",
               "url": "https://perf1.directv.com/shop/api/performanceDashboard"
             },
@@ -1355,7 +1355,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_performanceDashboard_4_main_4_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "performanceDashboard_4",
               "url": "https://perf1.directv.com/shop/api/performanceDashboard"
             },
@@ -1676,7 +1676,7 @@
               ],
               "enable": true,
               "bodyFile": "body_performanceDashboard_5_main_5_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "performanceDashboard_5",
               "url": "https://perf1.directv.com/shop/api/performanceDashboard"
             },
@@ -1808,7 +1808,7 @@
               ],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_initializeCart.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "initializeCart",
               "url": "https://perf1.directv.com/vpmapi/cart/v1/initializeCart"
             },
@@ -1868,7 +1868,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_DTVNOW.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "DTVNOW",
               "url": "https://perf1.directv.com/vpmapi/cart/v1/remove/DTVNOW"
             },
@@ -2031,7 +2031,7 @@
               ],
               "enable": true,
               "bodyFile": "body_v1_main_8_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "v1",
               "url": "https://perf1.directv.com/vpmapi/cart/v1/"
             },
@@ -2157,7 +2157,7 @@
               ],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_checkout_json.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "checkout_json",
               "url": "https://perf1.directv.com/shop/_next/data/mF_4XfMfmUS1I0KxtyUos/dtvi/checkout.json?product=dtvi"
             },
@@ -2216,7 +2216,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_summary.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "summary",
               "url": "https://perf1.directv.com/vpmapi/cart/v1/summary"
             },
@@ -2695,7 +2695,7 @@
               ],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_controller.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "controller",
               "url": "https://perf1.directv.com/vpmapi/checkout/v1/state/controller"
             },
@@ -3030,7 +3030,7 @@
               ],
               "enable": true,
               "bodyFile": "body_checkAvailability_main_12_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "checkAvailability",
               "url": "https://perf1.directv.com/vpmapi/identityoperationsms/v1/papi/checkAvailability"
             },
@@ -3090,7 +3090,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_registration_main_13_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "registration",
               "url": "https://perf1.directv.com/vpmapi/identityoperationsms/v1/papi/registration"
             },
@@ -3150,7 +3150,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_ffpOrder_main_14_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "ffpOrder",
               "url": "https://perf1.directv.com/shop/api/ffpOrder"
             },
@@ -3507,7 +3507,7 @@
               ],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_validateServiceAssociated.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "validateServiceAssociated",
               "url": "https://perf1.directv.com/vpmapi/checkout/v1/accessid/validateServiceAssociated"
             },
@@ -3699,7 +3699,7 @@
               ],
               "enable": true,
               "bodyFile": "body_validate_main_16_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "validate",
               "url": "https://perf1.directv.com/vpmapi/checkout/v3/address/validate"
             },
@@ -3759,7 +3759,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_validate_2_main_17_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "validate_2",
               "url": "https://perf1.directv.com/vpmapi/checkout/v3/address/validate"
             },
@@ -3819,7 +3819,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_address_main_18_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "address",
               "url": "https://perf1.directv.com/vpmapi/checkout/v1/state/controller/address"
             },
@@ -3879,7 +3879,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_address_2_main_19_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "address_2",
               "url": "https://perf1.directv.com/vpmapi/checkout/v1/state/controller/address"
             },
@@ -3939,7 +3939,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_summary_2.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "summary_2",
               "url": "https://perf1.directv.com/vpmapi/cart/v1/summary"
             },
@@ -4137,7 +4137,7 @@
               ],
               "enable": true,
               "bodyFile": "body_personalInfo_main_21_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "personalInfo",
               "url": "https://perf1.directv.com/vpmapi/checkout/v1/state/controller/personalInfo"
             },
@@ -4197,7 +4197,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_creditcheck_main_22_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "creditcheck",
               "url": "https://perf1.directv.com/shop/api/dtvi/creditcheck"
             },
@@ -4489,7 +4489,7 @@
               ],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_summary_3.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "summary_3",
               "url": "https://perf1.directv.com/vpmapi/cart/v1/summary"
             },
@@ -4549,7 +4549,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_acceptTerms_main_24_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "acceptTerms",
               "url": "https://perf1.directv.com/shop/api/post/acceptTerms"
             },
@@ -4609,7 +4609,7 @@
               "inlineRequests": [],
               "enable": true,
               "bodyFile": "body_payment_main_25_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "payment",
               "url": "https://perf1.directv.com/vpmapi/checkout/v2/state/controller/payment"
             },
@@ -4813,7 +4813,7 @@
               ],
               "enable": true,
               "bodyFile": "body_submitOrderWithDevice_main_26_0.json",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "submitOrderWithDevice",
               "url": "https://perf1.directv.com/shop/api/submitOrderWithDevice"
             },
@@ -4961,7 +4961,7 @@
               ],
               "enable": true,
               "bodyFile": "Group_1_Flow_1_DTVNOW_2.text",
-              "enableTransaction": false,
+              "enableTransaction": true,
               "label": "DTVNOW_2",
               "url": "https://perf1.directv.com/vpmapi/cart/v1/remove/DTVNOW"
             },
