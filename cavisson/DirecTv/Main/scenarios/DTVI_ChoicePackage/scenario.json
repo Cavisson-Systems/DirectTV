@@ -225,13 +225,23 @@
       "type": "API",
       "assertionsV2": [
         {
+          "inlineURLPattern": "",
+          "runAssertion": false,
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
           "locators": {},
           "assertOnErrorCodes": "",
           "saveOccurence": "",
           "actionOnFail": "STOP",
           "ui": {
-            "rhsText": "DIRECTV CHOICE TV Package"
+            "rhsText": "DIRECTV CHOICE TV Package",
+            "otherPage": [
+              "choice_package"
+            ],
+            "pageSelectionMode": "specified"
           },
+          "saveOccurrenceCount": false,
           "lhs": {
             "warnThreshold": 0,
             "errorThreshold": 0,
@@ -242,26 +252,32 @@
             "type": "body",
             "includeDNSTime": false
           },
-          "inlineURLPattern": "",
           "page": [
             "choice_package"
           ],
           "rhs": {
             "type": "text",
             "value": "DIRECTV CHOICE TV Package"
-          },
-          "operator": "contains",
-          "errorMsg": "",
-          "target": "main"
+          }
         },
         {
+          "inlineURLPattern": "",
+          "runAssertion": false,
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
           "locators": {},
           "assertOnErrorCodes": "",
           "saveOccurence": "",
           "actionOnFail": "STOP",
           "ui": {
-            "rhsText": ""
+            "rhsText": "",
+            "otherPage": [
+              "Initialize_Cart"
+            ],
+            "pageSelectionMode": "specified"
           },
+          "saveOccurrenceCount": false,
           "lhs": {
             "warnThreshold": 0,
             "errorThreshold": 0,
@@ -272,22 +288,19 @@
             "type": "body",
             "includeDNSTime": false
           },
-          "inlineURLPattern": "",
           "page": [
             "Initialize_Cart"
           ],
           "rhs": {
             "type": "text",
             "value": "success"
-          },
-          "operator": "contains",
-          "errorMsg": "",
-          "target": "main"
+          }
         },
         {
           "inlineURLPattern": "",
           "transformFns": [],
           "valueRegexIndex": 0,
+          "runAssertion": false,
           "operator": "contains",
           "errorMsg": "",
           "target": "main",
@@ -296,8 +309,13 @@
           "saveOccurence": "",
           "actionOnFail": "STOP",
           "ui": {
-            "rhsText": ""
+            "rhsText": "",
+            "otherPage": [
+              "DTVNOW"
+            ],
+            "pageSelectionMode": "specified"
           },
+          "saveOccurrenceCount": false,
           "lhs": {
             "warnThreshold": 0,
             "errorThreshold": 0,
@@ -321,6 +339,7 @@
           "inlineURLPattern": "",
           "transformFns": [],
           "valueRegexIndex": 0,
+          "runAssertion": false,
           "operator": "contains",
           "errorMsg": "",
           "target": "main",
@@ -329,41 +348,13 @@
           "saveOccurence": "",
           "actionOnFail": "STOP",
           "ui": {
-            "rhsText": ""
+            "rhsText": "",
+            "otherPage": [
+              "Cart_v1_summary"
+            ],
+            "pageSelectionMode": "specified"
           },
-          "lhs": {
-            "warnThreshold": 0,
-            "errorThreshold": 0,
-            "ignoreWarn": false,
-            "arg1": "content.payload.cartStatus.cartState",
-            "function": "first_element",
-            "subType": "json_path",
-            "type": "body",
-            "includeDNSTime": false
-          },
-          "valueRegex": "",
-          "page": [
-            "Cart_v1"
-          ],
-          "rhs": {
-            "type": "text",
-            "value": "COMPLETE"
-          }
-        },
-        {
-          "inlineURLPattern": "",
-          "transformFns": [],
-          "valueRegexIndex": 0,
-          "operator": "contains",
-          "errorMsg": "",
-          "target": "main",
-          "locators": {},
-          "assertOnErrorCodes": "",
-          "saveOccurence": "",
-          "actionOnFail": "STOP",
-          "ui": {
-            "rhsText": ""
-          },
+          "saveOccurrenceCount": false,
           "lhs": {
             "warnThreshold": 0,
             "errorThreshold": 0,
@@ -387,6 +378,7 @@
           "inlineURLPattern": "",
           "transformFns": [],
           "valueRegexIndex": 0,
+          "runAssertion": false,
           "operator": "contains",
           "errorMsg": "",
           "target": "main",
@@ -395,8 +387,13 @@
           "saveOccurence": "",
           "actionOnFail": "STOP",
           "ui": {
-            "rhsText": ""
+            "rhsText": "",
+            "otherPage": [
+              "Cart_v1_summary"
+            ],
+            "pageSelectionMode": "specified"
           },
+          "saveOccurrenceCount": false,
           "lhs": {
             "warnThreshold": 0,
             "errorThreshold": 0,
@@ -414,6 +411,46 @@
           "rhs": {
             "type": "text",
             "value": "7545579313"
+          }
+        },
+        {
+          "transformFns": [],
+          "inlineURLPattern": "",
+          "valueRegexIndex": 0,
+          "runAssertion": false,
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {},
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": "",
+            "otherPage": [
+              "Submit_oreder_with_device"
+            ],
+            "pageSelectionMode": "specified"
+          },
+          "saveOccurrenceCount": false,
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "content.response.submitorder.status",
+            "function": "first_element",
+            "subType": "json_path",
+            "type": "body",
+            "includeDNSTime": false
+          },
+          "valueRegex": "",
+          "page": [
+            "Submit_oreder_with_device"
+          ],
+          "rhs": {
+            "flags": "",
+            "type": "text",
+            "value": "success"
           }
         }
       ],
