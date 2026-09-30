@@ -4,7 +4,7 @@
     "isFlow": "no",
     "testname": "default/default/Validate_dtvi_"
   },
-  "lastModifedBy": "Anmol",
+  "lastModifedBy": "sanjay",
   "convertScenario": true,
   "description": "",
   "priority": "",
@@ -5003,7 +5003,23 @@
       "scriptType": "c",
       "assertions": [],
       "state": "RECORDED",
-      "parameters": {},
+      "parameters": {
+        "file": [
+          {
+            "mode": "Sequential",
+            "param-group": "group1",
+            "fileName": "autoParam_group1.csv",
+            "parameter-name": "emailId:1",
+            "auto-param": "true",
+            "encodeMode": "All",
+            "update": "Session",
+            "declaredType": "file-test-data-generator",
+            "firstDataLine": "2",
+            "config": "eyJkYXRhIjpbeyJwYXJhbWV0ZXIiOiJlbWFpbElkIiwibmFtZVNwYWNlIjoiSW50ZXJuZXQiLCJncm91cCI6Il9nIiwiZmllbGRzIjpbImVtYWlsIl0sInNlbGVjdGlvbkNyaXRlcmlhIjpbXSwic2VsZWN0ZWQiOmZhbHNlfV0sInRvdGFsRW50cmllcyI6MTAwLCJ0cmFja2luZyI6W3sibmFtZSI6ImVtYWlsSWQiLCJjb2wiOjEsInNlbGVjdG9yIjoiJC5lbWFpbElkIiwidmFsdWUiOiJhbm0yNEBtZHUuY29tIiwicGxhY2UiOiJCT0RZIiwibWF0Y2hHcm91cCI6ImZpbGUtdGVzdC1kYXRhLWdlbmVyYXRvciIsIm1hdGNoTmFtZXNwYWNlIjoiSW50ZXJuZXQiLCJtYXRjaEZpZWxkIjoiZW1haWwifV19",
+            "regStrLine": "nsl_static_var(emailId:1, File=autoParam_group1.csv, Refresh=SESSION, Mode=SEQUENTIAL, FirstDataLine=2, EncodeMode=All, config=eyJkYXRhIjpbeyJwYXJhbWV0ZXIiOiJlbWFpbElkIiwibmFtZVNwYWNlIjoiSW50ZXJuZXQiLCJncm91cCI6Il9nIiwiZmllbGRzIjpbImVtYWlsIl0sInNlbGVjdGlvbkNyaXRlcmlhIjpbXSwic2VsZWN0ZWQiOmZhbHNlfV0sInRvdGFsRW50cmllcyI6MTAwLCJ0cmFja2luZyI6W3sibmFtZSI6ImVtYWlsSWQiLCJjb2wiOjEsInNlbGVjdG9yIjoiJC5lbWFpbElkIiwidmFsdWUiOiJhbm0yNEBtZHUuY29tIiwicGxhY2UiOiJCT0RZIiwibWF0Y2hHcm91cCI6ImZpbGUtdGVzdC1kYXRhLWdlbmVyYXRvciIsIm1hdGNoTmFtZXNwYWNlIjoiSW50ZXJuZXQiLCJtYXRjaEZpZWxkIjoiZW1haWwifV19);"
+          }
+        ]
+      },
       "genCapacity": 0,
       "order": 0
     }

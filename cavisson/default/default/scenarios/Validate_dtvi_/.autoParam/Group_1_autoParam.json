@@ -1,0 +1,87 @@
+{
+  "emailId": {
+    "name": "emailId",
+    "type": "autoParam",
+    "text": "anm24@mdu.com",
+    "path": "$.emailId",
+    "selectedMatch": {
+      "namespace": "Internet",
+      "group": "random_string",
+      "field": "email",
+      "arguments": [],
+      "score": 97.0
+    },
+    "replaceAt": [
+      {
+        "place": "BODY",
+        "requestIdx": 12.0,
+        "applied": true,
+        "parameterized": false,
+        "flowName": "Flow_1",
+        "pageName": "checkAvailability",
+        "url": "https://perf1.directv.com/vpmapi/identityoperationsms/v1/papi/checkAvailability",
+        "inlineIndex": 0.0,
+        "selector": "$.emailId",
+        "row": -1.0,
+        "col": -1.0
+      },
+      {
+        "place": "BODY",
+        "requestIdx": 13.0,
+        "applied": true,
+        "parameterized": true,
+        "flowName": "Flow_1",
+        "pageName": "registration",
+        "url": "https://perf1.directv.com/vpmapi/identityoperationsms/v1/papi/registration",
+        "inlineIndex": 0.0,
+        "selector": "$.desiredAccessId",
+        "row": -1.0,
+        "col": -1.0
+      },
+      {
+        "place": "BODY",
+        "requestIdx": 13.0,
+        "applied": true,
+        "parameterized": true,
+        "flowName": "Flow_1",
+        "pageName": "registration",
+        "url": "https://perf1.directv.com/vpmapi/identityoperationsms/v1/papi/registration",
+        "inlineIndex": 0.0,
+        "selector": "$.contactEmailAddress",
+        "row": -1.0,
+        "col": -1.0
+      },
+      {
+        "place": "BODY",
+        "requestIdx": 13.0,
+        "applied": true,
+        "parameterized": true,
+        "flowName": "Flow_1",
+        "pageName": "registration",
+        "url": "https://perf1.directv.com/vpmapi/identityoperationsms/v1/papi/registration",
+        "inlineIndex": 0.0,
+        "selector": "$.username",
+        "row": -1.0,
+        "col": -1.0
+      },
+      {
+        "place": "BODY",
+        "requestIdx": 13.0,
+        "applied": true,
+        "parameterized": true,
+        "flowName": "Flow_1",
+        "pageName": "registration",
+        "url": "https://perf1.directv.com/vpmapi/identityoperationsms/v1/papi/registration",
+        "inlineIndex": 0.0,
+        "selector": "$.email",
+        "row": -1.0,
+        "col": -1.0
+      }
+    ],
+    "discard": false,
+    "isIncomplete": true,
+    "incompleteParamType": "file-test-data-generator",
+    "paramGroup": "group1",
+    "effectiveParamType": "file-test-data-generator"
+  }
+}
