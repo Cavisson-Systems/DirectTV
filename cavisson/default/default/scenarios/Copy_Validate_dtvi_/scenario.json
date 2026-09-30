@@ -105,7 +105,46 @@
       ],
       "recordingProfile": "DTVi_Choice_Package.prof",
       "type": "API",
-      "assertionsV2": [],
+      "assertionsV2": [
+        {
+          "transformFns": [],
+          "inlineURLPattern": "",
+          "valueRegexIndex": 0,
+          "runAssertion": false,
+          "operator": "contains",
+          "errorMsg": "",
+          "target": "main",
+          "locators": {},
+          "assertOnErrorCodes": "",
+          "saveOccurence": "",
+          "actionOnFail": "STOP",
+          "ui": {
+            "rhsText": "",
+            "otherPage": [],
+            "pageSelectionMode": "specified"
+          },
+          "saveOccurrenceCount": false,
+          "lhs": {
+            "warnThreshold": 0,
+            "errorThreshold": 0,
+            "ignoreWarn": false,
+            "arg1": "content.response.submitorder.status",
+            "function": "first_element",
+            "subType": "json_path",
+            "type": "body",
+            "includeDNSTime": false
+          },
+          "valueRegex": "",
+          "page": [
+            "submitOrderWithDevice"
+          ],
+          "rhs": {
+            "flags": "",
+            "type": "text",
+            "value": "success"
+          }
+        }
+      ],
       "requestHandlingRules": [],
       "isPolyglot": false,
       "flows": {
